@@ -1,0 +1,211 @@
+/*
+Theme Name: Axtria
+Theme URI: https://www.nayrathemes.com/axtria-free/
+Author: Nayra Themes
+Author URI: https://www.nayrathemes.com/
+Description: Axtria is flexible, super fast, easily customizable, lightweight, modern multipurpose theme. Axtria comes with everything you could ever need to build an amazing website, and It's perfect for any type of business. View the demo of Axtria Pro https://www.nayrathemes.com/demo/pro/?theme=axtria
+Template: avril
+Version: 1.0.18
+Tested up to: 5.8
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: axtria
+Slug: axtria
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, photography, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+.team-member {
+    margin: 0px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.team-footer {
+    width: 100%;
+    height: 71px;
+    position: absolute;
+    bottom: 0;
+    padding: 16px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--sp-white);
+    background-color: var(--sp-primary);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.team-info {
+    display: block;
+    padding: 0 10px;
+}
+
+.team-info h6 a:hover,
+.team-info h6 a:focus {
+    color: var(--sp-white);
+}
+
+.team-member img {
+    width: 100%;
+}
+
+.team-footer span {
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.team-footer p {
+    border-top: 1px solid #dddddd;
+    padding-top: 16px;
+}
+
+.team-footer .widget {
+    margin-top: 55px;
+    visibility: hidden;
+}
+
+.team-member:hover .widget {
+    visibility: visible;
+}
+
+.team-member .widget li:not(:last-child) {
+    margin-right: 6px;
+    margin-bottom: 5px;
+}
+
+.team-member:hover .team-footer {
+    justify-content: space-around;
+    height: 100%;
+    padding: 46px 10px 32px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.team-member:hover .team-footer h6 {
+    color: var(--sp-primary);
+}
+
+
+
+/*=====  Fun Fact =====*/
+
+.funfact-section {
+    position: relative;
+    background-image: url(../images/bg/fun-fact-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    padding: 80px 0;
+    z-index: 0;
+}
+
+.funfact-item {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: var(--sp-white);
+}
+
+.funfact-item i, .funfact-item img {
+    font-size: 60px;
+    width: 60px;
+    margin-bottom: 8px;
+    display: inline-block;
+    color: var(--sp-primary);
+}
+
+.funfact-item h1 {
+    font-size: 48px;
+}
+
+.funfact-item p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0 0;
+}
+
+/*===== // =====*/
+
+.wp-block-search .wp-block-search__button {
+    background: #feb201;
+    color: #fff;
+}
+
+.wp-block-tag-cloud a {
+    font-size: 15px !important;
+    line-height: 2.5;
+    padding: 5px 15px;
+    color: var(--sp-white);
+    background-color: var(--sp-primary);
+    text-decoration: none;
+}
+
+
+.post-content .wp-block-archives {
+    padding: 0;
+}
+
+.footer-main .wp-block-archives li {
+    background: none;
+}
+
+ul.wp-block-archives li {
+    background-color: #f2f2f2;
+    list-style: none;
+}
+
+ul.wp-block-archives li a {
+    display: block;
+    padding: 15px 15px 15px 45px;
+    cursor: pointer;
+    word-break: break-word;
+}
+
+ul.wp-block-archives li a:hover,
+ul.wp-block-archives li a:focus{
+    background-color: var(--sp-primary);
+    color: var(--sp-white);
+}
+
+.footer-main ul.wp-block-archives li a:hover,
+.footer-main ul.wp-block-archives li a:focus{
+    background: none;
+    color: var(--sp-primary);
+}
+
+.wp-block-calendar tbody td, .wp-block-calendar th {
+    text-align: center;
+}
+
+.wp-block-table figcaption {
+    text-align: center;
+}
+
+.post-content .wp-block-post-terms a {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    word-break: break-word;
+    background-color: #f2f2f2;
+}
+
+.wp-block-image figcaption {
+    text-align: center;
+}
+
+.wp-block-file .wp-block-file__button {
+    background: var(--sp-primary);
+}
+
+.widget_block.widget_calendar nav {
+    display: none;
+}

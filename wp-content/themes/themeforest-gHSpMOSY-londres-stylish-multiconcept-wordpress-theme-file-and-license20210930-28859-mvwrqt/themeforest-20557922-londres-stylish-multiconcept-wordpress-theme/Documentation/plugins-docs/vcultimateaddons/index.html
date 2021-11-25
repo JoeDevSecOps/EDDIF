@@ -1,0 +1,573 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Ultimate Visual Composer Addons - Extend Visual Composer and add more power to it! </title>
+	
+	<meta name="description" content="This plugin adds several premium elements in your Visual Composer on top of the built-in ones given by WPBakery. Every single element in the package is crafted with utmost attention to details and a simple objective to provide you an ultimate experience. We've put a lot of time and care to ensure that all the elements are flexible so that they will open limitless possibilities for you, while maintaining simplicity at the core.
+">
+	<meta name="author" content="Brainstorm Force">
+	<meta name="copyright" content="Brainstorm Force">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-02-17T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='700',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_28.png);}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#D9D9D9), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#D9D9D9;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-ultimate-visual-composer-addons">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#minimum_requirements" title="Minimum Requirements">Minimum Requirements</a></li>
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#visual_composer_brief_introduction" title="Visual Composer Brief Introduction">Visual Composer Brief Introduction</a></li>
+			<li><a href="#getting_started_with_ultimate_visual_composer_addons" title="Getting started with Ultimate Visual Composer Addons">Getting started with Ultimate Visual Composer Addons</a></li>
+			<li><a href="#just_icon" title="Just Icon">Just Icon</a></li>
+			<li><a href="#info_box" title="Info Box">Info Box</a></li>
+			<li><a href="#info_list" title="Info List">Info List</a></li>
+			<li><a href="#flip_box" title="Flip Box">Flip Box</a></li>
+			<li><a href="#counter" title="Counter">Counter</a></li>
+			<li><a href="#interactive_banner" title="Interactive Banner">Interactive Banner</a></li>
+			<li><a href="#modal_popup_box" title="Modal Popup Box">Modal Popup Box</a></li>
+			<li><a href="#icon_fonts_manager" title="Icon Fonts Manager">Icon Fonts Manager</a></li>
+			<li><a href="#how_to_upload_new_set_of_icons_delete_existing_set_of_icons" title="How to upload new set of icons / delete existing set of icons?">How to upload new set of icons / delete existing set of icons?</a></li>
+			<li><a href="#timeline" title="Timeline">Timeline</a></li>
+			<li><a href="#extended_google_maps" title="Extended Google Maps">Extended Google Maps</a></li>
+			<li><a href="#countdown" title="Countdown">Countdown</a></li>
+			<li><a href="#google_trends" title="Google Trends">Google Trends</a></li>
+			<li><a href="#info_circle" title="Info Circle ">Info Circle </a>
+				<ul>
+					<li><a href="#info_circle_info_circle_parent_block_backend_options_nbsp">Info Circle Parent Block Backend Options -&nbsp;</a>
+					<li><a href="#info_circle_info_circle_child_element_backend_options_nbsp_nbsp">Info Circle Child Element Backend Options -&nbsp;&nbsp;</a>
+				</ul>
+			</li>
+			<li><a href="#info_tables" title="Info Tables">Info Tables</a></li>
+			<li><a href="#price_box" title="Price Box">Price Box</a></li>
+			<li><a href="#spacer_gap" title="Spacer / Gap">Spacer / Gap</a></li>
+			<li><a href="#headings" title="Headings">Headings</a></li>
+			<li><a href="#google_font_manager" title="Google Font Manager">Google Font Manager</a>
+				<ul>
+					<li><a href="#google_font_manager_fonts_reflected_in_headings_backend">Fonts reflected in Headings Backend</a>
+				</ul>
+			</li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Brainstorm Force 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Ultimate Visual Composer Addons</h1>
+	<h2>Extend Visual Composer and add more power to it! </h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 02/17/2014</li>
+	<li>latest update: 02/17/2014</li>
+	<li>by: Brainstorm Force</li>
+	<li><a href=""></a></li>
+	
+	</ul>
+	<p>Thank you for buying Ultimate Visual Composer Addons. </br></br>
+
+<strong> If you have any questions or need any support, please open up a ticket in <a href="https://www.brainstormforce.com/support">our support center here</a></strong></p>
+	</section>
+	
+	<section id="minimum_requirements">
+	<div class="page-header"><h3>Minimum Requirements</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	In order to get this product working flawlessly, please ensure that all the minimum requirements as specified below will be satisfied.</p>
+<ul>
+	<li>
+		Wordpress - Version 4.0 &amp; above.</li>
+	<li>
+		PHP - 5.2 or above</li>
+	<li>
+		WPBakery Visual Composer - Version 4.0 &amp; above</li>
+</ul>
+</section>
+<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<p>	<strong>Installing Through Dashboard:</strong></p>
+<ol>
+	<li>		Go to Plugins -&gt; Add New -&gt; Upload</li>
+	<li>		Choose the installable ZIP file (that you have download in your computer from codecanyon) Upload that file.</li>
+	<li>		Now, click on activate link to activate the plugin.</li>
+</ol>
+<div>
+	<div>
+		&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>Installing Through FTP:</strong></div>
+	<ol>
+		<li>			Extract the installable ZIP file (that you have download in your computer from codecanyon) Upload the extracted folder into wp-content/plugins directory.</li>
+		<li>			Activate the plugin through the &#39;Plugins&#39; menu in WordPress.</li>
+	</ol>
+	<div>
+		&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>After successful activation:</strong></div>
+	<div>
+		&nbsp;</div>
+	<ol>
+		<li>			Settings =&gt; Visual Composer =&gt; General Settings</li>
+		<li>			Select the appropriate user group and ensure elements you need are enabled. Only the enabled elements will come in Visual Composer Editor.&nbsp;<a href="http://sharkslab.com/web/plugins/envato/ultimate-vc-addons/documentation/vc-settings.png">Screenshot</a>.</li>
+	</ol>
+</div>
+<p>	&nbsp;</p>
+</section>
+<section id="visual_composer_brief_introduction">
+	<div class="page-header"><h3>Visual Composer Brief Introduction</h3><hr class="notop"></div>
+<p>	Visual Composer is a basic drag and drop page builder plugin and a modeling tool that enables code-free composition of UI elements, Enterprise Services, and reusable components to rapidly create and adapt rich user interfaces on your WordPress website.</p>
+<p>	&nbsp;</p>
+<p>	<strong>To start using Visual Composer, follow these simple steps:</strong></p>
+<ol>
+	<li style="margin-left: 30.5pt;">
+		Add a new page/post or edit the existing one.</li>
+	<li style="margin-left: 30.5pt;">
+		Observe the Visual Composer button to start designing custom pages from their <strong>Frontend/Backend/Classic </strong>editor.&nbsp;<a href="http://plugins.sharkslab.com/envato/ultimate-vc-addons/doc/VC-backend-and-frontend.png" target="_blank">Screenshot</a><u>.</u>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li style="margin-left: 30.5pt;">
+		The Visual Composer Backend Editor page will look&nbsp;<a href="http://plugins.sharkslab.com/envato/ultimate-vc-addons/doc/backend-editor.png">something like this</a><u>.</u></li>
+	<li style="margin-left: 30.5pt;">
+		Click &quot;Add Element&quot; to start using the elements directly or click &quot;Add row&quot; to define your grid structure.</li>
+</ol>
+<p>	&nbsp;</p>
+<p>	<strong>Using the newly Added feature of Frontend Editor:</strong></p>
+<ol>
+	<li>		Visual Composer&rsquo;s version 4.0 and above have a new feature of Frontend editor.</li>
+	<li>		Frontend editor lets you edit the contents directly from the webpage itself. <a href="http://plugins.sharkslab.com/envato/ultimate-vc-addons/doc/Frontend-editor.png">Screenshot</a></li>
+	<li>		Click on the edit button against the specific element to edit its properties.</li>
+</ol>
+<p>	&nbsp;</p>
+<p>	For more help about Visual Composer, refer WPBakery&#39;s own&nbsp;<a href="http://kb.wpbakery.com/index.php?title=Visual_Composer">documentation here</a><u>.</u></p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+</section>
+<section id="getting_started_with_ultimate_visual_composer_addons">
+	<div class="page-header"><h3>Getting started with Ultimate Visual Composer Addons</h3><hr class="notop"></div>
+<ol>
+	<li>		If you click &quot;Add Element&quot; in Visual Composer a jQuery popup box will appear.&nbsp;</li>
+	<li>		Click on &quot;Ultimate VC Addons&quot; which is a dedicated tab for our plugin. A list of all the elements that our plugin provides will appear.&nbsp;<a href="http://sharkslab.com/web/plugins/envato/ultimate-vc-addons/documentation/uvca-tab-in-vc.png">Screenshot</a>&nbsp;&nbsp;</li>
+	<li>		Select the element that you want to use.</li>
+</ol>
+</section>
+<section id="just_icon">
+	<div class="page-header"><h3>Just Icon</h3><hr class="notop"></div>
+<p>
+	You can use this element to integrate a simple icon (font / image) in your page and use it as you want by applying different set of properties those Ultimate VC addons offer. Refer examples <a href="https://www.brainstormforce.com/demos/ultimate/just-icon">available here.</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options -&nbsp;</strong></p>
+<p>
+	<strong><img alt="" src="assets/images/image_24.jpg"></strong></p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="info_box">
+	<div class="page-header"><h3>Info Box</h3><hr class="notop"></div>
+<p>
+	Info Box helps you add an icon with a title and its description.&nbsp;We&rsquo;ve designed few <a href="https://www.brainstormforce.com/demos/ultimate/">samples</a> for reference here.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options -&nbsp;</strong></p>
+<p>
+	<strong><img alt="" src="assets/images/image_22.jpg"></strong></p>
+<div>
+	&nbsp;</div>
+</section>
+<section id="info_list">
+	<div class="page-header"><h3>Info List</h3><hr class="notop"></div>
+<p>
+	Info List helps you to create an advanced list of multiple Icon Boxes linked together. Find some sample <a href="https://www.brainstormforce.com/demos/ultimate/info-list">designs here.</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options -</strong></p>
+<p>
+	<img alt="" src="assets/images/image_23.jpg"></p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="flip_box">
+	<div class="page-header"><h3>Flip Box</h3><hr class="notop"></div>
+<p>
+	This element combines the power of &quot;Info Box&quot; &amp; &quot;Call to Action&quot; block altogether. On the front, it would look like a normal Info Box but as visitor hovers on the block, it flips with a cool CSS3 effect and shows a Call to Action section, provoking a visitor to take an action. Refer the <a href="https://www.brainstormforce.com/demos/ultimate/flip-box">examples here.</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options</strong> -</p>
+<p>
+	<img alt="" src="assets/images/image_20.jpg"></p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="counter">
+	<div class="page-header"><h3>Counter</h3><hr class="notop"></div>
+<p>
+	Counter will help you show your milestones, achievements and any other numeric statistics with animated numbers on your webpage. Refer for <a href="https://www.brainstormforce.com/demos/ultimate/stats-counter">examples here.</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options -</strong></p>
+<p>
+	<img alt="" src="assets/images/image_19.jpg"></p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="interactive_banner">
+	<div class="page-header"><h3>Interactive Banner</h3><hr class="notop"></div>
+<p>
+	This element will display image blocks in a nicer &amp; interactive way with a title &amp; description that comes on hover. Interactive banner also allows you to apply CSS3 animation on hover. Refer for <a href="https://www.brainstormforce.com/demos/ultimate/interactive-banners">examples here.</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options </strong>-</p>
+<p>
+	<img alt="" src="assets/images/image_21.jpg"></p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="modal_popup_box">
+	<div class="page-header"><h3>Modal Popup Box</h3><hr class="notop"></div>
+<p>
+	Modal Popup Box can be used to display information in a nice popup window. You can try different possibilities of Modal Popup element <a href="https://www.brainstormforce.com/demos/ultimate/modal">here.</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options &ndash;&nbsp;</strong></p>
+<p>
+	<img alt="" src="assets/images/image_14.jpg" style="width: 720px; height: 2212px;"></p>
+</section>
+<section id="icon_fonts_manager">
+	<div class="page-header"><h3>Icon Fonts Manager</h3><hr class="notop"></div>
+<p>
+	Icon Font Manager is a powerful tool that offers you a huge number of font icons to be used on your website. By default, we ship this plugin with the renowned&nbsp;<strong>Font Awesome</strong> library with 360 different font icons available. But if you wish to add more, you can upload** new Icon fonts or delete existing ones that you might have added already using IcoMoon.io.</p>
+<p align="right">
+	<strong><em>**</em></strong><em>Refer our step by step video tutorial on </em><em><a href="https://www.youtube.com/watch?v=ttpYF-cic14&amp;list=PL1kzJGWGPrW9CDWwdAWrd_9YQsh1z7u6O">How to add Extra Font Icons to Icon Font Manager?</a></em></p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="how_to_upload_new_set_of_icons_delete_existing_set_of_icons">
+	<div class="page-header"><h3>How to upload new set of icons / delete existing set of icons?</h3><hr class="notop"></div>
+<p>
+	In the appearance menu of WordPress, you will find a new menu &quot;Icons Manager&quot; as you see below</p>
+<p>
+	<img alt="" src="assets/images/image_12.png" style="width: 770px; height: 395px;"></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	There is a real time search box available as well so you can cross check and see if you have the icon available that you are looking for. If you cannot find the icon you want to use, custom font icons can be uploaded or the existing set of icons can be&nbsp;deleted too.&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_13.png" style="width: 770px; height: 367px;"></p>
+<p>
+	&nbsp;</p>
+<h3>
+	<strong>To upload new set of icons -&nbsp;</strong></h3>
+<ol>
+	<li>
+		Go to <a href="http://icomoon.io/app/">IcoMoon App</a>.</li>
+	<li>
+		Shortlist the icons by clicking on individual ones that you like. You have a real time search feature available as well if that makes your job easier.</li>
+	<li>
+		If you still can&#39;t find the icons that you want in the set, click on the link &quot;Add Icons From Library&hellip;&quot; at the bottom of the page where you can load more font icon libraries in your selection area where you shortlist and select your favorite icons (in step 2) <a href="http://plugins.sharkslab.com/envato/ultimate-vc-addons/doc/icomoon-app-add-from-library.png" target="_blank">Screenshot</a></li>
+	<li>
+		Once you shortlist the icons for your set, click on the button &quot;Font&quot; in the fixed menu at the bottom of page. <a href="http://plugins.sharkslab.com/envato/ultimate-vc-addons/doc/icomoon-app-icon-select.png">Screenshot</a></li>
+	<li>
+		The page that comes after you click &quot;Font&quot; button in the last page is where you can review, edit and customize your selected icons.</li>
+	<li>
+		Once you are satisfied with your selection, find a button saying &quot;Preferences&quot; in the top menu.&nbsp;<a href="http://plugins.sharkslab.com/envato/ultimate-vc-addons/doc/icomoon-app-icon-preferences.png">Screenshot</a>.&nbsp;Give a unique name to your icon set as doing so will create a separate class in Icon Fonts Manager.</li>
+	<li>
+		Once you gave it a name, click the &quot;Download&quot; button.</li>
+	<li>
+		A ZIP file will be downloaded.</li>
+	<li>
+		Now - go back to your website&#39;s &quot;Icons Manager&quot; area.</li>
+	<li>
+		Click &quot;Upload New Fonts&quot; then &quot;Upload Files&quot; then Select the ZIP file that we downloaded from IcoMoon &amp; upload it. <a href="http://sharkslab.com/web/plugins/envato/ultimate-vc-addons/documentation/upload-font-zip.png">Screenshot</a></li>
+	<li>
+		Finally - click &quot;Insert Fonts Zip File&quot; button at the right bottom and your new font will be uploaded quickly.</li>
+</ol>
+<p>
+	<strong style="text-align: -webkit-right;"><em>**</em></strong><em style="text-align: -webkit-right;">It is highly recommended to watch our step by step tutorial on&nbsp;</em><em style="text-align: -webkit-right;"><a href="https://www.youtube.com/watch?v=ttpYF-cic14&amp;list=PL1kzJGWGPrW9CDWwdAWrd_9YQsh1z7u6O">How to add Extra Font Icons to Icon Font Manager?</a></em></p>
+<p>
+	&nbsp;</p>
+<h3>
+	<strong>To delete existing set of Icons -</strong></h3>
+<div>
+	Just click the &quot;Delete Icon Set&quot; button. <a href="http://sharkslab.com/web/plugins/envato/ultimate-vc-addons/documentation/icon-font-manager-delete-set.png">Screenshot</a></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		<h3>
+			<strong>To use the newly uploaded fonts in Visual Composer -&nbsp;</strong></h3>
+	</div>
+	<div>
+		No action is really necessary at your side. Just refresh the editor page and newly uploaded icons will load on your Visual Composer.</div>
+	<div>
+		&nbsp;</div>
+</div>
+<p>
+	&nbsp;</p>
+</section>
+<section id="timeline">
+	<div class="page-header"><h3>Timeline</h3><hr class="notop"></div>
+<p>
+	Would you love to have a Facebook like timeline on your website? Well, the wait has finished as this element in Ultimate VC addons lets you add content, photos, videos in a timeline format. Timeline element uses <strong>Parent Child Functionality**</strong> and thus has implicit Parent elements as well as the child elements. Once you select to add a timeline on your page, child element will have to be added. Refer this <a href="http://plugins.sharkslab.com/envato/ultimate-vc-addons/doc/timeline-child-elements.png">Screenshot<em>. </em></a></p>
+<p align="right">
+	<strong><em>**</em></strong><em>Refer our video tutorial on </em><a href="https://www.youtube.com/watch?v=nDqhvRbI7M0&amp;list=PL1kzJGWGPrW9CDWwdAWrd_9YQsh1z7u6O"><em>What is the Parent Child Functionality?</em></a></p>
+<p>
+	<strong>Backend Options &ndash;&nbsp;</strong></p>
+<p>
+	Insertion of Timeline can be done in two phases.</p>
+<p style="margin-left:.5in;">
+	1.&nbsp;&nbsp;&nbsp;&nbsp; By adding a Parent</p>
+<p style="margin-left:.5in;">
+	2.&nbsp;&nbsp;&nbsp;&nbsp; By adding its children &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<b>Parent Block Backend Options -&nbsp;</b></p>
+<p>
+	<strong><img alt="" src="assets/images/image_15.png" style="width: 720px; height: 919px;"></strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	We have 3 child elements to Timeline Parent. Refer this <a href="http://plugins.sharkslab.com/envato/ultimate-vc-addons/doc/timeline-child-elements.png">Screenshot<em>.</em></a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Timeline Child Item Backend Options -&nbsp;</strong></p>
+<p>
+	<img alt="" src="assets/images/image_17.png" style="width: 720px; height: 1012px;"></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Timeline Child Separator Backend Options -&nbsp;</strong></p>
+<p>
+	<img alt="" src="assets/images/image_18.png" style="width: 720px; height: 315px;"></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Timeline Child Featured Item Backend Options -&nbsp;</strong></p>
+<div>
+	<img alt="" src="assets/images/image_16.png" style="width: 720px; height: 1009px;"></div>
+<p>
+	&nbsp;</p>
+<p>
+	Refer for output <a href="https://www.brainstormforce.com/demos/ultimate/timeline/">examples here.</a></p>
+</section>
+<section id="extended_google_maps">
+	<div class="page-header"><h3>Extended Google Maps</h3><hr class="notop"></div>
+<p>
+	Visual Composer comes with Google Maps element by default. But our Extended Google Maps element uses latest APIs and allows you to do more with it. Upload marker images, write custom HTML in map info box and control everything that goes with map.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options &ndash;&nbsp;</strong></p>
+<p>
+	<img alt="" src="assets/images/image_11.png" style="width: 720px; height: 1643px;"></p>
+</section>
+<section id="countdown">
+	<div class="page-header"><h3>Countdown</h3><hr class="notop"></div>
+<p>
+	As the name says, Countdown lets you show a timer which will go on till its defined time or day or date, showing the remaining time to the visitors.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options &ndash;&nbsp;</strong></p>
+<p>
+	<img alt="" src="assets/images/image_10.png" style="width: 720px; height: 1215px;"></p>
+</section>
+<section id="google_trends">
+	<div class="page-header"><h3>Google Trends</h3><hr class="notop"></div>
+<p>
+	This element uses Google Trends APIs and lets you display the data of a specific search term or a geographic location according to various parameters.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options &ndash;&nbsp;</strong></p>
+<p>
+	<strong><img alt="" src="assets/images/image_4.png" style="width: 720px; height: 656px;"></strong></p>
+</section>
+<section id="info_circle">
+	<div class="page-header"><h3>Info Circle </h3><hr class="notop"></div>
+<p>
+	Info Circle makes your icons to be displayed on the circumference of a circle with their respective title and descriptions within the circle. This feature uses <strong>Parent Child Functionality**</strong> offered by Ultimate VC Addons. Check for <a href="https://www.brainstormforce.com/demos/ultimate/info-circle-beta">different examples</a> and design possibilities of Info Circle.</p>
+<p align="right">
+	<strong><em>**</em></strong><em>Refer our video tutorial on </em><a href="https://www.youtube.com/watch?v=nDqhvRbI7M0&amp;list=PL1kzJGWGPrW9CDWwdAWrd_9YQsh1z7u6O"><em>What is the Parent Child Functionality?</em></a></p>
+<p align="right">
+	&nbsp;</p>
+<p>
+	<strong>Backend Options &ndash;&nbsp;</strong></p>
+<p>
+	Insertion of Info Circle can be done in two phases.</p>
+<p style="margin-left:.5in;">
+	1.&nbsp;&nbsp;&nbsp;&nbsp; By adding a Parent</p>
+<p style="margin-left:.5in;">
+	2.&nbsp;&nbsp;&nbsp;&nbsp; By adding its children &nbsp;<a href="http://plugins.sharkslab.com/envato/ultimate-vc-addons/doc/info-circle-child-screenshot.png">Screenshot</a></p>
+<p style="margin-left:.5in;">
+	&nbsp;</p>
+<h4 id="info_circle_info_circle_parent_block_backend_options_nbsp">Info Circle Parent Block Backend Options -&nbsp;</h4>
+<p>
+	<img alt="" src="assets/images/image_5.png" style="width: 720px; height: 1536px;"></p>
+<p>
+	&nbsp;</p>
+<h4 id="info_circle_info_circle_child_element_backend_options_nbsp_nbsp">Info Circle Child Element Backend Options -&nbsp;&nbsp;</h4>
+<p>
+	<img alt="" src="assets/images/image_6.png" style="width: 720px; height: 1371px;"></p>
+</section>
+<section id="info_tables">
+	<div class="page-header"><h3>Info Tables</h3><hr class="notop"></div>
+<p>
+	Info Tables come with some added functionalities to Icon Box as it has a Heading with a sub-heading. Description section can be isolated with different colors. This stays the same for the icon section. Refer <a href="https://www.brainstormforce.com/demos/ultimate/info-table/">examples here.</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options &ndash;&nbsp;</strong></p>
+<p>
+	<img alt="" src="assets/images/image_7.png" style="width: 720px; height: 1428px;"></p>
+</section>
+<section id="price_box">
+	<div class="page-header"><h3>Price Box</h3><hr class="notop"></div>
+<p>
+	Price Box is essential for a website selling a product or a service where the seller can highlight features or important factors and pricing about the product/service. Refer examples <a href="https://www.brainstormforce.com/demos/ultimate/price-box">here.</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options &ndash;&nbsp;</strong></p>
+<p>
+	<img alt="" src="assets/images/image_8.png" style="width: 720px; height: 1468px;"></p>
+</section>
+<section id="spacer_gap">
+	<div class="page-header"><h3>Spacer / Gap</h3><hr class="notop"></div>
+<p>
+	As an addition to the separator that comes in default with VC, our spacer element offers a convenient option to add a custom height or gap one wishes to see between two separated sections on a webpage.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options &ndash;&nbsp;</strong></p>
+<p>
+	<img alt="" src="assets/images/image_9.png" style="width: 720px; height: 211px;"></p>
+</section>
+<section id="headings">
+	<div class="page-header"><h3>Headings</h3><hr class="notop"></div>
+<p>
+	As its name says, this element is helpful in creating appealing headings with numerous options and styles. This element Headings has been integrated with our Google Font Manager which allows you to use Google Web fonts of your choice. Headings can be best used with Parallax and Row Backgrounds.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Backend Options &ndash;&nbsp;</strong></p>
+<p>
+	<strong>1) General Tab</strong></p>
+<p>
+	<strong><img alt="" src="assets/images/image_25.jpg" style="width: 720px; height: 694px;"></strong></p>
+<p>
+	<strong>2) Typography Tab</strong></p>
+<p>
+	<img alt="" src="assets/images/image_26.jpg" style="height: 884px; width: 720px;"></p>
+<p>
+	<strong>3) Design Tab</strong></p>
+<p>
+	<img alt="" src="assets/images/image_27.jpg" style="width: 720px; height: 309px;"></p>
+</section>
+<section id="google_font_manager">
+	<div class="page-header"><h3>Google Font Manager</h3><hr class="notop"></div>
+<p>
+	Google web font families are Web designers&#39; best friends as they are open source and get deployed faster. By adding Google Font Manager to our Ultimate VC Addons, we&#39;ve just brought them closer and easier to use. Now you can enhance the experience of your website visitors with web fonts available in Google library by using our Google Font Manager on your WordPress website.</p>
+<p align="right">
+	<em>Watch&nbsp;<a href="https://www.youtube.com/watch?v=5el_ArGQD9s&amp;index=4&amp;list=PL1kzJGWGPrW9CDWwdAWrd_9YQsh1z7u6O">step-by-step guide to use our Google Font Manager</a>&nbsp;on your Website.</em></p>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Backend Options -</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" src="assets/images/image_1.jpg" style="width: 780px; height: 323px;"></div>
+<div>
+	&nbsp;</div>
+<div>
+	<img alt="" src="assets/images/image_2.jpg" style="width: 780px; height: 344px;"></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<h4 id="google_font_manager_fonts_reflected_in_headings_backend">Fonts reflected in Headings Backend</h4>
+<div>
+	<img alt="" src="assets/images/image_3.jpg"  ></div>
+<p align="right">
+	&nbsp;</p>
+</section>
+
+	</div>
+</body>
+</html>

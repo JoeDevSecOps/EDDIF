@@ -1,0 +1,3 @@
+Here the online documentation for Omnivus WordPress Theme.
+
+https://techbird.org/omnivus/docs/

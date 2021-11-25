@@ -1,0 +1,2567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: booking calendar\n"
+"POT-Creation-Date: 2016-04-14 22:34+0400\n"
+"PO-Revision-Date: 2021-06-25 10:06+0000\n"
+"Last-Translator: Pieterjan Deneys\n"
+"Language-Team: Nederlands (België)\n"
+"Language: nl_BE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.3; wp-5.7.2"
+
+#: booking_calendar.php:582 booking_calendar.php:587
+msgid " Field"
+msgstr "Veld"
+
+#: booking_calendar.php:136
+msgid " The file size is too large!"
+msgstr "Bestand is te groot!"
+
+#: booking_calendar.php:137
+msgid " The file type not allowed!"
+msgstr "Het bestandstype is niet toegestaan!"
+
+#: includes/admin_menu.php:319
+msgid " To Finish the Uninstallation"
+msgstr "Om de de-installatie te beëindigen"
+
+#: admin/views/Themes.php:563
+msgid "1 if empty"
+msgstr "1 als leeg"
+
+#: admin/views/Themes.php:442
+msgid "Action after submition"
+msgstr "Actie na inzending"
+
+#: admin/views/Reservations.php:75
+msgid "Actions"
+msgstr "Acties"
+
+#: admin/views/Themes.php:587
+msgid ""
+"Add a simple hour field(hh:mm) using \"Add Hour\" button or use our default "
+"hours button \"Add Default\", that will add 24 fields with 1 hour inteval "
+"for all day. Use 24 hour format."
+msgstr ""
+"Voeg een eenvoudig urenveld (uu:mm) toe met de knop \"Uur toevoegen\" of "
+"gebruik onze standaard uren knop \"Standaard toevoegen\", dat zal 24 velden "
+"toevoegen met 1 uur interval voor alle dagen. Gebruik het 24-uurs formaat."
+
+#: admin/views/Calendars.php:27 admin/views/Calendars.php:1035
+msgid "Add Calendar"
+msgstr "Kalender toevoegen"
+
+#: includes/wpdevart_lib.php:616
+msgid "Add Conditions"
+msgstr "Condities toevoegen"
+
+#: includes/wpdevart_lib.php:663
+msgid "Add Default"
+msgstr "Standaard toevoegen"
+
+#: admin/views/Extras.php:24 admin/views/Extras.php:172
+msgid "Add Extra"
+msgstr "Extra toevoegen"
+
+#: admin/views/Extras.php:183
+msgid "Add extra field"
+msgstr "Veld voor een extra toevoegen"
+
+#: admin/views/Forms.php:27 admin/views/Forms.php:133
+msgid "Add Form"
+msgstr "Formulier toevoegen"
+
+#: admin/views/Forms.php:144
+msgid "Add form field"
+msgstr "Formulierveld toevoegen"
+
+#: includes/wpdevart_lib.php:662
+msgid "Add Hour"
+msgstr "Uur toevoegen"
+
+#: includes/wpdevart_lib.php:332
+msgid "Add Image"
+msgstr "Afbeelding toevoegen"
+
+#: includes/wpdevart_lib.php:758
+msgid "Add one per line"
+msgstr "Een per lijn toevoegen"
+
+#: admin/views/Reservations.php:64 admin/views/Reservations.php:490
+#: admin/views/Reservations.php:519 admin/views/Reservations.php:533
+msgid "Add Reservation"
+msgstr "Reservatie toevoegen"
+
+#: includes/wpdevart_lib.php:389 admin/views/Themes.php:24
+#: admin/views/Themes.php:2379
+msgid "Add Theme"
+msgstr "Thema toevoegen"
+
+#: admin/views/UserPermissions.php:131
+msgid "Administrator"
+msgstr "Beheerder"
+
+#: admin/views/Themes.php:628
+msgid "After how many days mark reservations as read"
+msgstr "Na hoeveel dagen reserveringen markeren als gelezen"
+
+#: admin/views/Themes.php:187
+msgid ""
+"After selecting date or hour on calendar you will be scroll down to the form,"
+" so correct the scrolling distance using this option, type only numbers(also "
+"you can type reverse numbers, for example -150)"
+msgstr ""
+"Na het selecteren van datum of uur op de kalender wordt u naar beneden "
+"gescrolld naar het formulier, dus corrigeer de scrolling afstand met behulp "
+"van deze optie, typ alleen getallen (ook kunt u omgekeerde getallen typen, "
+"bijvoorbeeld -150)"
+
+#: admin/views/Reservations.php:108
+msgid "All Pages"
+msgstr "Alle pagina's"
+
+#: includes/wpdevart_lib.php:1084
+msgid "Allowed File Types"
+msgstr "Toegestane bestandstypes"
+
+#: includes/wpdevart_lib.php:1092
+msgid "Allowed maximum size(KB)"
+msgstr "Toegestane maximale grootte (KB)"
+
+#: admin/views/Calendars.php:1041 admin/views/Calendars.php:1084
+#: admin/views/Extras.php:181 admin/views/Forms.php:142
+#: admin/views/Reservations.php:144 admin/views/Themes.php:2388
+msgid "Apply"
+msgstr "Toepassen"
+
+#: admin/views/Reservations.php:102 admin/views/Reservations.php:426
+msgid "Approve"
+msgstr "Goedkeuren"
+
+#: admin/views/Reservations.php:116 admin/views/Reservations.php:237
+#: admin/views/Themes.php:320
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#: includes/textfortr.php:19
+msgid "Apr"
+msgstr "Apr"
+
+#: includes/textfortr.php:5 admin/views/Calendars.php:1097
+#: admin/views/Themes.php:2479
+msgid "April"
+msgstr "April"
+
+#: includes/textfortr.php:23
+msgid "Aug"
+msgstr "Aug"
+
+#: includes/textfortr.php:9 admin/views/Calendars.php:1101
+#: admin/views/Themes.php:2483
+msgid "August"
+msgstr "Augustus"
+
+#: admin/views/UserPermissions.php:133
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/admin_menu.php:87 includes/admin_menu.php:118
+#: includes/wpdevart_lib.php:672 includes/wpdevart_lib.php:687
+#: admin/views/Themes.php:395
+msgid "Available"
+msgstr "Beschikbaar"
+
+#: includes/textfortr.php:57
+msgid "available"
+msgstr "beschikbaar"
+
+#: admin/views/Themes.php:1071
+msgid "Available Day background"
+msgstr "Beschikbare dag achtergrond"
+
+#: admin/views/Themes.php:1078
+msgid "Available Day Number background"
+msgstr "Beschikbare dag nummer achtergrond"
+
+#: admin/views/Themes.php:1085
+msgid "Available Day Number color"
+msgstr "Beschikbare dag nummer kleur"
+
+#: admin/views/Reservations.php:328
+msgid "Billing address"
+msgstr "Facturatie adres"
+
+#: booking_calendar.php:220
+msgid "Billing Form Information"
+msgstr "Facturatieformulier informatie"
+
+#: includes/textfortr.php:71
+msgid "Book Now"
+msgstr "Boek nu"
+
+#: includes/admin_menu.php:88 includes/admin_menu.php:119
+#: includes/textfortr.php:58 includes/wpdevart_lib.php:673
+#: includes/wpdevart_lib.php:688 admin/views/Themes.php:411
+msgid "Booked"
+msgstr "Geboekt"
+
+#: admin/views/Themes.php:1176
+msgid "Booked Day Availability color"
+msgstr "Geboekte dag beschikbaarheid kleur"
+
+#: admin/views/Themes.php:1155
+msgid "Booked Day background"
+msgstr "Geboekte dag achtergrond"
+
+#: admin/views/Themes.php:1162
+msgid "Booked Day Number background"
+msgstr "Geboekte dag nummer achtergrond"
+
+#: admin/views/Themes.php:1169
+msgid "Booked Day Number color"
+msgstr "Geboekte dag nummer kleur"
+
+#. Name of the plugin
+msgid "Booking Calendar Extended WpDevArt"
+msgstr "Booking Calendar Uitgebreid WpDevArt"
+
+#: booking_calendar.php:292
+msgid "Booking Calendar Reservation Data"
+msgstr "Boekingskalender reserveringsgegevens"
+
+#: booking_calendar.php:365
+msgid "Booking Calendar Themes Data"
+msgstr "Boeking kalender thema gegevens"
+
+#: booking_calendar.php:201 booking_calendar.php:380 booking_calendar.php:421
+msgid "Booking Calendar WpDevArt"
+msgstr "Booking Calendar WpDevArt"
+
+#: booking_calendar.php:423
+msgid ""
+"Booking Calendar WpDevArt(free and premium versions) has the opportunity for "
+"submitting forms and extras. When users submit forms or extras, they can "
+"also provide personal information, such as name, email, addresses, phone "
+"number and so on. All this data will be saved in WordPress database, so you "
+"need to receive user agreement when they submit booking forms(or extras). "
+"Also, you need to get the user agreement when you delete or export their "
+"data upon their request. In accordance with GDPR, you need to be sure that "
+"all information is protected and the other services that you are using also "
+"observe data protection. In this case, you have liability, so check other "
+"services privacy policy as well and tell them to follow to the GDPR."
+msgstr ""
+"Booking Calendar WpDevArt (gratis en premium versies) heeft de mogelijkheid "
+"voor het indienen van formulieren en extra's. Wanneer gebruikers formulieren "
+"of extra's indienen, kunnen ze ook persoonlijke informatie verstrekken, "
+"zoals naam, e-mail, adressen, telefoonnummer en ga zo maar door. Al deze "
+"gegevens zullen worden opgeslagen in de WordPress database, dus je moet "
+"toestemming krijgen van de gebruiker wanneer zij boekingsformulieren (of "
+"extra's) indienen. Ook moet je de gebruiker toestemming te krijgen wanneer "
+"je verwijderen of exporteren van hun gegevens op hun aanvraag. In "
+"overeenstemming met GDPR, moet je er zeker van zijn dat alle informatie "
+"wordt beschermd en dat de andere diensten die je gebruikt ook voldoen aan de "
+"gegevensbescherming. In dit geval ben je aansprakelijk, dus controleer ook "
+"het privacybeleid van andere diensten en zeg dat ze zich aan de GDPR moeten "
+"houden."
+
+#: admin/views/Themes.php:480
+msgid "Bottom"
+msgstr "Onderkant"
+
+#: admin/views/Themes.php:258 admin/views/Themes.php:259
+msgid "Calculate price for night"
+msgstr "Bereken prijs per nacht"
+
+#: admin/views/Themes.php:177
+msgid "Calendar Animation type"
+msgstr "Kalender animatie type"
+
+#: admin/views/Themes.php:1022
+msgid "Calendar background"
+msgstr "Kalender achtergrond"
+
+#: admin/views/Themes.php:1029
+msgid "Calendar Border color"
+msgstr "Kalender rand kleur"
+
+#: admin/views/Themes.php:980
+msgid "Calendar Header background"
+msgstr "Kalender header achtergrond"
+
+#: admin/views/Themes.php:659
+msgid "Calendar Header font style"
+msgstr "Kalender header lettertype stijl"
+
+#: admin/views/Themes.php:651
+msgid "Calendar Header font weight"
+msgstr "Kalender header lettertype gewicht"
+
+#: admin/views/Themes.php:667
+msgid "Calendar Header padding"
+msgstr "Kalender header padding"
+
+#: admin/views/Themes.php:644
+msgid "Calendar Maximum width"
+msgstr "Kalender maximale breedte"
+
+#: admin/views/Calendars.php:99
+msgid "Calendar Title"
+msgstr "Kalendertitel"
+
+#: includes/widgets/widget-booking_calendar.php:45
+msgid "Calendar to display"
+msgstr "Kalender voor weergave"
+
+#: admin/views/Calendars.php:25 admin/views/UserPermissions.php:15
+msgid "Calendars"
+msgstr "Kalenders"
+
+#: admin/views/UserPermissions.php:24
+msgid "Can edit other users calendars"
+msgstr "Kan andere gebruikers hun kalender bewerken"
+
+#: admin/views/UserPermissions.php:67
+msgid "Can edit other users extras"
+msgstr "Kan extra's van andere gebruikers bewerken"
+
+#: admin/views/UserPermissions.php:50
+msgid "Can edit other users forms"
+msgstr "Kan formulieren van andere gebruikers bewerken"
+
+#: admin/views/UserPermissions.php:84
+msgid "Can edit other users themes"
+msgstr "Kan thema's van andere gebruikers bewerken"
+
+#: admin/views/Reservations.php:104 admin/views/Reservations.php:431
+#: admin/views/Reservations.php:445
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: admin/views/Reservations.php:119 admin/views/Reservations.php:241
+msgid "Canceled"
+msgstr "Geannuleerd"
+
+#: admin/views/Themes.php:170
+msgid "Change month with select"
+msgstr "Verander maand met selecteer"
+
+#: includes/textfortr.php:60 admin/views/Reservations.php:131
+msgid "Check in"
+msgstr "Inchecken"
+
+#: includes/textfortr.php:61 admin/views/Reservations.php:134
+msgid "Check out"
+msgstr "Uitchecken"
+
+#: admin/views/Themes.php:316
+msgid "Check the status that will be displayed"
+msgstr "Controleer de status die zal worden weergegeven"
+
+#: admin/views/Forms.php:148
+msgid "Checkbox"
+msgstr "Selectievakje"
+
+#: includes/wpdevart_lib.php:1085
+msgid ""
+"Choose the file types that you want to allow users for submitting in form."
+msgstr ""
+"Kies de bestandstypen die je wil toestaan aan gebruikers voor het indienen "
+"in formulier."
+
+#: admin/views/Themes.php:544
+msgid "Choose the type of hours selection in calendar"
+msgstr "Kies het type van urenselectie in kalender"
+
+#: includes/admin_menu.php:319
+msgid "Click Here"
+msgstr "Klik hier"
+
+#: includes/wpdevart_lib.php:943
+msgid "Confirm Email"
+msgstr "Bevestingse-mail"
+
+#: includes/booking_class.php:764 includes/wpdevart_lib.php:1412
+#: admin/views/Reservations.php:288
+msgid "Contact Information"
+msgstr "Contactinformatie"
+
+#: admin/views/Themes.php:1493 admin/views/Themes.php:1552
+#: admin/views/Themes.php:1612 admin/views/Themes.php:1664
+#: admin/views/Themes.php:1715 admin/views/Themes.php:1766
+#: admin/views/Themes.php:1817 admin/views/Themes.php:1873
+#: admin/views/Themes.php:1921
+msgid "Content:"
+msgstr "Inhoud:"
+
+#: admin/views/UserPermissions.php:134
+msgid "Contributor"
+msgstr "Bijdrager"
+
+#: admin/views/Reservations.php:451
+msgid "Created:"
+msgstr "Aangemaakt:"
+
+#: admin/views/Themes.php:506
+msgid "Currency"
+msgstr "Valuta"
+
+#: admin/views/Themes.php:515
+msgid "Currency Position"
+msgstr "Valuta positie"
+
+#: admin/views/Calendars.php:1093 admin/views/Themes.php:2475
+msgid "Current"
+msgstr "Huidig"
+
+#: admin/views/Themes.php:994
+msgid "Current Month color"
+msgstr "Huidige maand kleur"
+
+#: admin/views/Themes.php:681
+msgid "Current Month font size"
+msgstr "Huidige maand lettertype grootte"
+
+#: admin/views/Themes.php:1001
+msgid "Current Year color"
+msgstr "Huidig jaar kleur"
+
+#: admin/views/Themes.php:688
+msgid "Current Year font size"
+msgstr "Huidig jaar lettertype grootte"
+
+#: booking_calendar.php:139 includes/admin_menu.php:92
+#: includes/admin_menu.php:101 includes/textfortr.php:88
+msgid "Date"
+msgstr "Datum"
+
+#: admin/views/Themes.php:86
+msgid "Date format"
+msgstr "Datum formaat"
+
+#: admin/views/Themes.php:1057
+msgid "Day Availability color"
+msgstr "Dag beschikbaarheid kleur"
+
+#: admin/views/Themes.php:757
+msgid "Day Availability font size"
+msgstr "Dag beschikbaarheid lettertype grootte"
+
+#: admin/views/Themes.php:749
+msgid "Day Availability font style"
+msgstr "Dag beschikbaarheid lettertype stijl"
+
+#: admin/views/Themes.php:741
+msgid "Day Availability font weight"
+msgstr "Dag beschikbaarheid lettertype gewicht"
+
+#: admin/views/Themes.php:1036
+msgid "Day background"
+msgstr "Dag achtergrond"
+
+#: includes/wpdevart_lib.php:604
+msgid "Day Count"
+msgstr "Dag telling"
+
+#: admin/views/Themes.php:1043
+msgid "Day Number background"
+msgstr "Dag nummer achtergrond"
+
+#: admin/views/Themes.php:1050
+msgid "Day Number color"
+msgstr "Dag nummer kleur"
+
+#: admin/views/Themes.php:734
+msgid "Day Number font size"
+msgstr "Dag nummer lettertype grootte"
+
+#: admin/views/Themes.php:726
+msgid "Day Number font style"
+msgstr "Dag nummer lettertype stijl"
+
+#: admin/views/Themes.php:718
+msgid "Day Number font weight"
+msgstr "Dag nummer lettertype gewicht"
+
+#: admin/views/Themes.php:1064
+msgid "Day Price color"
+msgstr "Dag prijskleur"
+
+#: admin/views/Themes.php:780
+msgid "Day Price font size"
+msgstr "Dag prijs lettertype grootte"
+
+#: admin/views/Themes.php:772
+msgid "Day Price font style"
+msgstr "Dagprijs lettertype stijl"
+
+#: admin/views/Themes.php:764
+msgid "Day Price font weight"
+msgstr "Dag prijs lettertype gewicht"
+
+#: admin/views/Themes.php:787
+msgid "Days height"
+msgstr "Dagen hoogte"
+
+#: includes/admin_menu.php:332
+msgid ""
+"Deactivating Booking calendar plugin does not remove any data that may have "
+"been created. To completely remove this plugin, you can uninstall it here."
+msgstr ""
+"Het deactiveren van de Booking kalender plugin verwijdert geen gegevens die "
+"eventueel zijn aangemaakt. Om deze plugin volledig te verwijderen, kan je "
+"hem hier de-installeren."
+
+#: includes/textfortr.php:27
+msgid "Dec"
+msgstr "Dec"
+
+#: includes/textfortr.php:13 admin/views/Calendars.php:1105
+#: admin/views/Themes.php:2487
+msgid "December"
+msgstr "December"
+
+#: admin/views/Themes.php:161
+msgid "Default Month"
+msgstr "Standaard maand"
+
+#: admin/views/Themes.php:1934
+msgid "Default Texts"
+msgstr "Standaard teksten"
+
+#: admin/views/Themes.php:153
+msgid "Default Year"
+msgstr "Standaard jaar"
+
+#: admin/views/Calendars.php:28 admin/views/Calendars.php:43
+#: admin/views/Calendars.php:60 admin/views/Extras.php:25
+#: admin/views/Extras.php:47 admin/views/Extras.php:63 admin/views/Forms.php:28
+#: admin/views/Forms.php:50 admin/views/Forms.php:66
+#: admin/views/Reservations.php:105 admin/views/Reservations.php:433
+#: admin/views/Themes.php:25 admin/views/Themes.php:47
+#: admin/views/Themes.php:63
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: admin/views/Themes.php:606
+#| msgid "Delete previews dates"
+msgid "Delete previous dates"
+msgstr "Verwijder vorige datums"
+
+#: includes/wpdevart_lib.php:1398 admin/views/Reservations.php:251
+msgid "Details"
+msgstr "Details"
+
+#: admin/views/Themes.php:233
+msgid "Discount depending on the days"
+msgstr "Korting afhankelijk van de dagen"
+
+#: admin/views/Themes.php:554
+msgid "Discount depending on the hours"
+msgstr "Korting afhankelijk van de uren"
+
+#: admin/views/Themes.php:388
+msgid ""
+"Display days status texts below calendar(Available, Booked, Unavailable)"
+msgstr ""
+"Toon de teksten van de dagenstatus onder de kalender (Beschikbaar, "
+"Gereserveerd, Niet Beschikbaar)"
+
+#: admin/views/Themes.php:387
+msgid "Display days status texts below calendare"
+msgstr "Toon dagstatusteksten onder kalender"
+
+#: admin/views/Themes.php:579
+msgid "Display hours availability info when users mouse over on calendar days"
+msgstr ""
+"Informatie over beschikbaarheid van uren weergeven wanneer gebruikers met de "
+"muis over een kalenderdag gaan"
+
+#: includes/widgets/widget-booking_calendar.php:6
+msgid "Displays Booking Calendar WpDevArt"
+msgstr "Displays Booking Calendar WpDevArt"
+
+#: booking_calendar.php:135
+msgid "do not match."
+msgstr "komt niet overeen."
+
+#: includes/admin_menu.php:355
+msgid "Do you really want to uninstall Booking Calendar?"
+msgstr "Wil je echt Booking Calendar verwijderen?"
+
+#: admin/views/Forms.php:150
+msgid "Drop down"
+msgstr "Dropdown"
+
+#: admin/views/Forms.php:151
+msgid "Drop down(Countries)"
+msgstr "Dropdown (landen)"
+
+#: admin/views/Extras.php:45 admin/views/Extras.php:61 admin/views/Forms.php:48
+#: admin/views/Forms.php:64 admin/views/Themes.php:45 admin/views/Themes.php:61
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: admin/views/Calendars.php:42 admin/views/Calendars.php:59
+#: admin/views/Extras.php:46 admin/views/Extras.php:62 admin/views/Forms.php:49
+#: admin/views/Forms.php:65 admin/views/Reservations.php:437
+#: admin/views/Themes.php:46 admin/views/Themes.php:62
+msgid "Edit"
+msgstr "Bewerk"
+
+#: admin/views/Calendars.php:1033
+msgid "Edit Calendar"
+msgstr "Bewerk kalender"
+
+#: admin/views/Extras.php:170
+msgid "Edit Extra"
+msgstr "Bewerk extra"
+
+#: admin/views/Forms.php:131
+msgid "Edit Form"
+msgstr "Bewerk formulier"
+
+#: admin/views/Reservations.php:557
+msgid "Edit Reservation"
+msgstr "Bewerk reservatie"
+
+#: admin/views/Themes.php:2377
+msgid "Edit Theme"
+msgstr "Bewerk thema"
+
+#: admin/views/UserPermissions.php:132
+msgid "Editor"
+msgstr "Editor"
+
+#: admin/views/Themes.php:1469 admin/views/Themes.php:1528
+#: admin/views/Themes.php:1588 admin/views/Themes.php:1639
+#: admin/views/Themes.php:1690 admin/views/Themes.php:1741
+#: admin/views/Themes.php:1792 admin/views/Themes.php:1845
+#: admin/views/Themes.php:1893
+msgid "Email From:"
+msgstr "E-mail van:"
+
+#: includes/textfortr.php:77 includes/textfortr.php:104
+msgid "Email on approved to administrator doesn't send"
+msgstr "E-mail over goedgekeurd aan beheerder wordt niet verzonden"
+
+#: includes/textfortr.php:79 includes/textfortr.php:106
+msgid "Email on approved to user doesn't send"
+msgstr "E-mail over goedgekeurd aan gebruiker wordt niet verzonden"
+
+#: includes/textfortr.php:76 includes/textfortr.php:103
+msgid "Email on book to administrator doesn't send"
+msgstr "E-mail over boeking aan beheerder wordt niet verzonden"
+
+#: includes/textfortr.php:78 includes/textfortr.php:105
+msgid "Email on book to user doesn't send"
+msgstr "E-mail over boeking aan gebruiker wordt niet verzonden"
+
+#: includes/textfortr.php:80 includes/textfortr.php:107
+msgid "Email on canceled to user doesn't send"
+msgstr "E-mail over geannuleerd aan gebruiker wordt niet verzonden"
+
+#: includes/textfortr.php:81 includes/textfortr.php:108
+msgid "Email on delete to user doesn't send"
+msgstr "E-mail over verwijderen aan gebruiker wordt niet verzonden"
+
+#: admin/views/Themes.php:2222
+msgid "Enable Billing address"
+msgstr "Factuuradres inschakelen"
+
+#: admin/views/Themes.php:265
+msgid "Enable Check in/Check out"
+msgstr "Inchecken/uitchecken inschakelen"
+
+#: admin/views/Themes.php:614
+msgid "Enable instant approval"
+msgstr "Directe goedkeuring inschakelen"
+
+#: admin/views/Themes.php:621
+msgid "Enable instant approve for success payment"
+msgstr "Directe goedkeuring voor succesvolle betaling mogelijk maken"
+
+#: admin/views/Themes.php:1502 admin/views/Themes.php:1561
+#: admin/views/Themes.php:1673 admin/views/Themes.php:1724
+#: admin/views/Themes.php:1775 admin/views/Themes.php:1826
+msgid "Enable notification when email doesn't send"
+msgstr "Notificaties inschakelen wanneer e-mail niet wordt verzonden"
+
+#: admin/views/Themes.php:272
+#| msgid "Enable number of items"
+msgid "Enable Number of night"
+msgstr "Aantal nachten inschakelen"
+
+#: admin/views/Themes.php:2277
+msgid "Enable Pay in Cash"
+msgstr "Contant betalen inschakelen"
+
+#: admin/views/Themes.php:2296
+msgid "Enable PayPal"
+msgstr "PayPal inschakelen"
+
+#: admin/views/Themes.php:2238
+msgid "Enable Shipping address"
+msgstr "Verzendadres inschakelen"
+
+#: admin/views/Themes.php:356
+msgid "Enable Terms & Conditions"
+msgstr "Voorwaarden en bepalingen inschakelen"
+
+#: admin/views/Themes.php:357
+msgid "Enable Terms & Conditions option"
+msgstr "Optie algemene voorwaarden inschakelen"
+
+#: admin/views/Themes.php:527
+msgid "Enable this option if you need to create hour booking calendar"
+msgstr "Schakel deze optie in als je een boekingskalender voor uren wilt maken"
+
+#: admin/views/Themes.php:380
+msgid "Enable title of Extra"
+msgstr "Titel van extra's inschakelen"
+
+#: admin/views/Calendars.php:1019
+msgid "End Date"
+msgstr "Einddatum"
+
+#: booking_calendar.php:217
+msgid "End Hour"
+msgstr "Einduur"
+
+#: includes/textfortr.php:64
+msgid "End hour"
+msgstr "Einduur"
+
+#: booking_calendar.php:138 includes/admin_menu.php:83
+#: includes/admin_menu.php:100
+msgid "Enter the valid email address."
+msgstr "Voer een geldig e-mailadres in."
+
+#: admin/views/Themes.php:1289
+msgid "Error Info background"
+msgstr "Foutinformatie achtergrond"
+
+#: admin/views/Themes.php:1303
+msgid "Error Info Border color"
+msgstr "Foutinformatie randkleur"
+
+#: admin/views/Themes.php:1310
+msgid "Error Info Close background"
+msgstr "Foutinformatie sluit achtergrond"
+
+#: admin/views/Themes.php:1317
+msgid "Error Info Close color"
+msgstr "Foutinformatie sluit kleur"
+
+#: admin/views/Themes.php:1296
+msgid "Error Info color"
+msgstr "Fout info kleur"
+
+#: admin/views/Reservations.php:107
+msgid "Export as excel"
+msgstr "Exporteer naar Excel"
+
+#: admin/views/Calendars.php:123
+msgid "Extra"
+msgstr "Extra"
+
+#: includes/booking_class.php:781 includes/wpdevart_lib.php:1424
+#: admin/views/Reservations.php:308
+msgid "Extra Information"
+msgstr "Informatie van de extra"
+
+#: admin/views/Extras.php:179
+msgid "Extra Name"
+msgstr "Naam van de extra"
+
+#: admin/views/Extras.php:22 admin/views/UserPermissions.php:58
+msgid "Extras"
+msgstr "Extra's"
+
+#: admin/views/Extras.php:189
+msgid "Extras fields"
+msgstr "Extra's velden"
+
+#: includes/textfortr.php:17
+msgid "Feb"
+msgstr "Feb"
+
+#: includes/textfortr.php:3 admin/views/Calendars.php:1095
+#: admin/views/Themes.php:2477
+msgid "February"
+msgstr "Februari"
+
+#: booking_calendar.php:468 admin/views/Reservations.php:299
+msgid "File"
+msgstr "Bestand"
+
+#: admin/views/Forms.php:157
+msgid "File Upload"
+msgstr "Bestandsupload"
+
+#: admin/views/Reservations.php:78
+msgid "Filters"
+msgstr "Filters"
+
+#: admin/views/Calendars.php:115
+msgid "Form"
+msgstr "Formulier"
+
+#: admin/views/Themes.php:1205
+msgid "Form background"
+msgstr "Formulier achtergrond"
+
+#: admin/views/Themes.php:1212
+#| msgid "Form boreder color"
+msgid "Form border color"
+msgstr "Formulier rand kleur"
+
+#: admin/views/Forms.php:168
+msgid "Form fields"
+msgstr "Formuliervelden"
+
+#: admin/views/Forms.php:140
+msgid "Form Name"
+msgstr "Formuliernaam"
+
+#: admin/views/Themes.php:916
+msgid "Form Submit font style"
+msgstr "Formulier inzenden lettertype stijl"
+
+#: admin/views/Themes.php:908
+msgid "Form Submit font weight"
+msgstr "Formulier inzenden lettertype gewicht"
+
+#: admin/views/Themes.php:1240
+msgid "Form/Extra Fields color"
+msgstr "Formulier/extra veldkleur"
+
+#: admin/views/Themes.php:901
+msgid "Form/Extra Fields font size"
+msgstr "Formulier/extra velden lettertype grootte"
+
+#: admin/views/Themes.php:893
+msgid "Form/Extra Fields font style"
+msgstr "Formulier/extra velden lettertype stijl"
+
+#: admin/views/Themes.php:885
+msgid "Form/Extra Fields font weight"
+msgstr "Formulier/extra velden lettertype gewicht"
+
+#: admin/views/Themes.php:1233
+msgid "Form/Extra Labels color"
+msgstr "Formulier/extra labels kleur"
+
+#: admin/views/Themes.php:878
+msgid "Form/Extra Labels font size"
+msgstr "Formulier/extra labels lettertype grootte"
+
+#: admin/views/Themes.php:870
+msgid "Form/Extra Labels font style"
+msgstr "Formulier/extra labels  lettertype stijl"
+
+#: admin/views/Themes.php:862
+msgid "Form/Extra Labels font weight"
+msgstr "Formulier/extra labels lettertype gewicht"
+
+#: admin/views/Themes.php:1226
+msgid "Form/Extra Title background"
+msgstr "Formulier/extra titel achtergrond"
+
+#: admin/views/Themes.php:1219
+msgid "Form/Extra Title color"
+msgstr "Form/Extra titel kleur"
+
+#: admin/views/Themes.php:855
+msgid "Form/Extra Title font size"
+msgstr "Formulier/extra titel lettertype grootte"
+
+#: admin/views/Themes.php:847
+msgid "Form/Extra Title font style"
+msgstr "Formulier/extra titel lettertype stijl"
+
+#: admin/views/Themes.php:839
+msgid "Form/Extra Title font weight"
+msgstr "Formulier/extra titel lettertype gewicht"
+
+#: admin/views/Forms.php:25 admin/views/UserPermissions.php:41
+msgid "Forms"
+msgstr "Formulieren"
+
+#: includes/textfortr.php:53
+msgid "Fr"
+msgstr "Vr"
+
+#: includes/textfortr.php:44
+msgid "Fri"
+msgstr "Vri"
+
+#: includes/textfortr.php:35 admin/views/Themes.php:145
+#: admin/views/Themes.php:216
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: admin/views/Themes.php:1477 admin/views/Themes.php:1536
+#: admin/views/Themes.php:1596 admin/views/Themes.php:1648
+#: admin/views/Themes.php:1699 admin/views/Themes.php:1750
+#: admin/views/Themes.php:1801 admin/views/Themes.php:1855
+#: admin/views/Themes.php:1903
+msgid "From Name:"
+msgstr "Afzender naam:"
+
+#: admin/views/GlobalSettings.php:12 admin/views/Themes.php:81
+msgid "General"
+msgstr "Algemeen"
+
+#: admin/views/GlobalSettings.php:57
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: includes/wpdevart_lib.php:105
+msgid "Get prefixes for your lenguages"
+msgstr "Krijg voorvoegsels voor je talen"
+
+#: admin/views/UserPermissions.php:92
+msgid "Global Settings"
+msgstr "Algemene instellingen"
+
+#: admin/views/Forms.php:152
+msgid "Google ReCapthcha"
+msgstr "Google ReCapthcha"
+
+#: admin/views/Themes.php:300
+msgid "Hide number of available events"
+msgstr "Verberg het aantal beschikbare evenementen"
+
+#: admin/views/Themes.php:201
+msgid "HIde Price in Form"
+msgstr "Verberg prijs in formulier"
+
+#: admin/views/Themes.php:202
+msgid "Hide Price in Form"
+msgstr "Verberg prijs in formulier"
+
+#: booking_calendar.php:140 includes/admin_menu.php:84
+#: includes/admin_menu.php:102 includes/admin_menu.php:115
+#: includes/booking_class.php:730 includes/main_class.php:603
+#: includes/wpdevart_lib.php:668 includes/wpdevart_lib.php:683
+#: admin/views/Reservations.php:414
+msgid "Hour"
+msgstr "Uur"
+
+#: includes/wpdevart_lib.php:604
+msgid "Hour Count"
+msgstr "Uurtelling"
+
+#: includes/admin_menu.php:91 includes/admin_menu.php:122
+#: includes/wpdevart_lib.php:677 includes/wpdevart_lib.php:692
+msgid "Hour Information"
+msgstr "Uur informatie"
+
+#: includes/booking_class.php:745 admin/views/Reservations.php:266
+msgid "Hours"
+msgstr "Uren"
+
+#: admin/views/Themes.php:801
+msgid "Hours height"
+msgstr "Uren hoogte"
+
+#: admin/views/Themes.php:794
+msgid "Hours width"
+msgstr "Uren breedte"
+
+#. Author URI of the plugin
+msgid "https://wpdevart.com"
+msgstr "https://wpdevart.com"
+
+#. URI of the plugin
+msgid "https://wpdevart.com/wordpress-booking-calendar-plugin"
+msgstr "https://wpdevart.com/wordpress-booking-calendar-plugin"
+
+#: includes/textfortr.php:66 includes/textfortr.php:90
+msgid "I accept to agree to the Terms & Conditions."
+msgstr "Ik ga akkoord met de algemene voorwaarden."
+
+#: admin/views/Calendars.php:36 admin/views/Extras.php:40
+#: admin/views/Forms.php:43 admin/views/Reservations.php:166
+#: admin/views/Themes.php:40
+msgid "ID"
+msgstr "ID"
+
+#: admin/views/GlobalSettings.php:40 admin/views/GlobalSettings.php:41
+msgid "If you have a problem with the database please press this button"
+msgstr "Als je een probleem heeft met de database, druk dan op deze knop"
+
+#: includes/wpdevart_lib.php:104
+msgid ""
+"If you use multilingual Form, Extra, Notifications, then you need to type "
+"translation words instantly from here(not from translation files). Just find "
+"the language prefix(code) and add words as it shown in example."
+msgstr ""
+"Als je meertalige vorm, extra, notificaties gebruikt, dan moet je "
+"vertaalwoorden onmiddellijk van hier typen (niet van vertaalbestanden). Zoek "
+"gewoon het taalvoorvoegsel (code) en voeg woorden toe zoals het in voorbeeld "
+"toont."
+
+#: admin/views/Themes.php:1190
+msgid "Info background"
+msgstr "Info achtergrond"
+
+#: admin/views/Themes.php:831
+msgid "Info Border radius"
+msgstr "Inforand radius"
+
+#: admin/views/Themes.php:1197
+msgid "Info color"
+msgstr "Info kleur"
+
+#: admin/views/Themes.php:824
+msgid "Info font size"
+msgstr "Info lettertype grootte"
+
+#: admin/views/Themes.php:816
+msgid "Info font style"
+msgstr "Info lettertype stijl"
+
+#: admin/views/Themes.php:808
+msgid "Info font weight"
+msgstr "Info lettertype gewicht"
+
+#: admin/views/Themes.php:1183
+msgid "Info Icon color"
+msgstr "Info icoon kleur"
+
+#: admin/views/Themes.php:365
+msgid "Insert here the url for Terms & Conditions text"
+msgstr "Plaats hier de url voor de algemene voorwaarden"
+
+#: booking_calendar.php:223
+msgid "Ip"
+msgstr "IP"
+
+#: includes/wpdevart_lib.php:935
+msgid "Is Email"
+msgstr "Is e-mail"
+
+#: includes/wpdevart_lib.php:950
+msgid "Is Name"
+msgstr "Is naam"
+
+#: booking_calendar.php:134 includes/admin_menu.php:82
+#: includes/admin_menu.php:99
+msgid "is required."
+msgstr "is vereist."
+
+#: includes/booking_class.php:735 includes/main_class.php:608
+#: admin/views/Reservations.php:252
+msgid "Item Count"
+msgstr "Item telling"
+
+#: includes/textfortr.php:65
+msgid "Item count"
+msgstr "Item telling"
+
+#: includes/wpdevart_lib.php:1154
+msgid "Items"
+msgstr "Items"
+
+#: includes/textfortr.php:16
+msgid "Jan"
+msgstr "Jan"
+
+#: includes/textfortr.php:2 admin/views/Calendars.php:1094
+#: admin/views/Themes.php:2476
+msgid "January"
+msgstr "Januari"
+
+#: includes/textfortr.php:22
+msgid "Jul"
+msgstr "Jul"
+
+#: includes/textfortr.php:8 admin/views/Calendars.php:1100
+#: admin/views/Themes.php:2482
+msgid "July"
+msgstr "Juli"
+
+#: includes/textfortr.php:21
+msgid "Jun"
+msgstr "Jun"
+
+#: includes/textfortr.php:7 admin/views/Calendars.php:1099
+#: admin/views/Themes.php:2481
+msgid "June"
+msgstr "Juni"
+
+#: includes/wpdevart_lib.php:737 includes/wpdevart_lib.php:794
+#: includes/wpdevart_lib.php:840 includes/wpdevart_lib.php:883
+#: includes/wpdevart_lib.php:922 includes/wpdevart_lib.php:1003
+#: includes/wpdevart_lib.php:1040 includes/wpdevart_lib.php:1071
+#: includes/wpdevart_lib.php:1130
+msgid "Label"
+msgstr "Label"
+
+#: includes/textfortr.php:83
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: admin/views/Themes.php:973
+msgid "Load Spinner color"
+msgstr "Laad spinner kleur"
+
+#: admin/views/Themes.php:1394
+msgid "Mail background color"
+msgstr "E-mail achtergrond kleur"
+
+#: admin/views/Themes.php:1401
+msgid "Mail content background color"
+msgstr "E-mail inhoud achtergrond kleur"
+
+#: admin/views/Themes.php:1408
+msgid "Mail font color"
+msgstr "Mail lettertype kleur"
+
+#: admin/views/Themes.php:1422
+msgid "Mail footer text"
+msgstr "Mail footer tekst"
+
+#: admin/views/Themes.php:1429
+msgid "Mail footer text font color"
+msgstr "E-mail footer tekst lettertype kleur"
+
+#: admin/views/Themes.php:1415
+msgid "Mail header image"
+msgstr "E-mail header afbeelding"
+
+#: includes/textfortr.php:18
+msgid "Mar"
+msgstr "Maa"
+
+#: includes/textfortr.php:4 admin/views/Calendars.php:1096
+#: admin/views/Themes.php:2478
+msgid "March"
+msgstr "Maart"
+
+#: admin/views/Reservations.php:106 admin/views/Reservations.php:418
+msgid "Mark as read"
+msgstr "Markeer als gelezen"
+
+#: includes/admin_menu.php:86 includes/admin_menu.php:117
+#: includes/wpdevart_lib.php:670 includes/wpdevart_lib.php:685
+msgid "Marked Price"
+msgstr "Aangeboden prijs"
+
+#: admin/views/Themes.php:570
+msgid "Maximm hours count"
+msgstr "Maximale uren telling"
+
+#: admin/views/Themes.php:250
+msgid "Maximum booking days"
+msgstr "Maximaal aantal boekbare dagen"
+
+#: admin/views/Themes.php:2116
+msgid "Maximum booking days error message"
+msgstr "Foutmelding maximale boekingsdagen"
+
+#: admin/views/Themes.php:2130
+msgid "Maximum booking hours error message"
+msgstr "Foutmelding maximale boekingsuren"
+
+#: admin/views/Themes.php:286
+msgid "Maximum item count"
+msgstr "Maximaal aantal items"
+
+#: includes/textfortr.php:6 includes/textfortr.php:20
+#: admin/views/Calendars.php:1098 admin/views/Themes.php:2480
+msgid "May"
+msgstr "Mei"
+
+#: admin/views/Themes.php:455
+msgid "Message after submition"
+msgstr "Bericht na indiening"
+
+#: admin/views/Themes.php:476
+msgid "Messages position"
+msgstr "Bericht positie"
+
+#: admin/views/Themes.php:562
+msgid "Minimum hours count"
+msgstr "Minimaal aantal uren"
+
+#: admin/views/Themes.php:293
+msgid "Minimum item count"
+msgstr "Minimaal aantal items"
+
+#: admin/views/Themes.php:242
+msgid "Minumum booking day"
+msgstr "Minimale boekingsdag"
+
+#: admin/views/Themes.php:2109
+msgid "Minumum booking day error message"
+msgstr "Minumum boekingsdag foutmelding"
+
+#: admin/views/Themes.php:2123
+msgid "Minumum booking hour error message"
+msgstr "Minimale boeking uur foutmelding"
+
+#: includes/textfortr.php:49
+msgid "Mo"
+msgstr "Ma"
+
+#: includes/textfortr.php:40
+msgid "Mon"
+msgstr "Maa"
+
+#: includes/textfortr.php:31 admin/views/Themes.php:141
+#: admin/views/Themes.php:212
+msgid "Monday"
+msgstr "Maandag"
+
+#: includes/wpdevart_lib.php:101
+msgid "Multilingual fields?"
+msgstr "Meertalige velden?"
+
+#: admin/views/Themes.php:227
+msgid "Multiple days"
+msgstr "Meerdere dagen"
+
+#: includes/wpdevart_lib.php:750
+msgid "Multiple select"
+msgstr "Meerdere selectie"
+
+#: admin/views/Reservations.php:418
+#| msgid "New "
+msgid "New"
+msgstr "Nieuw"
+
+#: includes/textfortr.php:82
+msgid "New countries Field"
+msgstr "Nieuw landen veld"
+
+#: booking_calendar.php:596
+msgid "New Extra"
+msgstr "Nieuwe extra"
+
+#: admin/views/Reservations.php:85 admin/views/Reservations.php:95
+msgid "New reservations"
+msgstr "Nieuwe reservaties"
+
+#: admin/views/Themes.php:674
+msgid "Next Prev Month font size"
+msgstr "Volgende vorige maand lettertype grootte"
+
+#: admin/views/Themes.php:987
+msgid "Next Preview Month color"
+msgstr "Volgende vorige maand kleur"
+
+#: includes/textfortr.php:62 includes/textfortr.php:89
+msgid "No hour available."
+msgstr "Geen uur beschikbaar."
+
+#: includes/booking_class.php:1198
+msgid "No options"
+msgstr "Geen opties"
+
+#: admin/views/Themes.php:1382
+msgid "Notifications"
+msgstr "Notificaties"
+
+#: admin/views/Themes.php:1511
+msgid "Notify on approved book request"
+msgstr "Waarschuwen bij goedkeuring boekingsaanvraag"
+
+#: booking_calendar.php:310
+msgid "Notify on approved request content"
+msgstr "Waarschuwen bij goedkeuring aanvraag inhoud"
+
+#: booking_calendar.php:307
+msgid "Notify on approved request from"
+msgstr "Waarschuwen bij goedkeuring aanvraag van"
+
+#: booking_calendar.php:308
+msgid "Notify on approved request fromname"
+msgstr "Waarschuwen bij goedkeuring aanvraag van naam"
+
+#: booking_calendar.php:309
+msgid "Notify on approved request subject"
+msgstr "Waarschuwen bij goedkeuring aanvraag onderwerp"
+
+#: booking_calendar.php:306
+msgid "Notify on approved request to"
+msgstr "Waarschuwen bij goedgekeurde aanvraag naar"
+
+#: admin/views/Themes.php:1452 admin/views/Themes.php:1631
+msgid "Notify on book request"
+msgstr "Waarschuwen bij boekingsaanvraag"
+
+#: booking_calendar.php:305
+msgid "Notify on book request content"
+msgstr "Waarschuwen bij boekingsaanvraag inhoud"
+
+#: booking_calendar.php:302
+msgid "Notify on book request from"
+msgstr "Waarschuwen bij boekingsaanvraag van"
+
+#: booking_calendar.php:303
+msgid "Notify on book request fromname"
+msgstr "Waarschuwen bij boekingsaanvraag van naam"
+
+#: booking_calendar.php:304
+msgid "Notify on book request subject"
+msgstr "Waarschuwen bij boekingsaanvraag onderwerp"
+
+#: booking_calendar.php:301
+msgid "Notify on book request to"
+msgstr "Waarschuwen bij boekingsaanvraag naar"
+
+#: booking_calendar.php:315
+msgid "Notify on paypal request content"
+msgstr "Waarschuwen bij PayPal aanvraag inhoud"
+
+#: booking_calendar.php:312
+msgid "Notify on paypal request from"
+msgstr "Waarschuwen bij PayPal aanvraag van"
+
+#: booking_calendar.php:313
+msgid "Notify on paypal request fromname"
+msgstr "Waarschuwen bij PayPal aanvraag van naam"
+
+#: booking_calendar.php:314
+msgid "Notify on paypal request subject"
+msgstr "Waarschuwen bij PayPal aanvraag onderwerp"
+
+#: booking_calendar.php:311
+msgid "Notify on paypal request to"
+msgstr "Waarschuwen bij PayPal aanvraag naar"
+
+#: booking_calendar.php:323
+msgid "Notify user on approved request content"
+msgstr "Informeer de gebruiker over de goedgekeurde inhoud van het verzoek"
+
+#: booking_calendar.php:320
+msgid "Notify user on approved request from"
+msgstr "Informeer gebruiker over goedgekeurde aanvraag van"
+
+#: booking_calendar.php:321
+msgid "Notify user on approved request fromname"
+msgstr "Informeer gebruiker over goedgekeurde aanvraag van naam"
+
+#: booking_calendar.php:322
+msgid "Notify user on approved request subject"
+msgstr "Informeer gebruiker over goedgekeurde aanvraag"
+
+#: booking_calendar.php:319
+msgid "Notify user on book request content"
+msgstr "Informeer gebruiker over inhoud van boekingsaanvraag"
+
+#: booking_calendar.php:316
+msgid "Notify user on book request from"
+msgstr "Informeer gebruiker over boekingsaanvraag van"
+
+#: booking_calendar.php:317
+msgid "Notify user on book request fromname"
+msgstr "Informeer gebruiker over boekingsaanvraag van naam"
+
+#: booking_calendar.php:318
+msgid "Notify user on book request subject"
+msgstr "Informeer gebruiker over boekingsaanvraag onderwerp"
+
+#: booking_calendar.php:327
+msgid "Notify user on canceled request content"
+msgstr "Informeer gebruiker over geannuleerde aanvraag inhoud"
+
+#: booking_calendar.php:324
+msgid "Notify user on canceled request from"
+msgstr "Informeer gebruiker over geannuleerde aanvraag van"
+
+#: booking_calendar.php:325
+msgid "Notify user on canceled request fromname"
+msgstr "Informeer gebruiker over geannuleerde aanvraag van naam"
+
+#: booking_calendar.php:326
+msgid "Notify user on canceled request subject"
+msgstr "Informeer gebruiker over geannuleerde aanvraag onderwerp"
+
+#: booking_calendar.php:331
+msgid "Notify user on deleted request content"
+msgstr "Informeer gebruiker over verwijderde aanvraag inhoud"
+
+#: booking_calendar.php:328
+msgid "Notify user on deleted request from"
+msgstr "Informeer gebruiker over verwijderde aanvraag van"
+
+#: booking_calendar.php:329
+msgid "Notify user on deleted request fromname"
+msgstr "Informeer gebruiker over verwijderde aanvraag van naam"
+
+#: booking_calendar.php:330
+msgid "Notify user on deleted request subject"
+msgstr "Informeer gebruiker van verwijderde aanvraag onderwerp"
+
+#: booking_calendar.php:339
+msgid "Notify user on paypal failed request content"
+msgstr "Informeer gebruiker over mislukte PayPal aanvraag inhoud"
+
+#: booking_calendar.php:336
+msgid "Notify user on paypal failed request from"
+msgstr "Informeer gebruiker over mislukte PayPal aanvraag van"
+
+#: booking_calendar.php:337
+msgid "Notify user on paypal failed request fromname"
+msgstr "Informeer gebruiker over mislukte PayPal aanvraag van naam"
+
+#: booking_calendar.php:338
+msgid "Notify user on paypal failed request subject"
+msgstr "Informeer gebruiker over mislukte PayPal aanvraag"
+
+#: booking_calendar.php:335
+msgid "Notify user on paypal request content"
+msgstr "Informeer gebruiker over PayPal aanvraag inhoud"
+
+#: booking_calendar.php:332
+msgid "Notify user on paypal request from"
+msgstr "Informeer gebruiker over PayPal aanvraag van"
+
+#: booking_calendar.php:333
+msgid "Notify user on paypal request fromname"
+msgstr "Informeer gebruiker over PayPal aanvraag van naam"
+
+#: booking_calendar.php:334
+msgid "Notify user on paypal request subject"
+msgstr "Informeer gebruiker over PayPal aanvraag onderwerp"
+
+#: admin/views/Themes.php:1682
+msgid "Notify when reservation is approved"
+msgstr "Waarschuwen bij goedkeuring reservatie"
+
+#: admin/views/Themes.php:1733
+msgid "Notify when reservation is canceled"
+msgstr "Waarschuwen bij afkeuring reservatie"
+
+#: admin/views/Themes.php:1784
+msgid "Notify when reservation is deleted (rejected)"
+msgstr "Waarschuwen bij verwijdering (afkeuring) reservatie"
+
+#: includes/textfortr.php:26
+msgid "Nov"
+msgstr "Nov"
+
+#: includes/textfortr.php:12 admin/views/Calendars.php:1104
+#: admin/views/Themes.php:2486
+msgid "November"
+msgstr "November"
+
+#: includes/admin_menu.php:90 includes/admin_menu.php:121
+#: includes/wpdevart_lib.php:676 includes/wpdevart_lib.php:691
+msgid "Number Availabile"
+msgstr "Aantal beschikbaar"
+
+#: includes/textfortr.php:87
+msgid "Number of nights"
+msgstr "Aantal nachten"
+
+#: includes/textfortr.php:25
+msgid "Oct"
+msgstr "Okt"
+
+#: includes/textfortr.php:11 admin/views/Calendars.php:1103
+#: admin/views/Themes.php:2485
+msgid "October"
+msgstr "Oktober"
+
+#: includes/admin_menu.php:333
+msgid ""
+"Once uninstalled, this can't be undone. You should use a Database Backup "
+"plugin of WordPress to back up all the data first."
+msgstr ""
+"Eenmaal verwijderd, kan dit niet meer ongedaan worden gemaakt. Je moet een "
+"Database Backup plugin van WordPress gebruiken om eerst een back-up van alle "
+"gegevens te maken."
+
+#: includes/wpdevart_lib.php:757
+msgid "Options"
+msgstr "Opties"
+
+#: includes/textfortr.php:109
+msgid "Pay in cash"
+msgstr "Contant betalen"
+
+#: includes/textfortr.php:110
+msgid "Pay with PayPal"
+msgstr "Betaal met PayPal"
+
+#: admin/views/Reservations.php:383
+msgid "Paymant Information"
+msgstr "Betalingsinformatie"
+
+#: booking_calendar.php:224
+msgid "Payment Address"
+msgstr "Betalingsadres"
+
+#: booking_calendar.php:226
+msgid "Payment Date"
+msgstr "Betalingsdatum"
+
+#: booking_calendar.php:225
+msgid "Payment Info"
+msgstr "Betalingsinfo"
+
+#: admin/views/Reservations.php:170
+msgid "Payment information"
+msgstr "Betalingsinformatie"
+
+#: admin/views/Reservations.php:399
+msgid "Payment method - Pay in cash"
+msgstr "Betaalmethode - contant betalen"
+
+#: admin/views/Reservations.php:369
+msgid "Payment method - Paypal"
+msgstr "Betaalmethode - PayPal"
+
+#: admin/views/Themes.php:2313
+msgid "Payment mode"
+msgstr "Betalingsmodus"
+
+#: booking_calendar.php:222
+msgid "Payment Price"
+msgstr "Betalingsprijs"
+
+#: admin/views/Reservations.php:374 admin/views/Reservations.php:400
+msgid "Payment Status"
+msgstr "Betalings status"
+
+#: admin/views/Reservations.php:443
+msgid "Payment Status Edit"
+msgstr "Betalingsstatus bewerken"
+
+#: admin/views/Themes.php:2209
+msgid "Payments"
+msgstr "Betalingen"
+
+#: admin/views/Themes.php:2336
+msgid "PayPal button image"
+msgstr "PayPal knop afbeelding"
+
+#: admin/views/Themes.php:2329
+msgid "PayPal email"
+msgstr "PayPal e-mail"
+
+#: admin/views/Themes.php:1571 admin/views/Themes.php:1836
+msgid "PayPal Notification"
+msgstr "PayPal notificatie"
+
+#: admin/views/Themes.php:1884
+msgid "PayPal Notification - Payment Failed"
+msgstr "Betalingsnotificatie - betaling mislukt"
+
+#: admin/views/Reservations.php:125 admin/views/Reservations.php:235
+#: admin/views/Themes.php:321
+msgid "Pending"
+msgstr "In afwachting"
+
+#: includes/wpdevart_lib.php:616 includes/wpdevart_lib.php:626
+#: includes/wpdevart_lib.php:637
+msgid "Percent"
+msgstr "Procent"
+
+#: admin/views/Reservations.php:129
+msgid "Period"
+msgstr "Periode"
+
+#: includes/textfortr.php:68 includes/textfortr.php:92
+msgid "Please select the days from calendar."
+msgstr "Selecteer de dagen van de kalender."
+
+#: includes/admin_menu.php:85 includes/admin_menu.php:116
+#: includes/booking_class.php:737 includes/main_class.php:610
+#: includes/textfortr.php:69 includes/wpdevart_lib.php:669
+#: includes/wpdevart_lib.php:684 admin/views/Reservations.php:254
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/booking_class.php:798 includes/main_class.php:623
+#: includes/wpdevart_lib.php:1437 admin/views/Reservations.php:321
+msgid "Price change"
+msgstr "Prijs wijziging"
+
+#: admin/views/GlobalSettings.php:25 admin/views/GlobalSettings.php:26
+msgid "Recaptcha Private Key:"
+msgstr "Recaptcha privé sleutel:"
+
+#: admin/views/GlobalSettings.php:17 admin/views/GlobalSettings.php:18
+msgid "Recaptcha Public Key:"
+msgstr "Recaptcha publieke sleutel:"
+
+#: admin/views/GlobalSettings.php:42
+msgid "Recreate database"
+msgstr "Database opnieuw aanmaken"
+
+#: admin/views/Themes.php:2254
+msgid "Redirect after payment"
+msgstr "Omleiden na betaling"
+
+#: admin/views/Themes.php:2304
+msgid "Redirect to PayPal after submitting the Booking form"
+msgstr "Doorverwijzing naar PayPal na het indienen van het boekingsformulier"
+
+#: admin/views/Themes.php:446
+msgid "Redirect visitor to a new page"
+msgstr "Gebruikers omleiden naar een nieuwe pagina"
+
+#: includes/wpdevart_lib.php:1136
+msgid "Regardless of counting days"
+msgstr "Ongeacht het tellen van dagen"
+
+#: includes/wpdevart_lib.php:1145
+msgid "Regardless of Item count"
+msgstr "Ongeacht het aantal items"
+
+#: admin/views/Reservations.php:103 admin/views/Reservations.php:428
+msgid "Reject"
+msgstr "Afwijzen"
+
+#: admin/views/Reservations.php:122 admin/views/Reservations.php:239
+msgid "Rejected"
+msgstr "Afgewezen"
+
+#: includes/wpdevart_lib.php:743 includes/wpdevart_lib.php:800
+#: includes/wpdevart_lib.php:846 includes/wpdevart_lib.php:889
+#: includes/wpdevart_lib.php:928 includes/wpdevart_lib.php:1009
+#: includes/wpdevart_lib.php:1077
+msgid "Required"
+msgstr "Vereist"
+
+#: admin/views/Themes.php:1268
+msgid "Required Star color"
+msgstr "Vereist sterretje kleur"
+
+#: includes/textfortr.php:67 includes/textfortr.php:91
+msgid "Reservation"
+msgstr "Reservatie"
+
+#: booking_calendar.php:214
+msgid "Reservation Check In"
+msgstr "Reservatie inchecken"
+
+#: booking_calendar.php:215
+msgid "Reservation Check Out"
+msgstr "Reservering uitchecken"
+
+#: booking_calendar.php:227
+msgid "Reservation Created Date"
+msgstr "Reservering aanmaakdatum"
+
+#: includes/main_class.php:606
+msgid "Reservation date"
+msgstr "Reservatie datum"
+
+#: includes/wpdevart_lib.php:1399 admin/views/Reservations.php:172
+msgid "Reservation dates"
+msgstr "Reservatie datums"
+
+#: booking_calendar.php:213
+msgid "Reservation Day"
+msgstr "Reservatie dag"
+
+#: booking_calendar.php:219
+msgid "Reservation Form Information"
+msgstr "Informatie reserveringsformulier"
+
+#: includes/main_class.php:605
+msgid "Reservation ID"
+msgstr "Reservatie ID"
+
+#: admin/views/Themes.php:1247
+msgid "Reservation Info color"
+msgstr "Reservatie info kleur"
+
+#: admin/views/Themes.php:940
+msgid "Reservation Info font size"
+msgstr "Reservatie info lettertype grootte"
+
+#: admin/views/Themes.php:932
+msgid "Reservation Info font style"
+msgstr "Reservatie info lettertype stijl"
+
+#: admin/views/Themes.php:924
+msgid "Reservation Info font weight"
+msgstr "Reservatie info lettertype gewicht"
+
+#: admin/views/Reservations.php:168
+msgid "Reservation information"
+msgstr "Reservatie informatie"
+
+#: admin/views/Reservations.php:58 admin/views/Reservations.php:488
+#: admin/views/Reservations.php:527
+msgid "Reservation List View"
+msgstr "Reservatie lijst weergave"
+
+#: admin/views/Reservations.php:60 admin/views/Reservations.php:62
+#: admin/views/Reservations.php:489 admin/views/Reservations.php:529
+#: admin/views/Reservations.php:531
+msgid "Reservation Month View"
+msgstr "Reservatie maand weergave"
+
+#: admin/views/UserPermissions.php:32
+msgid "Reservations"
+msgstr "Reservaties"
+
+#: admin/views/Reservations.php:50
+msgid "Reservations List View"
+msgstr "Reservatie lijst weergave"
+
+#: admin/views/Reservations.php:480
+msgid "Reservations Month View"
+msgstr "Reservatie maand weergave"
+
+#: includes/textfortr.php:54
+msgid "Sa"
+msgstr "Za"
+
+#: includes/textfortr.php:111
+msgid "Same as billing info"
+msgstr "Zelfde als facturatie info"
+
+#: includes/textfortr.php:45
+msgid "Sat"
+msgstr "Zat"
+
+#: includes/textfortr.php:36 admin/views/Themes.php:146
+#: admin/views/Themes.php:217
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: admin/views/Calendars.php:1040 admin/views/Calendars.php:1083
+#: admin/views/Extras.php:180 admin/views/Forms.php:141
+#: admin/views/GlobalSettings.php:61 admin/views/Themes.php:2387
+#: admin/views/UserPermissions.php:123
+msgid "Save"
+msgstr "Opslaan"
+
+#: admin/views/Themes.php:186
+msgid "Scroll Offset"
+msgstr "Scroll offset"
+
+#: admin/views/Reservations.php:138
+msgid "Search"
+msgstr "Zoeken"
+
+#: admin/views/Themes.php:443
+msgid "Selct the action after users submit the booking form"
+msgstr "Selct de actie nadat gebruikers het boekingsformulier verzenden"
+
+#: admin/views/Reservations.php:53 admin/views/Reservations.php:483
+#: admin/views/Reservations.php:522
+msgid "Select Calendar"
+msgstr "Selecteer kalender"
+
+#: admin/views/Themes.php:178
+msgid "Select calendar animation type"
+msgstr "Selecteer type kalenderanimatie"
+
+#: includes/wpdevart_lib.php:1732
+msgid "Select Country"
+msgstr "Selecteer land"
+
+#: admin/views/Themes.php:87
+msgid "Select date format for emails and the reservation table"
+msgstr "Selecteer datumnotatie voor e-mails en de reserveringstabel"
+
+#: admin/views/Themes.php:162
+msgid "Select default month for Calendar"
+msgstr "Selecteer standaard maand voor kalender"
+
+#: admin/views/Themes.php:2230
+msgid "Select form for billing address"
+msgstr "Selecteer formulier voor factuuradres"
+
+#: admin/views/Themes.php:2246
+msgid "Select form for shipping address"
+msgstr "Selecteer formulier voor verzendadres"
+
+#: admin/views/Themes.php:138
+msgid "Select start day of the week for Calendar"
+msgstr "Kies de begindag van de week voor de kalender"
+
+#: admin/views/Reservations.php:114
+msgid "Select Status"
+msgstr "Selecteer status"
+
+#: admin/views/Themes.php:516
+msgid "Select the currency position(after or before price)"
+msgstr "Selecteer de valutapositie (na of voor de prijs)"
+
+#: admin/views/Themes.php:507
+msgid "Select the default currency for calendar"
+msgstr "Selecteer de standaardvaluta voor de kalender"
+
+#: admin/views/Themes.php:251
+msgid ""
+"Select the maximum booking days, if you left this field empty then users can "
+"book unlimited days"
+msgstr ""
+"Selecteer het maximum aantal boekingsdagen. Als je dit veld leeg laat, "
+"kunnen gebruikers onbeperkt boeken"
+
+#: admin/views/Themes.php:243
+msgid ""
+"Select the minimum booking day, if you left this field empty then it will "
+"automatically set minimum booking day equals one"
+msgstr ""
+"Selecteer de minimale boekingsdag, als je dit veld leeg laat dan wordt "
+"automatisch de minimale boekingsdag gelijk gesteld aan één"
+
+#: admin/views/Themes.php:225
+msgid "Select the type of days selection in calendar"
+msgstr "Selecteer het type van dagen selectie in kalender"
+
+#: admin/views/Themes.php:622
+msgid ""
+"Select this if you need approve the booking requests after payment success"
+msgstr ""
+"Selecteer dit als je de boekingsaanvragen moet goedkeuren nadat de betaling "
+"is geslaagd"
+
+#: admin/views/Themes.php:615
+msgid ""
+"Select this if you need approve the booking requests instantly, without "
+"moderation"
+msgstr ""
+"Selecteer dit als je de boekingsaanvragen onmiddellijk moet goedkeuren, "
+"zonder te modereren"
+
+#: admin/views/Themes.php:301
+msgid ""
+"Select this option if you don't need to display the number of available "
+"events on calendar in front-end"
+msgstr ""
+"Selecteer deze optie als je het aantal beschikbare evenementen in de "
+"kalender niet wilt weergeven in front-end"
+
+#: admin/views/Themes.php:598
+msgid ""
+"Select this option if you need to display days info on hover(only for widget "
+"calendar)"
+msgstr ""
+"Selecteer deze optie als u dagen info wilt weergeven bij hover (alleen voor "
+"widget kalender)"
+
+#: admin/views/Themes.php:209
+msgid "Select unavailable week days for calendar"
+msgstr "Selecteer onbeschikbare weekdagen voor kalender"
+
+#: admin/views/Themes.php:100 admin/views/Themes.php:112
+msgid "Select week days format"
+msgstr "Selecteer weekdagen formaat"
+
+#: admin/views/Themes.php:1113
+msgid "Selected Day Availability color"
+msgstr "Geselecteerde dag beschikbaarheid kleur"
+
+#: admin/views/Themes.php:1092
+msgid "Selected Day background"
+msgstr "Geselecteerde dag achtergrond"
+
+#: admin/views/Themes.php:1099
+msgid "Selected Day Number background"
+msgstr "Geselecteerde dag nummerachtergrond"
+
+#: admin/views/Themes.php:1106
+msgid "Selected Day Number color"
+msgstr "Geselecteerde dag nummer kleur"
+
+#: admin/views/Themes.php:1120
+msgid "Selected Day Price color"
+msgstr "Geselecteerde dag prijskleur"
+
+#: includes/textfortr.php:24
+msgid "Sep"
+msgstr "Sep"
+
+#: includes/textfortr.php:10 admin/views/Calendars.php:1102
+#: admin/views/Themes.php:2484
+msgid "September"
+msgstr "September"
+
+#: admin/views/Reservations.php:346
+msgid "Shipping address"
+msgstr "Verzendadres"
+
+#: booking_calendar.php:221
+msgid "Shipping Form Information"
+msgstr "Verzendingsformulier informatie"
+
+#: admin/views/Calendars.php:38
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/views/Reservations.php:110
+msgid "Show all details"
+msgstr "Alle details tonen"
+
+#: admin/views/Themes.php:2215
+msgid "Show booking details in payment form"
+msgstr "Toon boekingsdetails in betalingsformulier"
+
+#: admin/views/Themes.php:266
+msgid "Show Check in/Check out text in Form"
+msgstr "Toon inchecken/uitchecken tekst in formulier"
+
+#: admin/views/Themes.php:597
+msgid "Show Day Info on Hover"
+msgstr "Toon dag info bij hover"
+
+#: admin/views/Themes.php:193
+msgid "Show Form before select the days"
+msgstr "Toon formulier voor selecteren van dagen"
+
+#: admin/views/Themes.php:279
+msgid "Show items count in form"
+msgstr "Toon aantal items in formulier"
+
+#: admin/views/Themes.php:381
+msgid "Show or hide the title of Extra"
+msgstr "Toon of verberg de titel van de extra"
+
+#: admin/views/Themes.php:374
+msgid "Show or hide the title of form"
+msgstr "Toon of verberg de titel op het formulier"
+
+#: admin/views/Themes.php:341
+msgid "Show reservation status"
+msgstr "Toon reserveringsstatus"
+
+#: admin/views/Themes.php:373
+msgid "Show title of Form"
+msgstr "Toon titel op het formulier"
+
+#: admin/views/Themes.php:334
+msgid "Show users emails"
+msgstr "Gebruikerse-mails tonen"
+
+#: admin/views/Themes.php:307
+msgid "Show users information on the Calendar(Front-end)"
+msgstr "Toon gebruikers informatie op de kalender (front-end)"
+
+#: admin/views/Themes.php:327
+msgid "Show users names"
+msgstr "Gebruikersnamen tonen"
+
+#: admin/views/Themes.php:227
+msgid "Single day"
+msgstr "Enkele dag"
+
+#: admin/views/Calendars.php:1012
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: admin/views/Themes.php:137
+msgid "Start Day of the week"
+msgstr "Start dag van de week"
+
+#: booking_calendar.php:216
+msgid "Start Hour"
+msgstr "Startuur"
+
+#: includes/textfortr.php:63
+msgid "Start hour"
+msgstr "Startuur"
+
+#: admin/views/Reservations.php:72
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: admin/views/Reservations.php:167
+msgid "Status"
+msgstr "Status"
+
+#: admin/views/Themes.php:445
+msgid "Stay on Calendar"
+msgstr "Blijf op kalender"
+
+#: admin/views/Themes.php:637
+msgid "Styles and Colors"
+msgstr "Stijlen en kleuren"
+
+#: includes/textfortr.php:48 admin/views/Themes.php:104
+#: admin/views/Themes.php:116
+msgid "Su"
+msgstr "Zo"
+
+#: admin/views/Themes.php:1485 admin/views/Themes.php:1544
+#: admin/views/Themes.php:1604 admin/views/Themes.php:1656
+#: admin/views/Themes.php:1707 admin/views/Themes.php:1758
+#: admin/views/Themes.php:1809 admin/views/Themes.php:1864
+#: admin/views/Themes.php:1912
+msgid "Subject:"
+msgstr "Onderwerp:"
+
+#: admin/views/Themes.php:1275
+msgid "Submit Button background"
+msgstr "Indien knop achtergrond"
+
+#: admin/views/Themes.php:1282
+msgid "Submit Button color"
+msgstr "Indien knop kleur"
+
+#: admin/views/UserPermissions.php:135
+msgid "Subscriber"
+msgstr "Abbonee"
+
+#: admin/views/Themes.php:477
+msgid "success and error messages position"
+msgstr "succes en fout berichten positie"
+
+#: admin/views/Themes.php:1324
+msgid "Successfully Info background"
+msgstr "Succesvolle info achtergrond"
+
+#: admin/views/Themes.php:1338
+msgid "Successfully Info Border color"
+msgstr "Succesvolle info randkleur"
+
+#: admin/views/Themes.php:1345
+msgid "Successfully Info Close background"
+msgstr "Succesvolle info sluiten achtergrond"
+
+#: admin/views/Themes.php:1352
+msgid "Successfully Info Close color"
+msgstr "Succesvolle info sluiten kleur"
+
+#: admin/views/Themes.php:1331
+msgid "Successfully Info color"
+msgstr "Succesvolle info kleur"
+
+#: includes/textfortr.php:39 admin/views/Themes.php:103
+#: admin/views/Themes.php:115
+msgid "Sun"
+msgstr "Zon"
+
+#: includes/textfortr.php:30 admin/views/Themes.php:102
+#: admin/views/Themes.php:114 admin/views/Themes.php:140
+#: admin/views/Themes.php:211
+msgid "Sunday"
+msgstr "Zondag"
+
+#: admin/views/Themes.php:2268
+msgid "Tax"
+msgstr "BTW"
+
+#: admin/views/Themes.php:364
+msgid "Terms & Conditions link"
+msgstr "Algemene voorwaarden link"
+
+#: admin/views/Forms.php:146
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/views/Themes.php:1948
+msgid "Text for available"
+msgstr "Tekst voor beschikbaar"
+
+#: admin/views/Themes.php:1955
+msgid "Text for booked"
+msgstr "Tekst voor geboekt"
+
+#: admin/views/Themes.php:1969
+msgid "Text for check in"
+msgstr "Tekst voor inchecken"
+
+#: admin/views/Themes.php:1976
+msgid "Text for check out"
+msgstr "Tekst voor uitchecken"
+
+#: admin/views/Themes.php:1990
+msgid "Text for date"
+msgstr "Tekst voor datum"
+
+#: admin/views/Themes.php:2011
+msgid "Text for end hour"
+msgstr "Tekst voor einduur"
+
+#: admin/views/Themes.php:2018
+msgid "Text for hour"
+msgstr "Tekst voor uur"
+
+#: admin/views/Themes.php:2025
+msgid "Text for item count"
+msgstr "Tekst voor item telling"
+
+#: admin/views/Themes.php:1997
+msgid "Text for No hour available."
+msgstr "Tekst voor geen uur beschikbaar."
+
+#: admin/views/Themes.php:2095
+msgid "Text for no services available(multiple days)"
+msgstr "Tekst voor geen diensten beschikbaar (meerdere dagen)"
+
+#: admin/views/Themes.php:2088
+msgid "Text for no services available(single days)"
+msgstr "Tekst voor geen diensten beschikbaar (enkele dagen)"
+
+#: admin/views/Themes.php:1983
+msgid "Text for number of nights"
+msgstr "Tekst voor aantal nachten"
+
+#: admin/views/Themes.php:2102
+msgid "Text for one night error"
+msgstr "Tekst voor een nacht fout"
+
+#: admin/views/Themes.php:2144
+msgid "Text for pay in cash"
+msgstr "Tekst voor betalen in contant"
+
+#: admin/views/Themes.php:2151
+msgid "Text for pay with PayPal"
+msgstr "Tekst voor betalen met PayPal"
+
+#: admin/views/Themes.php:2053
+msgid "Text for price"
+msgstr "Tekst voor prijs"
+
+#: admin/views/Themes.php:2081
+msgid "Text for request successfully received"
+msgstr "Tekst voor aanvraag succesvol ontvangen"
+
+#: admin/views/Themes.php:2074
+msgid "Text for request successfully sent"
+msgstr "Tekst voor aanvraag succesvol verzonden"
+
+#: admin/views/Themes.php:2039
+msgid "Text for reservation"
+msgstr "Tekst voor reservatie"
+
+#: admin/views/Themes.php:2158
+msgid "Text for same as billing info"
+msgstr "Tekst voor dezelfde als factureringsinfo"
+
+#: admin/views/Themes.php:2046
+msgid "Text for select days"
+msgstr "Tekst voor selecteren dagen"
+
+#: admin/views/Themes.php:2004
+msgid "Text for start hour"
+msgstr "Tekst voor startuur"
+
+#: admin/views/Themes.php:2067
+msgid "Text for submit button"
+msgstr "Tekst voor indien knop"
+
+#: admin/views/Themes.php:2032
+msgid "Text for terms & conditions"
+msgstr "Tekst voor voorwaarden en condities"
+
+#: admin/views/Themes.php:2060
+msgid "Text for total"
+msgstr "Tekst voor totaal"
+
+#: admin/views/Themes.php:1962
+msgid "Text for unavailable"
+msgstr "Tekst voor onbeschikbaar"
+
+#: admin/views/Themes.php:2137
+msgid "Text if recaptcha wasn't verified"
+msgstr "Tekst als recaptcha niet geverifieerd is"
+
+#: admin/views/Forms.php:147
+msgid "Textarea"
+msgstr "Tekstgebied"
+
+#: includes/textfortr.php:52
+msgid "Th"
+msgstr "Do"
+
+#: includes/admin_menu.php:308
+msgid "The following Database Tables successfully deleted:"
+msgstr "De volgende databasetabellen zijn succesvol verwijderd:"
+
+#: includes/admin_menu.php:334
+msgid "The following Database Tables will be deleted:"
+msgstr "De volgende databasetabellen zullen worden verwijderd:"
+
+#: admin/views/Calendars.php:106
+msgid "Theme"
+msgstr "Thema"
+
+#: admin/views/Themes.php:2386
+msgid "Theme Name"
+msgstr "Thema naam"
+
+#: admin/views/Themes.php:22 admin/views/UserPermissions.php:75
+msgid "Themes"
+msgstr "Thema's"
+
+#: includes/textfortr.php:75 includes/textfortr.php:102
+msgid "There are no services available for the period you selected."
+msgstr ""
+"Er zijn geen diensten beschikbaar voor de door jou geselecteerde periode."
+
+#: includes/textfortr.php:74 includes/textfortr.php:95
+msgid "There are no services available for this day."
+msgstr "Er zijn geen diensten beschikbaar voor deze dag."
+
+#: admin/views/Themes.php:308
+msgid "This option allows to display users information on the calendar"
+msgstr ""
+"Deze optie maakt het mogelijk om gebruikersinformatie op de kalender weer te "
+"geven"
+
+#: admin/views/Themes.php:342
+msgid "This option will display reservation status on the calendar."
+msgstr "Deze optie geeft de reserveringsstatus weer op de kalender."
+
+#: admin/views/Themes.php:335
+msgid "This option will display users emails on the calendar."
+msgstr "Deze optie geeft de e-mails van gebruikers weer in de kalender."
+
+#: admin/views/Themes.php:328
+msgid "This option will display users names on the calendar."
+msgstr "Deze optie geeft de namen van gebruikers weer op de kalender."
+
+#: includes/textfortr.php:43
+msgid "Thu"
+msgstr "Don"
+
+#: includes/textfortr.php:34 admin/views/Themes.php:144
+#: admin/views/Themes.php:215
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: admin/views/Calendars.php:37 admin/views/Extras.php:41
+#: admin/views/Forms.php:44 admin/views/Themes.php:41
+msgid "Title"
+msgstr "Titel"
+
+#: includes/widgets/widget-booking_calendar.php:40
+msgid "Title:"
+msgstr "Titel:"
+
+#: admin/views/Themes.php:2165
+msgid "To administrator after book request"
+msgstr "Naar beheerder na boekingsaanvraag"
+
+#: admin/views/Themes.php:2172
+msgid "To administrator after book request approved"
+msgstr "Naar beheerder na goedkeuring boekingsaanvraag"
+
+#: admin/views/Themes.php:2179
+msgid "To user after book request"
+msgstr "Aan gebruiker na boekingsaanvraag"
+
+#: admin/views/Themes.php:2186
+msgid "To user after book request approved"
+msgstr "Aan gebruiker na boekingsaanvraag goedgekeurd"
+
+#: admin/views/Themes.php:2193
+msgid "To user after book request canceled"
+msgstr "Aan gebruiker na boekingsaanvraag geannuleerd"
+
+#: admin/views/Themes.php:2200
+msgid "To user after book request deleted"
+msgstr "Aan gebruiker na boekingsaanvraag verwijderd"
+
+#: admin/views/Themes.php:1460 admin/views/Themes.php:1519
+#: admin/views/Themes.php:1579
+msgid "To:"
+msgstr "Naar:"
+
+#: admin/views/Themes.php:479
+msgid "Top"
+msgstr "Boven"
+
+#: includes/main_class.php:611 includes/textfortr.php:70
+msgid "Total"
+msgstr "Totaal"
+
+#: booking_calendar.php:218 includes/booking_class.php:738
+#: admin/views/Reservations.php:255
+msgid "Total Price"
+msgstr "Totaal prijs"
+
+#: admin/views/Themes.php:1254
+msgid "Total Price background"
+msgstr "Totale prijs achtergrond"
+
+#: admin/views/Themes.php:1261
+msgid "Total Price color"
+msgstr "Totaal prijs kleur"
+
+#: includes/textfortr.php:50
+msgid "Tu"
+msgstr "Di"
+
+#: includes/textfortr.php:41
+msgid "Tue"
+msgstr "Din"
+
+#: includes/textfortr.php:32 admin/views/Themes.php:142
+#: admin/views/Themes.php:213
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: admin/views/Themes.php:154
+msgid "Type here default year(for example 2018)"
+msgstr "Schrijf hier het standaard jaar (bijvoorbeeld 2018)"
+
+#: admin/views/Themes.php:224
+msgid "Type of days selection in calendar"
+msgstr "Type dagen selectie in kalender"
+
+#: includes/wpdevart_lib.php:1093
+msgid "Type the allowed maximum size for uploading files(KB)."
+msgstr "Typ de toegestane maximumgrootte voor het uploaden van bestanden (KB)."
+
+#: admin/views/Themes.php:287
+msgid ""
+"Type the maximum item count that users can choose per one booking request."
+msgstr ""
+"Typ het maximum aantal items dat gebruikers kunnen kiezen per "
+"boekingsaanvraag."
+
+#: admin/views/Themes.php:294
+msgid ""
+"Type the minimum item count that users can choose per one booking request."
+msgstr ""
+"Typ het minimum aantal items dat gebruikers kunnen kiezen per "
+"boekingsaanvraag."
+
+#: includes/admin_menu.php:89 includes/admin_menu.php:120
+#: includes/textfortr.php:59 includes/wpdevart_lib.php:674
+#: includes/wpdevart_lib.php:689 admin/views/Themes.php:426
+msgid "Unavailable"
+msgstr "Niet beschikbaar"
+
+#: admin/views/Themes.php:1148
+msgid "Unavailable Day Availability color"
+msgstr "Niet beschikbaar dag beschikbaarheid kleur"
+
+#: admin/views/Themes.php:1127
+msgid "Unavailable Day background"
+msgstr "Niet beschikbaar dagachtergrond"
+
+#: admin/views/Themes.php:1134
+msgid "Unavailable Day Number background"
+msgstr "Niet beschikbaar dagnummer achtergrond"
+
+#: admin/views/Themes.php:1141
+msgid "Unavailable Day Number color"
+msgstr "Niet beschikbaar kleur dagnummer"
+
+#: admin/views/Themes.php:208
+msgid "Unavailable week days"
+msgstr "Niet beschikbare dagen"
+
+#: includes/admin_menu.php:318
+msgid "Uninstall Booking Calendar"
+msgstr "De-installeer Booking Calendar"
+
+#: includes/admin_menu.php:330
+msgid "Uninstall Booking calendar"
+msgstr "De-installeer Booking calendar"
+
+#: admin/views/Themes.php:571
+msgid "Unlimited if empty"
+msgstr "Ongelimiteerd als leeg"
+
+#: admin/views/Reservations.php:446
+msgid "Update"
+msgstr "Bijwerken"
+
+#: admin/views/Themes.php:469
+msgid "URL"
+msgstr "URL"
+
+#: admin/views/Themes.php:1939
+msgid "Use mo"
+msgstr "Gebruik mo"
+
+#: includes/wpdevart_lib.php:936
+msgid "Use only for Email field"
+msgstr "Alleen gebruiken voor e-mail veld"
+
+#: admin/views/Themes.php:1387
+msgid "Use PHPMailer"
+msgstr "Gebruik PHPMailer"
+
+#: admin/views/Themes.php:280
+msgid "Use this option if you need show the number of items in form"
+msgstr "Gebruik deze optie als je het aantal items in een formulier wilt tonen"
+
+#: admin/views/Themes.php:607
+msgid ""
+"Use this option if you need to clear the information for previous dates on "
+"calendar"
+msgstr ""
+"Gebruik deze optie als je de informatie voor eerdere datums op de kalender "
+"wilt wissen"
+
+#: admin/views/Themes.php:194
+msgid ""
+"Use this option if you need to display form before users select date or hour "
+"on the calendar"
+msgstr ""
+"Gebruik deze optie als je een formulier wilt tonen voordat gebruikers een "
+"datum of uur selecteren op de kalender"
+
+#: admin/views/Calendars.php:40 admin/views/Extras.php:43
+#: admin/views/Forms.php:46 admin/views/Themes.php:43
+msgid "User"
+msgstr "Gebruiker"
+
+#: admin/views/UserPermissions.php:104
+msgid "User permissions for booking calendar pages"
+msgstr "Gebruikerspermissies voor boekingskalenderpagina's"
+
+#: includes/admin_menu.php:333
+msgid "WARNING:"
+msgstr "WAARSCHUWING:"
+
+#: includes/textfortr.php:101
+msgid "Was not verified by recaptcha"
+msgstr "Niet geverifieerd door recaptcha"
+
+#: admin/views/Themes.php:2138
+msgid "Wasn't verified by recaptcha, try again"
+msgstr "Werd niet geverifieerd door recaptcha, probeer opnieuw"
+
+#: includes/textfortr.php:51
+msgid "We"
+msgstr "Wo"
+
+#: includes/textfortr.php:42
+msgid "Wed"
+msgstr "Woe"
+
+#: includes/textfortr.php:33 admin/views/Themes.php:143
+#: admin/views/Themes.php:214
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: admin/views/Themes.php:1008
+msgid "Week Days background"
+msgstr "Weekdagen achtergrond"
+
+#: admin/views/Themes.php:1015
+msgid "Week Days color"
+msgstr "Weekdagen kleur"
+
+#: admin/views/Themes.php:711
+msgid "Week Days font size"
+msgstr "Weekdagen lettertype grootte"
+
+#: admin/views/Themes.php:703
+msgid "Week Days font style"
+msgstr "Weekdagen lettertype stijl"
+
+#: admin/views/Themes.php:695
+msgid "Week Days font weight"
+msgstr "Weekdagen lettertype gewicht"
+
+#: admin/views/Themes.php:99
+msgid "Week days format"
+msgstr "Weekdagen formaat"
+
+#: admin/views/Themes.php:111
+msgid "Week days format on mobile"
+msgstr "Weekdagen formaat op mobiel"
+
+#: admin/views/Themes.php:315
+msgid "Which status to display?"
+msgstr "Welke status om weer te geven?"
+
+#: admin/views/Themes.php:1359
+msgid "Widget Day Info background"
+msgstr "Widget dag info achtergrond"
+
+#: admin/views/Themes.php:1373
+msgid "Widget Day Info border color"
+msgstr "Widget dag info randkleur"
+
+#: admin/views/Themes.php:1366
+msgid "Widget Day Info color"
+msgstr "Widget lettertype info kleur"
+
+#: admin/views/Themes.php:963
+msgid "Widget Day Info font size"
+msgstr "Widget dag info lettertype stijl"
+
+#: admin/views/Themes.php:955
+msgid "Widget Day Info font style"
+msgstr "Widget dag info lettertype stijl"
+
+#: admin/views/Themes.php:947
+msgid "Widget Day Info font weight"
+msgstr "Widget dag info lettertype gewicht"
+
+#. Description of the plugin
+msgid ""
+"WordPress Booking Calendar plugin is an awesome tool to create a booking "
+"system for your website. Create booking calendars in a few minutes."
+msgstr ""
+"WordPress Booking Calendar plugin is een geweldig hulpmiddel om een "
+"boekingssysteem voor je website te maken. Maak boeking kalenders in een paar "
+"minuten."
+
+#. Author of the plugin
+msgid "WpDevArt"
+msgstr "WpDevArt"
+
+#: includes/admin_menu.php:358
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/views/Themes.php:1438
+msgid "You can use these shortcodes in content of admin templates"
+msgstr "Je kan deze shortcodes gebruiken in de inhoud van beheerder templates"
+
+#: admin/views/Themes.php:1624
+msgid "You can use these shortcodes in content of user templates"
+msgstr "Je kan deze shortcodes gebruiken in de inhoud van gebruiker templates"
+
+#: admin/views/Themes.php:1445
+msgid "You can use this shortcodes in Email From: field"
+msgstr "Je kan deze shortcodes gebruiken in het e-mail van: field"
+
+#: admin/views/Themes.php:2117
+msgid "You must select  less than [max] days"
+msgstr "Je moet minder dan [max] dagen kiezen"
+
+#: admin/views/Themes.php:2131
+msgid "You must select  less than [max] hours"
+msgstr "Je moet minder dan [max] uur kiezen"
+
+#: includes/textfortr.php:98
+msgid "You must select  more than [max] days"
+msgstr "Je moet ten minste [max] dagen kiezen"
+
+#: includes/textfortr.php:100
+msgid "You must select  more than [max] hour"
+msgstr "Je moet ten minste [max] uur kiezen"
+
+#: includes/textfortr.php:97 admin/views/Themes.php:2110
+msgid "You must select at least [min] days"
+msgstr "Je moet ten minste [min] dagen kiezen"
+
+#: includes/textfortr.php:99 admin/views/Themes.php:2124
+msgid "You must select at least [min] hour"
+msgstr "Je moet ten minste [min] uur kiezen"
+
+#: includes/textfortr.php:96
+msgid "You must select at least two days"
+msgstr "Je moet minstens twee dagen selecteren"
+
+#: includes/textfortr.php:73 includes/textfortr.php:94
+msgid "Your request has been successfully received. We are waiting you!"
+msgstr "Je aanvraag is succesvol ontvangen. We wachten op je!"
+
+#: includes/textfortr.php:72 includes/textfortr.php:93
+msgid "Your request has been successfully sent. Please wait for approval."
+msgstr "Je verzoek is succesvol verzonden. Gelieve te wachten op goedkeuring."

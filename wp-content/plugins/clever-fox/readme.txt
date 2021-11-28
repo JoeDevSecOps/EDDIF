@@ -4,7 +4,7 @@ Tags: homepage, companion, demo, sections, customizer, widget, settings
 Requires at least: 4.0
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 8.2
+Stable tag: 8.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -109,6 +109,12 @@ Clever Fox WordPress plugin is licensed under the GPL3 (https://www.gnu.org/lice
 
 
 == Changelog ==
+
+= 8.4 =
+* Text Domain Updated in Metasoft Theme
+
+= 8.3 =
+* Fiona Blog Theme Slider Images Compressed
 
 = 8.2 =
 * Tested With WordPress 5.8.2

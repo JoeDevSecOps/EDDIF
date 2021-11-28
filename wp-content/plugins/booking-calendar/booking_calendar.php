@@ -4,7 +4,7 @@
  * Plugin URI: https://wpdevart.com/wordpress-booking-calendar-plugin
  * Author URI: https://wpdevart.com 
  * Description: WordPress Booking Calendar plugin is an awesome tool to create a booking system for your website. Create booking calendars in a few minutes.
- * Version: 3.0.7
+ * Version: 3.1.0
  * Author: WpDevArt
  * License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: booking-calendar
@@ -157,11 +157,11 @@ class wpdevart_bc_calendar{
 		
 		add_action( 'init',  array($this,'registr_requeried_scripts') );
 		//if (!isset($_GET['action']) || $_GET['action'] != 'deactivate') {
-		add_action('admin_init', array($this,'install_databese'));
-		add_action('admin_init', array($this,'privacy_policy'));
+		  add_action('admin_init', array($this,'install_databese'));
 		//}
 		add_action('wp_loaded', array($this,'wpdevart_time_zone'));
 		/*GDPR*/
+		add_filter('admin_init', array($this,'wpdevart_privacy_policy'));
 		add_filter('wp_privacy_personal_data_exporters', array($this,'wpdevart_plugin_exporter'), 10);
 		add_filter('wp_privacy_personal_data_erasers', array($this,'wpdevart_plugin_eraser'), 10);
 		
@@ -417,6 +417,21 @@ class wpdevart_bc_calendar{
 		);
 	}
 	
+	public function wpdevart_privacy_policy() {
+		$title = __('Booking Calendar WpDevArt', "booking-calendar");
+
+	    $text = __('Booking Calendar WpDevArt(free and premium versions) has the opportunity for submitting forms and extras. When users submit forms or extras, they can also provide personal information, such as name, email, addresses, phone number and so on. All this data will be saved in WordPress database, so you need to receive user agreement when they submit booking forms(or extras). Also, you need to get the user agreement when you delete or export their data upon their request. In accordance with GDPR, you need to be sure that all information is protected and the other services that you are using also observe data protection. In this case, you have liability, so check other services privacy policy as well and tell them to follow to the GDPR.', "booking-calendar");
+
+	    if ( ! function_exists( 'wp_add_privacy_policy_content' ) ) {
+			return;
+		}
+		wp_add_privacy_policy_content(
+			'Booking Calendar WpDevArt', // section name
+			'<h3>' . $title . '</h3>' . '<p class="wp-policy-help">' . $text . '</p>' // content
+		);
+
+	}
+	
 	public function get_form_data($form, $cal_id, $form_id, $type = "") {
 		global $wpdb;
 		if($form) {
@@ -624,10 +639,6 @@ class wpdevart_bc_calendar{
 		);
 		wpdevart_bc_Library::wpdevart_extras_field_item($extra_field,$args);
 		wp_die();
-	}
-
-	public function privacy_policy(){
-		wp_add_privacy_policy_content(__('Booking Calendar WpDevArt', "booking-calendar"), __('Booking Calendar WpDevArt(free and premium versions) has the opportunity for submitting forms and extras. When users submit forms or extras, they can also provide personal information, such as name, email, addresses, phone number and so on. All this data will be saved in WordPress database, so you need to receive user agreement when they submit booking forms(or extras). Also, you need to get the user agreement when you delete or export their data upon their request. In accordance with GDPR, you need to be sure that all information is protected and the other services that you are using also observe data protection. In this case, you have liability, so check other services privacy policy as well and tell them to follow to the GDPR.', "booking-calendar"));
 	}
 	
 }

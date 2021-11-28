@@ -252,7 +252,13 @@ class wpdevart_Main {
 			};
 		</script>
 		<?php
-			$booking_calendar .= "<div id='booking_calendar_main_container_" . $this->booking_id  . "' class='booking_calendar_main_container ".((isset($this->theme_option['hours_enabled']) && $this->theme_option['hours_enabled'] == "on") ? "hours_enabled" : "" )." ".((isset($this->widget) && $this->widget == true) ? "booking_widget" : "" )." ".((isset($this->theme_option['show_day_info_on_hover']) && $this->theme_option['show_day_info_on_hover'] == 'on') ? "show_day_info_on_hover" : "" )." ".((isset($this->theme_option['cal_animation_type']) && $this->theme_option['cal_animation_type'] != 'none') ? "animation_calendar" : "" )."' data-total='".$for_trarray["for_total"]."' data-price='".$for_trarray["for_price"]."' data-offset='".((isset($this->theme_option["scroll_offset"]) && $this->theme_option["scroll_offset"] != '') ? $this->theme_option["scroll_offset"] : 0)."' data-position='".((isset($this->theme_option["currency_pos"]) && $this->theme_option["currency_pos"] == 'before') ? "before" : "after")."' data-night='".((isset($this->theme_option["price_for_night"]) && $this->theme_option["price_for_night"] == 'on') ? "1" : "0")."' data-id='" . $id . "' data-booking_id='" . $this->booking_id . "'>";
+		    $class = "booking_calendar_main_container";
+		    $class .= (isset($this->theme_option['hours_enabled']) && $this->theme_option['hours_enabled'] == "on") ? " hours_enabled" : "";
+		    $class .= (isset($this->widget) && $this->widget == true) ? " booking_widget" : "";
+		    $class .= (isset($this->theme_option['show_day_info_on_hover']) && $this->theme_option['show_day_info_on_hover'] == 'on') ? " show_day_info_on_hover" : "";
+		    $class .= (isset($this->theme_option['cal_animation_type']) && $this->theme_option['cal_animation_type'] != 'none') ? " animation_calendar" : "";
+		    
+			$booking_calendar .= "<div id='booking_calendar_main_container_" . $this->booking_id  . "' class='" . $class . "' data-total='".$for_trarray["for_total"]."' data-price='".$for_trarray["for_price"]."' data-offset='".((isset($this->theme_option["scroll_offset"]) && $this->theme_option["scroll_offset"] != '') ? $this->theme_option["scroll_offset"] : 0)."' data-position='".((isset($this->theme_option["currency_pos"]) && $this->theme_option["currency_pos"] == 'before') ? "before" : "after")."' data-night='".((isset($this->theme_option["price_for_night"]) && $this->theme_option["price_for_night"] == 'on') ? "1" : "0")."' data-id='" . $id . "' data-booking_id='" . $this->booking_id . "'>";
 			$booking_calendar .= "<div class='booking_calendar_container' id='booking_calendar_container_" . $this->booking_id  . "'><div class='wpdevart-load-overlay'><div class='wpdevart-load-image'><i class='fa fa-spinner fa-spin'></i></div></div>";
 		}	
 		if ((isset($this->theme_option['messages_pos']) && $this->theme_option['messages_pos'] == "top") || !isset($this->theme_option['messages_pos'])) {
@@ -338,6 +344,7 @@ class wpdevart_Main {
 						$class .= " cal_width_pay";
 					}
 				}
+				$class .= (isset($this->theme_option['form_layout']) && $this->theme_option['form_layout'] == "one_col") ? " one_col" : "";
 				$booking_calendar .= $calendar->booking_form($class);
 			}
 			if (!$ajax) {

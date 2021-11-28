@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: booking calendar\n"
 "POT-Creation-Date: 2016-12-08 23:52+0400\n"
-"PO-Revision-Date: 2021-10-26 16:47+0400\n"
+"PO-Revision-Date: 2021-11-23 18:30+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -208,43 +208,43 @@ msgstr "Декември"
 
 #: admin/views/Extras.php:18 admin/views/UserPermissions.php:39
 msgid "Extras"
-msgstr ""
+msgstr "Додатоци"
 
 #: admin/views/Extras.php:20 admin/views/Extras.php:159
 msgid "Add Extra"
-msgstr ""
+msgstr "Додадете додадете"
 
 #: admin/views/Extras.php:154
 msgid "Edit Extra"
-msgstr ""
+msgstr "Уреди дополнително"
 
 #: admin/views/Extras.php:164
 msgid "Extra Name"
-msgstr ""
+msgstr "Дополнително име"
 
 #: admin/views/Extras.php:175
 msgid "Extras fields"
-msgstr ""
+msgstr "Додатни полиња"
 
 #: admin/views/Forms.php:18 admin/views/UserPermissions.php:31
 msgid "Forms"
-msgstr ""
+msgstr "Форми"
 
 #: admin/views/Forms.php:20 admin/views/Forms.php:117
 msgid "Add Form"
-msgstr ""
+msgstr "Додадете формулар"
 
 #: admin/views/Forms.php:112
 msgid "Edit Form"
-msgstr ""
+msgstr "Уреди формулар"
 
 #: admin/views/Forms.php:122
 msgid "Form Name"
-msgstr ""
+msgstr "Име на формуларот"
 
 #: admin/views/Forms.php:126
 msgid "Add form field"
-msgstr ""
+msgstr "Додадете поле за формулар"
 
 #: admin/views/Forms.php:129
 msgid "Text"

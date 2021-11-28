@@ -82,6 +82,30 @@ class wpdevart_bc_BookingCalendar {
 			$this->use_mo = true;
 		}
 		
+		
+		if(!is_null($this->res)){
+			if($this->res["check_in"]) {
+				$check_in = $this->res["check_in"];
+				$check_out = $this->res["check_out"];
+			} else {
+				$single_day = $this->res["single_day"];
+			}
+			if(isset($check_in)){
+				$date_diff = abs($this->get_date_diff($check_in,$check_out));
+				for($i=0; $i <= $date_diff; $i++) {
+					$this->res_dates[] = date( 'Y-m-d', strtotime($check_in. " +" . $i . " day" ));
+				}
+			} elseif(isset($single_day)) {
+				$this->res_dates[] = $single_day;
+			}	
+		}
+		
+		/*Edit reserrvation*/
+		if ($this->res["check_in"])
+			$date = $this->res["check_in"];
+		elseif ($this->res["single_day"])
+			$date = $this->res["single_day"];
+			
 		if($date == "")
 			$date = date("Y-m-d");
 		$date_array = explode( '-', $date );
@@ -104,22 +128,7 @@ class wpdevart_bc_BookingCalendar {
 
 		$this->month_start = date('N', strtotime($this->year."-".$this->month."-01"));
 		$this->month_name =__(date('F', strtotime($this->year."-".$this->month."-".$this->day)), 'booking-calendar' );
-		if(!is_null($this->res)){
-			if($this->res["check_in"]) {
-				$check_in = $this->res["check_in"];
-				$check_out = $this->res["check_out"];
-			} else {
-				$single_day = $this->res["single_day"];
-			}
-			if(isset($check_in)){
-				$date_diff = abs($this->get_date_diff($check_in,$check_out));
-				for($i=0; $i <= $date_diff; $i++) {
-					$this->res_dates[] = date( 'Y-m-d', strtotime($check_in. " +" . $i . " day" ));
-				}
-			} elseif(isset($single_day)) {
-				$this->res_dates[] = $single_day;
-			}	
-		}		
+				
 	}
 
     /*############  Reservations function ################*/	
@@ -129,7 +138,7 @@ class wpdevart_bc_BookingCalendar {
 		$prev_year_info = $prev_year['year'] . '-' . $prev_year['month'];
 		
 		$prev      = $this->calculate_date( $this->year . '-' . $this->month, '-1', 'month' );
-		$prev_date_info = $prev['year'] . '-' . $prev['month'];
+		$prev_date_info = $prev['year'] . '-' . $prev['month'] . '-01';
 		
 		$prev_date = '';
 		$this->prev_month = $this->get_month_name($prev['year'] . '-' . $prev['month'],0);
@@ -1294,7 +1303,7 @@ class wpdevart_bc_BookingCalendar {
 		} else {
 			$status = "pending";
 		}
-		if(isset($resid) && $resid != ""){
+		if(isset($resid) && !empty($resid)){
 			$status = $resstatus;
 		}
 		$form = array();
@@ -1596,302 +1605,16 @@ class wpdevart_bc_BookingCalendar {
 			extract($this->theme_option);
 		}
 		
-		$booking_colors_styles = "<style>
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-load-image .fa{
-			   color:".(isset($load_spinner_color) ? $load_spinner_color : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-day{
-			   background-color:".(isset($day_bg) ? $day_bg : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpda-booking-calendar-head{
-			   background-color:".(isset($calendar_header_bg) ? $calendar_header_bg : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpda-previous *,#booking_calendar_container_".$this->booking_id." .wpda-next *{
-			   color:".(isset($next_prev_month) ? $next_prev_month : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpda-current-year{
-			   color:".(isset($current_year) ? $current_year : '').";
-			   font-size:".(isset($current_year_size) ? $current_year_size : '')."px;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpda-current-month{
-			   color:".(isset($current_month) ? $current_month : '').";
-			   font-size:".(isset($current_month_size) ? $current_month_size : '')."px;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .week-day-name .wpda-day-header{
-			   background-color:".(isset($week_days_bg) ? $week_days_bg : '').";
-		   }
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-calendar-container{
-			   background-color:".(isset($calendar_bg) ? $calendar_bg : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-calendar-container > div{
-			   border-right-color:".(isset($calendar_border) ? $calendar_border : '').";
-			   border-bottom-color: ".(isset($calendar_border) ? $calendar_border : '').";
-		   }  
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-price,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-item{
-			   border-color:".(isset($calendar_border) ? $calendar_border : '').";
-		   }  
-		   #booking_calendar_container_".$this->booking_id." .wpda-booking-calendar-head{
-			   border-color:".(isset($calendar_border) ? $calendar_border : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-calendar-container > div:nth-child(7n+1),
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-calendar-container > div:first-child{
-			   border-left-color: ".(isset($calendar_border) ? $calendar_border : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpda-day-header{
-			   background-color:".(isset($day_number_bg) ? $day_number_bg : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-item.wpdevart-hour-available,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-available{
-			   background-color:".(isset($available_day_bg) ? $available_day_bg : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-available .wpdevart-hour span,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-available .wpda-day-header{
-			   background-color:".(isset($available_day_number_bg) ? $available_day_number_bg : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-available .wpdevart-hour span,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-available .wpda-day-header .wpda-day-number{
-			   color:".(isset($available_day_color) ? $available_day_color : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-item.hour_selected .wpdevart-hour span,
-		   #booking_calendar_container_".$this->booking_id." div.selected .wpda-day-header{
-			   background-color:".(isset($selected_day_number_bg) ? $selected_day_number_bg : '')." !important;
-		   }
-		   #booking_calendar_container_".$this->booking_id." div.hour_selected,
-		   #booking_calendar_container_".$this->booking_id." div.selected{
-			   background-color:".(isset($selected_day_bg) ? $selected_day_bg : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-item{
-			   width:".(isset($hours_width) ? $hours_width : '')."px;
-			   height:".(isset($hours_height) ? $hours_height : '')."px;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." div.selected .wpdevart-hour-item.hour_selected .wpdevart-hour span,
-		   #booking_calendar_container_".$this->booking_id." div.selected .wpda-day-header .wpda-day-number{
-			   color:".(isset($selected_day_color) ? $selected_day_color : '')." !important;
-		   } 
-		   [data-night='1'] #booking_calendar_container_".$this->booking_id." .wpdevart-calendar-container > div.selected.checkout_night .wpda-day-header,
-			[data-night='1'] #booking_calendar_container_".$this->booking_id." .wpdevart-calendar-container > div.selected.checkin_night .wpda-day-header {
-				background-color:".(isset($available_day_number_bg) ? $available_day_number_bg : '')." !important;
+		$booking_colors_styles = "<style>";
+		if(isset($layout) && $layout == "form_right"){
+			$booking_colors_styles .= 
+			"#booking_calendar_container_".$this->booking_id." {
+				width: ".(isset($calendar_width) ? $calendar_width : '')."%;
 			}
-			[data-night='1'] #booking_calendar_container_".$this->booking_id." .wpdevart-calendar-container > div.selected.checkout_night .wpda-day-header:before,
-			[data-night='1'] #booking_calendar_container_".$this->booking_id." .wpdevart-calendar-container > div.selected.checkin_night .wpda-day-header:after {
-				content: '';
-				background-color:".(isset($selected_day_number_bg) ? $selected_day_number_bg : '')." !important;
-			}
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-unavailable .wpda-day-header .wpda-day-number,#booking_calendar_container_".$this->booking_id." .wpdevart-hour-unavailable .wpdevart-hour span{
-			   color:".(isset($unavailable_day_color) ? $unavailable_day_color : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-unavailable .wpda-day-header,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-unavailable .wpdevart-hour span{
-			   background-color:".(isset($unavailable_day_number_bg) ? $unavailable_day_number_bg : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-unavailable,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-unavailable{
-			   background-color:".(isset($unavailable_day_bg) ? $unavailable_day_bg : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-booked .wpdevart-hour span,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-booked .wpda-day-header .wpda-day-number{
-			   color:".(isset($booked_day_color) ? $booked_day_color : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-booked .wpdevart-hour span,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-booked .wpda-day-header{
-			   background-color:".(isset($booked_day_number_bg) ? $booked_day_number_bg : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-item.wpdevart-hour-booked,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-booked{
-			   background-color:".(isset($booked_day_bg) ? $booked_day_bg : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .day-user-info-container{
-			   border:1px solid ".(isset($info_icon_color) ? $info_icon_color : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .day-user-info-container{
-			   color:".(isset($info_icon_color) ? $info_icon_color : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .day-user-info{
-			   background-color:".(isset($info_bg) ? $info_bg : '').";
-			   color:".(isset($info_color) ? $info_color : '').";
-			   font-weight:".(isset($info_font_weight) ? $info_font_weight : '').";
-			   font-style:".(isset($info_font_style) ? $info_font_style : '').";
-			   font-size:".(isset($info_size) ? $info_size : '')."px;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hours-container .wpdevart-hour-info{
-			   font-weight:".(isset($info_font_weight) ? $info_font_weight : '').";
-			   font-style:".(isset($info_font_style) ? $info_font_style : '').";
-			   font-size:".(isset($info_size) ? $info_size : '')."px;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .error_text_container{
-			   background-color:".(isset($error_info_bg) ? $error_info_bg : '').";
-			   color:".(isset($error_info_color) ? $error_info_color : '').";
-			   border:1px solid ".(isset($error_info_border) ? $error_info_border : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .error_text_container .notice_text_close{
-			   background-color:".(isset($error_info_close_bg) ? $error_info_close_bg : '').";
-			   color:".(isset($error_info_close_color) ? $error_info_close_color : '').";
-		   }
-		   #booking_calendar_container_".$this->booking_id." .successfully_text_container{
-			   background-color:".(isset($successfully_info_bg) ? $successfully_info_bg : '').";
-			   color:".(isset($successfully_info_color) ? $successfully_info_color : '').";
-			   border:1px solid ".(isset($successfully_info_border) ? $successfully_info_border : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .successfully_text_container .notice_text_close{
-			   background-color:".(isset($successfully_info_close_bg) ? $successfully_info_close_bg : '').";
-			   color:".(isset($successfully_info_close_color) ? $successfully_info_close_color : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .day-availability{
-			    font-size: ".(isset($day_availability_size) ? $day_availability_size : '')."px;
-				font-style: ".(isset($day_availability_font_style) ? $day_availability_font_style : '').";
-				font-weight: ".(isset($day_availability_font_weight) ? $day_availability_font_weight : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-available .day-availability,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-available .day-availability *,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-available .day-availability,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-available .day-availability *{
-				color: ".(isset($day_availability_color) ? $day_availability_color : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-price *,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-day .day-price{
-			    font-size: ".(isset($day_price_size) ? $day_price_size : '')."px;
-				color: ".(isset($day_price_color) ? $day_price_color : '').";
-				font-style: ".(isset($day_price_font_style) ? $day_price_font_style : '').";
-				font-weight: ".(isset($day_price_font_weight) ? $day_price_font_weight : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-day .day-price *{
-				color: ".(isset($day_price_color) ? $day_price_color : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .hour_selected .day-availability,
-		   #booking_calendar_container_".$this->booking_id." .hour_selected .day-availability *,
-		   #booking_calendar_container_".$this->booking_id." .selected .day-availability,
-		   #booking_calendar_container_".$this->booking_id." .selected .day-availability *{
-				color: ".(isset($selected_day_availability_color) ? $selected_day_availability_color : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .hour_selected .wpdevart-hour-price *,
-		   #booking_calendar_container_".$this->booking_id." .selected.wpdevart-day .day-price *{
-				color: ".(isset($selected_day_price_color) ? $selected_day_price_color : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-unavailable.wpdevart-day .day-availability,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-unavailable .day-availability{
-				color: ".(isset($unavailable_day_availability_color) ? $unavailable_day_availability_color : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-hour-booked .day-availability,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-booked .day-availability{
-				color: ".(isset($booked_day_availability_color) ? $booked_day_availability_color : '')." !important;
-		   } 
-		   #wpdevart_booking_form_".$this->booking_id." .wpdevart-booking-form{
-			   background-color:".(isset($form_bg) ? $form_bg : '').";
-			   border:1px solid ".(isset($form_border) ? $form_border : '').";
-		   } 
-		   #wpdevart_booking_form_".$this->booking_id." .wpdevart-fild-item-container *{
-			   color:".(isset($form_fields_color) ? $form_fields_color : '').";
-			   font-size:".(isset($form_fields_size) ? $form_fields_size : '')."px;
-			   font-weight:".(isset($form_fields_weight) ? $form_fields_weight : '').";
-			   font-style:".(isset($form_fields_style) ? $form_fields_style : '').";
-		   } 
-		   #wpdevart_booking_form_".$this->booking_id." span.wpdevart-required{
-			  color:".(isset($required_star_color) ? $required_star_color : '').";
-		   } 
-		   #wpdevart_booking_form_".$this->booking_id." button.wpdevart-submit{
-			  background:".(isset($submit_button_bg) ? $submit_button_bg : '').";
-			  color:".(isset($submit_button_color) ? $submit_button_color : '').";
-			  font-weight:".(isset($form_submit_weight) ? $form_submit_weight : '').";
-			  font-style:".(isset($form_style_style) ? $form_style_style : '').";
-		   } 
-		   #booking_calendar_main_container_".$this->booking_id." .wpdevart-legends-available .legend-div{
-			   background-color:".(isset($available_day_number_bg) ? $available_day_number_bg : '').";
-		   } 
-		   #booking_calendar_main_container_".$this->booking_id." .wpdevart-legends-unavailable .legend-div{
-			   background-color:".(isset($unavailable_day_number_bg) ? $unavailable_day_number_bg : '').";
-		   } 
-		   #booking_calendar_main_container_".$this->booking_id." .wpdevart-legends-pending .legend-div{
-			   background-color:".(isset($booked_day_number_bg) ? $booked_day_number_bg : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id.",#wpdevart_booking_form_".$this->booking_id."{
-			   max-width:".(isset($calendar_max_width) ? $calendar_max_width : '')."px;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpda-booking-calendar-head{
-			   padding:".(isset($calendar_header_padding) ? $calendar_header_padding : '')."px;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpda-previous *, #booking_calendar_container_".$this->booking_id." .wpda-next *{
-			   font-size:".(isset($next_prev_month_size) ? $next_prev_month_size : '')."px;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .week-day-name .wpda-day-number{
-			   font-size:".(isset($week_days_size) ? $week_days_size : '')."px;
-			   font-weight:".(isset($week_days_font_weight) ? $week_days_font_weight : '').";
-			   font-style:".(isset($week_days_font_style) ? $week_days_font_style : '').";
-			   color:".(isset($week_days_color) ? $week_days_color : '')." !important;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpda-day-number{
-			   font-size:".(isset($day_number_size) ? $day_number_size : '')."px;
-			   font-weight:".(isset($day_number_font_weight) ? $day_number_font_weight : '').";
-			   font-style:".(isset($day_number_font_style) ? $day_number_font_style : '').";
-			   color:".(isset($day_color) ? $day_color : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-calendar-container > div:not(.week-day-name){
-			   height:".(isset($days_min_height) ? $days_min_height : '')."px;
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .day-user-info-container{
-			   border-radius:".(isset($info_border_radius) ? $info_border_radius : '')."px;
-		   } 
-		   #wpdevart_booking_form_".$this->booking_id." .wpdevart-fild-item-container label,
-		   #wpdevart_booking_form_".$this->booking_id." .wpdevart-fild-item-container label a{
-			   font-size:".(isset($form_labels_size) ? $form_labels_size : '')."px;
-			   color:".(isset($form_labels_color) ? $form_labels_color : '').";
-			   font-weight:".(isset($form_labels_weight) ? $form_labels_weight : '').";
-			   font-style:".(isset($form_labels_style) ? $form_labels_style : '').";
-		   } 
-		   #booking_calendar_container_".$this->booking_id." .wpda-booking-calendar-head *{
-			   font-weight:".(isset($calendar_header_font_weight) ? $calendar_header_font_weight : '').";
-			   font-style:".(isset($calendar_header_font_style) ? $calendar_header_font_style : '').";
-		   } 
-		   #wpdevart_booking_form_".$this->booking_id." h4.form_title{
-			   font-weight:".(isset($form_title_weight) ? $form_title_weight : '').";
-			   font-style:".(isset($form_title_style) ? $form_title_style : '').";
-			   font-size:".(isset($form_title_size) ? $form_title_size : '')."px;
-			   color:".(isset($form_title_color) ? $form_title_color : '').";
-			   background-color:".(isset($form_title_bg) ? $form_title_bg : '').";
-		   } 
-		   #wpdevart_booking_form_".$this->booking_id." .wpdevart-extra-info.wpdevart-extra-0{
-			   border-top: 1px solid ".(isset($form_title_bg) ? $form_title_bg : '').";
-		   }
-		   #wpdevart_booking_form_".$this->booking_id." .wpdevart-reserv-info{
-			   border-bottom: 1px solid ".(isset($form_title_bg) ? $form_title_bg : '').";
-		   }
-		   #wpdevart_booking_form_".$this->booking_id." .check-info{
-			   font-weight:".(isset($reserv_info_weight) ? $reserv_info_weight : '').";
-			   font-style:".(isset($reserv_info_style) ? $reserv_info_style : '').";
-			   font-size:".(isset($reserv_info_size) ? $reserv_info_size : '')."px;
-			   color:".(isset($reserv_info_color) ? $reserv_info_color : '').";
-		   } 
-		   #wpdevart_booking_form_".$this->booking_id." .wpdevart-total-price.reserv_info_row{
-			   background-color:".(isset($total_bg) ? $total_bg : '').";
-			   color:".(isset($total_color) ? $total_color : '').";
-		   }
-		   #booking_calendar_container_".$this->booking_id." .booking_widget_day{
-				background-color: ".(isset($widget_day_info_bg) ? $widget_day_info_bg : '').";
-				border: 1px solid ".(isset($widget_day_info_border_color) ? $widget_day_info_border_color : '').";
-		   }
-		   #booking_calendar_container_".$this->booking_id." .widget-day-user-info{
-				border-bottom: 1px solid ".(isset($widget_day_info_border_color) ? $widget_day_info_border_color : '').";
-		   }
-		   #booking_calendar_container_".$this->booking_id." .booking_widget_day *{
-				color: ".(isset($widget_day_info_color) ? $widget_day_info_color : '')." !important;
-				font-style: ".(isset($widget_day_info_style) ? $widget_day_info_style : '')." !important;
-				font-size: ".(isset($widget_day_info_size) ? $widget_day_info_size : '')."px !important;
-				font-weight: ".(isset($widget_day_info_weight) ? $widget_day_info_weight : '')." !important;
-		   }
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-available  .booking_widget_day *,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-booked  .booking_widget_day *,
-		   #booking_calendar_container_".$this->booking_id." .wpdevart-unavailable  .booking_widget_day *{
-				color: ".(isset($widget_day_info_color) ? $widget_day_info_color : '')." !important;
-		   }
-		   [data-night='1'] #booking_calendar_container_".$this->booking_id." .wpdevart-booked + .wpdevart-available .wpda-day-header,
-		   [data-night='1'] #booking_calendar_container_".$this->booking_id." .wpdevart-available+ .wpdevart-booked .wpda-day-header {
-				background-color:".(isset($available_day_number_bg) ? $available_day_number_bg : '')." !important;
-			}
-		   [data-night='1'] #booking_calendar_container_".$this->booking_id." .wpdevart-booked + .wpdevart-available .wpda-day-header:before,
-		   [data-night='1'] #booking_calendar_container_".$this->booking_id." .wpdevart-available+ .wpdevart-booked .wpda-day-header:after {
-				content: '';
-				background-color:".(isset($booked_day_number_bg) ? $booked_day_number_bg : '')." !important;
+			#wpdevart_booking_form_".$this->booking_id."  {
+				width: ".(isset($form_width) ? $form_width : '')."%;
 			}";
+		}    
 		if(isset($custom_css_enabled) && $custom_css_enabled == "on"){
 			$booking_colors_styles .= $custom_css;
 		}   

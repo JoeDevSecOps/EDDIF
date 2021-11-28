@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: booking calendar\n"
 "POT-Creation-Date: 2016-12-08 23:52+0400\n"
-"PO-Revision-Date: 2021-07-13 15:30+0400\n"
+"PO-Revision-Date: 2021-11-15 18:40+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -248,67 +248,67 @@ msgstr "Ajouter un champ de formulaire"
 
 #: admin/views/Forms.php:129
 msgid "Text"
-msgstr ""
+msgstr "Texte"
 
 #: admin/views/Forms.php:130
 msgid "Textarea"
-msgstr ""
+msgstr "Zone de texte"
 
 #: admin/views/Forms.php:131
 msgid "Checkbox"
-msgstr ""
+msgstr "Case à cocher"
 
 #: admin/views/Forms.php:133
 msgid "Drop down"
-msgstr ""
+msgstr "Menu déroulant"
 
 #: admin/views/Forms.php:134
 msgid "Drop down(Countries)"
-msgstr ""
+msgstr "Menu déroulant (Pays)"
 
 #: admin/views/Forms.php:141
 msgid "Form fields"
-msgstr ""
+msgstr "Champs de formulaire"
 
 #: admin/views/Reservations.php:51
 msgid "Reservations List View"
-msgstr ""
+msgstr "Affichage de la liste des réservations"
 
 #: admin/views/Reservations.php:54 admin/views/Reservations.php:438
 #: admin/views/Reservations.php:482
 msgid "Select Calendar"
-msgstr ""
+msgstr "Sélectionnez le calendrier"
 
 #: admin/views/Reservations.php:59 admin/views/Reservations.php:443
 #: admin/views/Reservations.php:487
 msgid "Reservation List View"
-msgstr ""
+msgstr "Affichage de la liste de réservation"
 
 #: admin/views/Reservations.php:60 admin/views/Reservations.php:444
 #: admin/views/Reservations.php:488
 msgid "Reservation Month View"
-msgstr ""
+msgstr "Affichage du mois de réservation"
 
 #: admin/views/Reservations.php:61 admin/views/Reservations.php:445
 #: admin/views/Reservations.php:479 admin/views/Reservations.php:489
 msgid "Add Reservation"
-msgstr ""
+msgstr "Ajouter une réservation"
 
 #: admin/views/Reservations.php:66
 msgid "Statistics"
-msgstr ""
+msgstr "Statistiques"
 
 #: admin/views/Reservations.php:69
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: admin/views/Reservations.php:72
 msgid "Filters"
-msgstr ""
+msgstr "Filtres"
 
 #: admin/views/Reservations.php:79 admin/views/Reservations.php:87
 msgid "New reservations"
-msgstr ""
+msgstr "Nouvelles réservations"
 
 #: admin/views/Reservations.php:94 admin/views/Reservations.php:379
 msgid "Approve"

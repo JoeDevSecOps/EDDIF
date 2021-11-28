@@ -413,7 +413,7 @@ span.new_res {
     position: absolute;
     width: 15px;
     height: 15px;
-    border: 1px solid #7052fb;
+    border: 1px solid #989898;
     border-radius: 100%;
     right: 20px;
     top: 3px;
@@ -421,7 +421,7 @@ span.new_res {
     line-height: 1;
     cursor: pointer;
     font-weight: 500;
-    color: #7052fb;
+    color: #444;
     opacity: 0.8;
 }
 
@@ -557,7 +557,7 @@ color: #8A8A8A;
 	width: 227px;
 }
 .form-fild-options .red-section .section-title {
-    color:#7052fb;
+    color:red;
 }
 #wpdevart_extras .form-fild-options .section-title {
 	width: 170px;
@@ -1210,14 +1210,14 @@ span.pro_feature,
 a.cal-edit-button span {
     font-size: 15px;
     font-weight: bold;
-    color: #7052fb;
+    color: rgba(10, 154, 62, 1);
     margin-left: 2px;
 }
 a.cal-edit-button span {
     font-size: 13px;
 }
 .wpdevart_tab span.pro_feature {
-    color: #7052fb;
+    color: rgba(10, 154, 62, 1);
 }
 .pro-feature.extra-items-labels li{
     background: transparent;
@@ -1383,10 +1383,7 @@ span.add_default {
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
 }
-.element-radio input[type=radio]:checked:before{
-	content: "\2022";
-    background-color: #464646;
-}
+
 #wpdevart_add_reservations_container{
     margin: 17px 0;
 }
@@ -1592,8 +1589,7 @@ span#lang_prefix {
 }
 
 /*For WPDEVART Support link*/
-.wpdevart_support,
-.wpdevart_upgrade {
+.wpdevart_support, .wpdevart_upgrade {
     display: inline-block;
     font-size: 16px;
     text-decoration: none;
@@ -1601,11 +1597,11 @@ span#lang_prefix {
     border: 0;
     color: #ffffff;
     font-weight: 400;
-	opacity:1;
-	-webkit-transition:opacity 0.3s;
-	-moz-transition:opacity 0.3s;
-	transition:opacity 0.3s;
-	background-image: linear-gradient(141deg, #7052fb, #00a0d2);
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    background-image: linear-gradient(141deg, #7052fb, #00a0d2);
 }
 .wpdevart_support {
     float: right;

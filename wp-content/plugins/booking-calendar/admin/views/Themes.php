@@ -167,7 +167,7 @@ class wpdevart_bc_ViewThemes {
 						),
 						'month_select' => array(
 							'id'   => 'month_select',
-							'title' =>__('Change month with select','booking-calendar'),
+							'title' =>__('Change Month With Select','booking-calendar'),
 							'description' => __('','booking-calendar' ),
 							'type' => 'checkbox',
 							'default' => ''
@@ -198,7 +198,7 @@ class wpdevart_bc_ViewThemes {
 						),	
 						'hide_price' => array(
 							'id'   => 'hide_price',
-							'title' =>__('HIde Price in Form','booking-calendar'),
+							'title' =>__('Hide Price in Form','booking-calendar'),
 							'description' => __('Hide Price in Form','booking-calendar' ),
 							'type' => 'checkbox',
 							'default' => ''
@@ -381,6 +381,37 @@ class wpdevart_bc_ViewThemes {
 							'description' => __('Show or hide the title of Extra','booking-calendar' ),
 							'type' => 'checkbox',
 							'default' => 'on'
+						),
+						'layout' => array(
+							'id'   => 'layout',
+							'title' => __('Booking layout','booking-calendar'),
+							'description' => '',
+							'type' => 'radio_enable',
+							'valid_options' => array("form_below"=>__("Form below calendar",'booking-calendar'),"form_right"=>__("Form in the right side",'booking-calendar')),
+							'enable' => array('form_right'=>array('calendar_width','form_width')),
+							'default' => 'form_below'
+						),
+						'calendar_width' => array(
+							'id'   => 'calendar_width',
+							'title' => __('Calendar width in percent','booking-calendar'),
+							'description' => '',
+							'type' => 'text',
+							'default' => '55'
+						),
+						'form_width' => array(
+							'id'   => 'form_width',
+							'title' => __('Form width in percent','booking-calendar'),
+							'description' => '',
+							'type' => 'text',
+							'default' => '43'
+						),
+						'form_layout' => array(
+							'id'   => 'form_layout',
+							'title' => __('Form layout','booking-calendar'),
+							'description' => '',
+							'type' => 'radio',
+							'valid_options' => array("one_col"=>__("One column",'booking-calendar'),"two_col"=>__("Two columns",'booking-calendar')),
+							'default' => 'two_col'
 						),
 						'legend_enable' => array(
 							'id'   => 'legend_enable',
@@ -641,7 +672,7 @@ class wpdevart_bc_ViewThemes {
 						/*Calendar styles*/
 						'calendar_max_width' => array(
 							'id'   => 'calendar_max_width',
-							'title' => __('Calendar Maximum width','booking-calendar'),
+							'title' => __('Container Maximum width','booking-calendar'),
 							'description' => '',
 							'type' => 'text',
 							'default' => '680'

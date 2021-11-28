@@ -1,0 +1,493 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+
+%cacsp-btn {
+	display: inline-block;
+	white-space: nowrap;
+	border-radius: 3px;
+	padding: 8px 16px;
+	background-color: $btn-bg;
+	border: 1px solid $btn-bg;
+	font-size: 1em;
+	line-height: 1.8em;
+	margin-right: 12px;
+	text-align: center;
+	text-decoration: none !important;
+}
+/*
+html,
+body {
+	&.modal-cacsp-open {
+		
+	}
+	&.modal-cacsp-open-no-backdrop {
+		overflow: auto;
+	}
+}
+*/
+html {
+	&.modal-cacsp-open:not(.modal-cacsp-open-no-backdrop) {
+		position: fixed;
+		overflow-y:scroll;
+		width: 100%;
+	}
+}
+body.modal-cacsp-open {
+	.modal-cacsp-backdrop {
+		width: 100%;
+		height: 100%;
+		opacity: .6;
+	}
+	.modal-cacsp-position {
+		width: 100%;
+		height: 100%;
+	}
+	&.modal-cacsp-open-no-backdrop {
+		.modal-cacsp-backdrop {
+			display: none;
+		}
+		.modal-cacsp-position {
+			width: 0;
+			height: 0;
+		}
+	}
+}
+.modal-cacsp-backdrop {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99999;
+	background-color: $overlay;
+	opacity: 0;
+	@include transition(opacity, .2s);
+}
+.modal-cacsp-position {
+	position: fixed;
+	width: 0;
+	height: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999999;
+	overflow-y: auto;
+	outline: 0;
+	font-size: 100%;
+	&, & * {
+		color: $text-color;
+	}
+	.modal-cacsp-box {
+		width: 0;
+		height: 0;
+		overflow: hidden;
+		opacity: 0;
+		> * {
+			background-color: $modal-bg;
+		}
+		//border-radius: .4rem;
+		border-radius: 6px;
+		@include transition(opacity, .4s);
+		&.modal-cacsp-box-show {
+			width: 80%;
+			margin: auto;
+			@include responsive(width-max-small-down) {
+				width: 90%;
+			}
+			height: auto;
+			min-width: 320px;
+			max-width: 800px;
+			opacity: 1;
+			&.modal-cacsp-box-bottom {
+				width: 100%;
+				max-width: 100%;
+				position: fixed;
+				display: flex;
+				align-items: center;
+				bottom: 0;
+				left: 0;
+				margin: 0;
+				border-radius: 0;
+				border-top: 1px solid $gray-light;
+				background-color: $modal-bg;
+				@include responsive(width-max-regular-down) {
+					flex-wrap: wrap;
+				}
+				.modal-cacsp-box-header {
+					display: none;
+				}
+				.modal-cacsp-box-content {
+					width: 50%;
+					flex-grow: 1;
+				}
+				.modal-cacsp-btns {
+					border: 0;
+					@include responsive(width-max-regular-down) {
+						padding-top: 0;
+						white-space: normal;
+					}
+					.modal-cacsp-btn {
+						@include responsive(width-max-regular-down) {
+							width: 100%;
+							max-width: 100%;
+						}
+						@include responsive(width-max-medium-down) {
+							margin-right: 0;
+							margin-bottom: 8px;
+						}
+					}
+				}
+				.modal-cacsp-box-content,
+				.modal-cacsp-btns {
+					@include responsive(width-max-regular-down) {
+						width: 100%
+					}
+				}
+			}
+		}
+		&.modal-cacsp-box-settings {
+			.modal-cacsp-box-settings-list {
+				ul {
+					list-style: none;
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					max-width: 100%;
+					li {
+						//padding: 1.5rem 2rem 0;
+						padding: 24px 32px 0;
+						margin: 0;
+						border-bottom: 1px solid $gray-light; 
+						line-height: normal;
+						&:first-child {
+							border-top: 1px solid $gray-light; 
+						}
+						&:last-child {
+							border-bottom: 0; 
+						}
+						a.modal-cacsp-toggle-switch,
+						span.modal-cacsp-toggle-switch {
+							//margin-bottom: 1.5rem;
+							padding-bottom: 24px;
+							display: flex;
+							align-items: center;
+							width: 100%;
+							&, & * {
+								text-decoration: none !important;
+								outline: none;
+							}
+							&:hover {
+								opacity: 1;
+								text-decoration: none !important;
+							}
+							span {
+								font-size: 1em;
+								&:first-child {
+									flex-grow: 1;
+								}
+								> span {
+									font-size: .9em;
+									font-weight: 300;
+								}
+								&.modal-cacsp-toggle {
+									width: 40px;
+									height: 20px;
+									border-radius: 20px;
+									margin-left: 8px;
+									display: block;
+									position: relative;
+									float: right;
+									background-color: $gray-light; 
+								}
+								&.modal-cacsp-toggle-switch-handle {
+									width: 20px;
+									height: 100%;
+									border-radius: 20px;
+									background-color: $gray; 
+									position: absolute;
+									left: 0;
+									right: auto;
+									@include transition(left);
+								}
+							}
+							&.modal-cacsp-toggle-switch-active {
+								span {
+									&.modal-cacsp-toggle {
+										background-color: $green-light; 
+									}
+									&.modal-cacsp-toggle-switch-handle {
+										background-color: $green; 
+										left: 20px;
+									}
+								}
+								&.disabled {
+									cursor: not-allowed;
+									span {
+										color: $text-color;
+										&.modal-cacsp-toggle {
+											background-color: $red-light;
+										}
+										&.modal-cacsp-toggle-switch-handle {
+											background-color: $red; 
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		a {
+			text-decoration: underline;
+		}
+		.modal-cacsp-box-header {
+			display: block;
+			background-color: $header-bg;
+			//padding: 1.5rem 2rem;
+			padding: 24px 32px;
+			font-size: 1.5em;
+			&, & * {
+				color: $header-text;
+			}
+		}
+		.modal-cacsp-box-content {
+			display: block;
+			//padding: 2rem;
+			padding: 32px;
+			font-size: 1em;
+		}
+		.modal-cacsp-btns {
+			display: flex;
+			@include responsive(width-max-medium-down) {
+				flex-wrap: wrap;
+			}
+			justify-content: flex-end;
+			//font-size: 0;
+			border-top: 1px solid $btns-border-top;
+			//padding: 1.5rem 2rem;
+			padding: 24px 32px;
+			white-space: nowrap;
+			@include responsive(width-max-small-down) {
+				white-space: normal;
+			}
+			.modal-cacsp-btn {
+				@extend %cacsp-btn;
+				&, & * {
+					color: $btn-text;
+				}
+				&:hover {
+					opacity: .6;
+				}
+				@include responsive(width-max-small-down) {
+					//flex: 0 0 100%;
+					width: 100%;
+					margin-right: 0;
+					//margin-bottom: .5rem;
+					margin-bottom: 8px;
+				}
+				&.modal-cacsp-btn-settings {
+					background-color: $btn-settings-bg;
+					&, & * {
+						color: $btn-settings-text;
+					}
+				}
+				&.modal-cacsp-btn-refuse {
+					background-color: $btn-refuse-bg;
+					border: 1px solid $btn-refuse-bg;
+					&, & * {
+						color: $btn-refuse-text;
+					}
+				}
+				&.modal-cacsp-btn-refuse-all {
+					background-color: $btn-refuse-all-bg;
+					border: 1px solid $btn-refuse-all-bg;
+					&, & * {
+						color: $btn-refuse-text;
+					}
+				}
+				&.modal-cacsp-btn-save {
+					background-color: $btn-save-bg;
+					&, & * {
+						color: $btn-save-text;
+					}
+				}
+				&.modal-cacsp-btn-accept {
+					background-color: $btn-accept-bg;
+					border: 1px solid $btn-accept-bg;
+					&, & * {
+						color: $btn-accept-text;
+					}
+				}
+				&.modal-cacsp-btn-accept-all {
+					background-color: $btn-accept-all-bg;
+					border: 1px solid $btn-accept-all-bg;
+					&, & * {
+						color: $btn-accept-all-text;
+					}
+				}
+				&:last-child {
+					margin-right: 0;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+.warning-cacsp-iframe,
+.warning-cacsp-object {
+	visibility: hidden;
+}
+.warning-cacsp-iframe-content,
+.warning-cacsp-object-content {
+	background-color: $gray-light;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 200px;
+	&, & * {
+		color: $black;
+	}
+	.warning-cacsp-iframe-content-text,
+	.warning-cacsp-object-content-text {
+		text-align: center;
+		width: 90%;
+		max-width: 600px;
+		margin: 0 auto 20px;
+	}
+	.warning-cacsp-iframe-content-button,
+	.warning-cacsp-object-content-button {
+		a {
+			@extend %cacsp-btn;
+			margin-right: 0;
+			&, & * {
+				color: $white;
+			}
+		}
+	}
+}
+.modal-cacsp-grandma {
+	.modal-cacsp-position {
+		overflow-x: hidden;
+		.modal-cacsp-box {
+			&.modal-cacsp-box-info:not(.modal-cacsp-box-bottom), 
+			&.modal-cacsp-box-settings {
+				position: relative;
+				&.modal-cacsp-box-show {
+					.modal-cacsp-box-header {
+						border-radius: 6px 6px 0 0;
+					}
+					.modal-cacsp-btns {
+						border-radius: 0 0 6px 6px;
+					}
+				}
+			}
+			&.modal-cacsp-box-info {
+				overflow: hidden;
+				&.modal-cacsp-box-show {
+					overflow: visible;
+					&.modal-cacsp-box-bottom {
+						&::before {
+							content: '';
+							background: url(../img/cookie.png) left top no-repeat;
+							width: 250px;
+							height: 163px;
+							display: block;
+							position: absolute;
+							left: -30px;
+							top: -40px;
+							background-position: center center;
+							background-size: auto 100%;
+							@include responsive(width-max-medium-down) {
+								width: 100%;
+								left: 0;
+								top: -140px;
+							}
+						}
+						.modal-cacsp-box-content {
+							padding-left: 200px;
+							width: 100%;
+							@include responsive(width-max-medium-down) {
+								padding-left: 32px;
+							}
+						}
+					}
+					.modal-cacsp-box-header {
+						&::before {
+							content: '';
+							background: url(../img/cookie.png) left top no-repeat;
+							width: 160px;
+							height: 160px;
+							display: block;
+							position: absolute;
+							right: -60px;
+							top: -50px;
+							background-size: auto 100%;
+							background-position: center center;
+						}
+					}
+				}
+			}
+			&.modal-cacsp-box-settings {
+				overflow: hidden;
+				&.modal-cacsp-box-show {
+					overflow: visible;
+					padding-left: 35px;
+					@include responsive(width-max-small-down) {
+						padding-left: 0;
+					}
+					&::before {
+						content: '';
+						background: url(../img/grandma.png) left top no-repeat;
+						width: 420px;
+						height: 800px;
+						display: block;
+						position: absolute;
+						left: 0;
+						background-size: auto 100%;
+						margin-left: -260px;
+						@include responsive(width-max-small-down) {
+							background-image: none;
+						}
+					}
+					@include responsive(width-max-small-down) {
+						.modal-cacsp-box-header {
+							&::before {
+								content: '';
+								background: url(../img/grandma.png) left top no-repeat;
+								-webkit-transform: scaleX(-1);
+  								transform: scaleX(-1);
+								width: 100px;
+								height: 200px;
+								display: block;
+								position: absolute;
+								right: -30px;
+								top: 0;
+								background-size: auto 100%;
+								background-position: center center;
+							}
+						}
+					}
+					.modal-cacsp-box-settings-list {
+						li {
+							&:first-child {
+								padding-left: 128px;
+								@include responsive(width-max-small-down) {
+									padding-left: 32px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,975 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cookies and Content Security Policy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 11:23+0000\n"
+"PO-Revision-Date: 2021-06-24 08:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6.1"
+
+#: inc/modal-cacsp.php:50 inc/modal-cacsp.php:159
+#: inc/settings-cacsp-tab-texts.php:73
+msgid "Accept all"
+msgstr "Acceptera alla"
+
+#: inc/settings-cacsp-tab-texts.php:73
+msgid "Accept all button"
+msgstr "Acceptera alla-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:199
+msgid "Accept button border"
+msgstr "Färg på ram för acceptera-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:191
+msgid "Accept button color"
+msgstr "Färg på acceptera-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:207
+msgid "Accept button text"
+msgstr "Färg på acceptera-knappens text"
+
+#: inc/settings-cacsp.php:87
+msgid "Activate"
+msgstr "Aktivera"
+
+#: inc/settings-cacsp-tab-activate.php:7
+msgid "Activate the plugin to use it."
+msgstr "Aktivera pluginet för att använda det."
+
+#: inc/settings-cacsp-tab-activate.php:46
+msgid "Active"
+msgstr "Aktivt"
+
+#: inc/settings-cacsp-tab-settings.php:96
+msgid "Add grandma with milk and cookies."
+msgstr "Lägg till mormor som serverar mjölk och kakor."
+
+#: inc/settings-cacsp-tab-activate.php:35
+msgid "Admin"
+msgstr "Admin"
+
+#: inc/settings-cacsp-tab-settings.php:113
+msgid "Advanced settings"
+msgstr "Avancerade inställningar"
+
+#: inc/settings-cacsp-tab-domains.php:71 inc/settings-cacsp-tab-domains.php:83
+#: inc/settings-cacsp-tab-domains.php:95 inc/settings-cacsp-tab-domains.php:107
+msgid "Allow background scripts via Worker"
+msgstr "Tillåt att script körs i bakgrunden med Worker"
+
+#: inc/settings-cacsp-tab-settings.php:168
+msgid "Allow blob:"
+msgstr "Tillåt blob:"
+
+#: inc/settings-cacsp-tab-settings.php:70
+msgid "Allow user to access site without saving settings."
+msgstr ""
+"Tillåt att besökaren använder siten utan att ha sparat några inställningar."
+
+#: inc/settings-cacsp-tab-domains.php:62
+msgid "Always allow"
+msgstr "Tillåt alltid"
+
+#: inc/settings-cacsp-tab-texts.php:64
+msgid "Always allow, description"
+msgstr "Tillåt alltid, beskrivning"
+
+#: inc/settings-cacsp-tab-texts.php:63
+msgid "Always allow, header"
+msgstr "Tillåt alltid, rubrik"
+
+#: inc/settings-cacsp-tab-domains.php:10
+msgid "Always allowed, resources that the visitor can't opt out of."
+msgstr "Tillåt alltid, resurser som besökaren inte kan välja bort."
+
+#: inc/settings-cacsp-tab-quickstart.php:175
+msgid "Analytics"
+msgstr "Analys"
+
+#: inc/settings-cacsp-tab-colors.php:41
+msgid "Backdrop"
+msgstr "Backdrop"
+
+#: inc/settings-cacsp-tab-colors.php:37
+msgid "Backgrounds"
+msgstr "Bakgrunder"
+
+#: inc/settings-cacsp-tab-settings.php:37
+msgid "Basic settings"
+msgstr "Grundläggande inställningar"
+
+#. Description of the plugin
+msgid ""
+"Block cookies and unwanted external content by setting Content Security "
+"Policy. A modal will be shown on the front end to let the visitor choose "
+"what kind of resources to accept."
+msgstr ""
+"Blockera cookies och oönskat externt innehåll genom att skapa en Content "
+"Security Policy. En modal kommer att visas för besökaren som låter hen "
+"bestämma vilka typer av resurser som accepteras."
+
+#: inc/settings-cacsp-tab-colors.php:99
+msgid "Buttons"
+msgstr "Knappar"
+
+#: inc/modal-cacsp.php:136 inc/settings-cacsp-tab-texts.php:70
+msgid ""
+"By sharing your interests and behavior as you visit our site, you increase "
+"the chance of seeing personalized content and offers."
+msgstr ""
+"Genom att dela med dig av dina intressen och ditt beteende när du surfar "
+"ökar du chansen att få se personligt anpassat innehåll och erbjudanden."
+
+#: inc/settings-cacsp-tab-settings.php:281
+msgid "Bypassing"
+msgstr "Förbikoppla"
+
+#: inc/settings-cacsp-tab-quickstart.php:318
+msgid "Calendly"
+msgstr "Calendly"
+
+#: inc/modal-cacsp.php:59 inc/settings-cacsp-tab-texts.php:62
+msgid ""
+"Choose what kind of cookies to accept. Your choice will be saved for one "
+"year."
+msgstr ""
+"Välj vilken typ av kakor du vill acceptera. Ditt val kommer att sparas i ett "
+"år."
+
+#: inc/settings-cacsp-tab-quickstart.php:8
+msgid ""
+"Choose which external resources the site uses to automatically save them to "
+"Domains. These are recommended settings for each resource."
+msgstr ""
+"Välj vilka externa resurser som din site använder för att automatiskt spara "
+"dem till dina Domäner. Detta är rekommenderade inställningar för respektive "
+"resurs."
+
+#: inc/settings-cacsp-tab-colors.php:35 inc/settings-cacsp.php:92
+msgid "Colors"
+msgstr "Färger"
+
+#: inc/settings-cacsp-tab-texts.php:78
+msgid "Contact the administrator"
+msgstr "Kontakta administratören"
+
+#: inc/settings-cacsp-tab-texts.php:78
+msgid "Content not allowed button"
+msgstr "Innehållet är inte tillåtet-knapp"
+
+#: inc/settings-cacsp-tab-texts.php:77
+msgid "Content not allowed text"
+msgstr "Innehållet är inte tillåtet-text"
+
+#: inc/settings-cacsp-tab-texts.php:61
+msgid "Cookie policy link text"
+msgstr "Cookie policy länk-text"
+
+#: inc/settings-cacsp-tab-settings.php:235
+msgid "Cookie policy page"
+msgstr "Cookie policy-sida"
+
+#: inc/settings-cacsp-tab-settings.php:257
+msgid "Cookie policy target"
+msgstr "Cookie policy länkmål"
+
+#: inc/settings-cacsp-tab-settings.php:253
+msgid "Cookie policy URL"
+msgstr "Cookie policy URL"
+
+#: inc/modal-cacsp.php:19 inc/modal-cacsp.php:56
+#: inc/settings-cacsp-tab-texts.php:59
+msgid "Cookies"
+msgstr "Kakor"
+
+#. Name of the plugin
+#: inc/settings-cacsp.php:6 inc/settings-cacsp.php:75
+msgid "Cookies and Content Security Policy"
+msgstr "Cookies och Content Security Policy"
+
+#: inc/settings-cacsp-tab-quickstart.php:161
+msgid "CRM"
+msgstr "CRM"
+
+#: inc/settings-cacsp-tab-activate.php:24
+msgid "Deactivated"
+msgstr "Deaktiverat"
+
+#: inc/settings-cacsp-tab-settings.php:216
+msgid "Debug."
+msgstr "Debugga."
+
+#: inc/settings-cacsp-tab-settings.php:192
+msgid "Disable unsafe-eval"
+msgstr "Inaktivera unsafe-eval"
+
+#: inc/settings-cacsp-tab-settings.php:180
+msgid "Disable unsafe-inline"
+msgstr "Inaktivera unsafe-inline"
+
+#: inc/settings-cacsp-tab-settings.php:228
+msgid "Disable X-Content-Security-Policy."
+msgstr "Inaktivera X-Content-Security-Policy."
+
+#: inc/settings-cacsp-tab-settings.php:194
+msgid ""
+"Disables the use of eval() and similar methods for creating code from "
+"strings."
+msgstr ""
+"Inaktiverar användningen av eval() och liknande metoder för att skapa kod "
+"från strängar."
+
+#: inc/settings-cacsp-tab-settings.php:182
+msgid ""
+"Disables the use of inline resources, such as inline &lt;script&gt; elements,"
+" javascript: URLs, and inline event handlers."
+msgstr ""
+"Inaktiverar användningen av inline-resurser, såsom inline &lt;script&gt;-"
+"element, javascript:-URLar och inline event handlers."
+
+#: inc/settings-cacsp-tab-settings.php:124
+msgid "Do not include css, I've got my own style."
+msgstr "Inkluder inte css, jag har min egen stil."
+
+#: inc/settings-cacsp-tab-settings.php:134
+msgid "Do not include js, I've got my own script."
+msgstr "Inkludera inte js, jag har mitt eget script."
+
+#: inc/settings-cacsp-tab-settings.php:60
+msgid "Do not use a modal, I want a banner."
+msgstr "Använd inte modal, jag vill ha en banner."
+
+#: inc/settings-cacsp-tab-activate.php:25
+msgid ""
+"Do your settings without disturbing anyone. No modal or Content Security "
+"Policy will be used at all."
+msgstr ""
+"Gör dina inställningar utan att störa någon. Ingen modal eller Content "
+"Security Policy kommer att användas alls."
+
+#: inc/settings-cacsp.php:89
+msgid "Domains"
+msgstr "Domäner"
+
+#: inc/settings-cacsp-tab-support.php:10
+msgid "Donate with PayPal"
+msgstr "Donera med PayPal"
+
+#: inc/settings-cacsp-tab-quickstart.php:11
+msgid "drop me a line"
+msgstr "hör av dig"
+
+#: inc/settings-cacsp.php:22 inc/settings-cacsp.php:42
+msgid "Example:"
+msgstr "Exempel:"
+
+#: inc/settings-cacsp-tab-settings.php:84
+msgid ""
+"Example: If you don't have any domains specified for Marketing, that setting "
+"won't show for the visitor."
+msgstr ""
+"Exempel: Om du inte har några domäner sparade för Marknadsföring, så syns "
+"inte den inställningen för användaren."
+
+#: inc/settings-cacsp-tab-settings.php:170
+msgid ""
+"Example: Some javascript libraries uses blob for images. Divi uses this for "
+"scripts in edit mode."
+msgstr ""
+"Exempel: Vissa javascript-bibliotek använder blob för bilder. Divi använder "
+"detta i redigerings-läget."
+
+#: inc/modal-cacsp.php:117 inc/settings-cacsp-tab-domains.php:86
+#: inc/settings-cacsp-tab-texts.php:67
+msgid "Experience"
+msgstr "Upplevelse"
+
+#: inc/settings-cacsp-tab-texts.php:68
+msgid "Experience, description"
+msgstr "Upplevelse, beskrivning"
+
+#: inc/settings-cacsp-tab-texts.php:67
+msgid "Experience, header"
+msgstr "Upplevelse, rubrik"
+
+#: inc/settings-cacsp-tab-domains.php:12
+msgid "Experience, resources for displaying external videos etc."
+msgstr "Upplevelse, resurser för att visa externa videos etc."
+
+#: inc/settings-cacsp-tab-quickstart.php:146
+msgid "Facebook Pixel"
+msgstr "Facebook Pixel"
+
+#: inc/settings-cacsp-tab-domains.php:8
+msgid ""
+"Fill the forms with domains that should be allowed in each box. The groups "
+"are:"
+msgstr ""
+"Fyll i formulären med domäner som ska vara tillåtna i varje ruta. Grupperna "
+"är:"
+
+#: inc/settings-cacsp-tab-domains.php:68 inc/settings-cacsp-tab-domains.php:80
+#: inc/settings-cacsp-tab-domains.php:92 inc/settings-cacsp-tab-domains.php:104
+msgid "Forms"
+msgstr "Formulär"
+
+#: inc/settings-cacsp-tab-domains.php:66 inc/settings-cacsp-tab-domains.php:78
+#: inc/settings-cacsp-tab-domains.php:90 inc/settings-cacsp-tab-domains.php:102
+msgid "Frames"
+msgstr "Frames"
+
+#: inc/settings-cacsp-tab-quickstart.php:45
+msgid "Google"
+msgstr "Google"
+
+#: inc/settings-cacsp-tab-quickstart.php:88
+msgid "Google Ads conversions"
+msgstr "Google Ads conversions"
+
+#: inc/settings-cacsp-tab-quickstart.php:99
+msgid "Google Ads remarketing"
+msgstr "Google Ads remarketing"
+
+#: inc/settings-cacsp-tab-quickstart.php:55
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: inc/settings-cacsp-tab-quickstart.php:200
+msgid "Google Analytics is under \"Google\""
+msgstr "Google Analytics hittar du under \"Google\""
+
+#: inc/settings-cacsp-tab-quickstart.php:110
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: inc/settings-cacsp-tab-quickstart.php:77
+msgid "Google Optimize"
+msgstr "Google Optimize"
+
+#: inc/settings-cacsp-tab-quickstart.php:66
+msgid "Google Tag Manager"
+msgstr "Google Tag Manager"
+
+#: inc/settings-cacsp-tab-quickstart.php:121
+msgid "Google Translate"
+msgstr "Google Translate"
+
+#: inc/settings-cacsp-tab-settings.php:94
+msgid "Grandma mode."
+msgstr "Mormor-mode."
+
+#: inc/settings-cacsp-tab-quickstart.php:268
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: inc/settings-cacsp-tab-settings.php:82
+msgid "Hide unused sections in Settings."
+msgstr "Dölj oanvända sektioner under Inställningar."
+
+#: inc/settings-cacsp-tab-quickstart.php:185
+msgid "Hotjar"
+msgstr "Hotjar"
+
+#: inc/settings-cacsp-tab-settings.php:273
+msgid "How to link back to settings"
+msgstr "Länka till inställningarna"
+
+#. Author URI of the plugin
+#| msgid "https://followmedarling.se/"
+msgid "https://plugins.followmedarling.se/"
+msgstr "https://plugins.followmedarling.se/"
+
+#. URI of the plugin
+#| msgid "https://followmedarling.se/cookies-and-content-security-policy/"
+msgid "https://plugins.followmedarling.se/cookies-and-content-security-policy/"
+msgstr ""
+"https://plugins.followmedarling.se/cookies-and-content-security-policy/"
+
+#: inc/settings-cacsp-tab-texts.php:14 inc/settings-cacsp-tab-texts.php:27
+msgid ""
+"https://wordpress.org/plugins/cookies-and-content-security-"
+"policy/#how%20do%20i%20translate%20in%20polylang%3F"
+msgstr ""
+"https://sv.wordpress.org/plugins/cookies-and-content-security-"
+"policy/#how%20do%20i%20translate%20in%20polylang%3F"
+
+#: inc/settings-cacsp-tab-texts.php:11 inc/settings-cacsp-tab-texts.php:24
+msgid ""
+"https://wordpress.org/plugins/cookies-and-content-security-"
+"policy/#how%20do%20i%20translate%20in%20wpml%3F"
+msgstr ""
+"https://sv.wordpress.org/plugins/cookies-and-content-security-"
+"policy/#how%20do%20i%20translate%20in%20wpml%3F"
+
+#: inc/settings-cacsp-tab-quickstart.php:171
+msgid "Hubspot"
+msgstr "Hubspot"
+
+#: inc/settings-cacsp-tab-quickstart.php:11
+msgid ""
+"If i missed some common resource or if some resource is missing any setting "
+"for domain"
+msgstr ""
+"Om jag har missat någon vanlig resurs, eller om någon resurs saknar "
+"inställning för domän"
+
+#: inc/settings-cacsp-tab-texts.php:23
+msgid ""
+"If you are using a translation plugin (like Polylang or WPML) only your "
+"sites default language can be edited here, translations are edited in your "
+"translation plugins string translation area."
+msgstr ""
+"Om du använder en översättningsplugin (som Polylang eller WPML) så kan du "
+"bara redigera ditt default-språk här, översättningar redigerar du bland ditt "
+"översättningsplugins strängöversättningar."
+
+#: inc/settings-cacsp-tab-texts.php:10
+msgid ""
+"If you are using a translation plugin (like Polylang or WPML) you have to "
+"save this form to make the texts below appear in your translation plugin. If "
+"you are happy with the default texts, and the plugins is already available "
+"in your language, you can skip saving this form and everything is already "
+"set up for you."
+msgstr ""
+"Om du använder en översättningsplugin (som Polylang eller WPML) så måste du "
+"spara detta formulär för att texterna nedan ska dyka upp in ditt "
+"översättningsplugin. om du är nöjd med texterna, och pluginet redan finns på "
+"ditt språk, så kan du hoppa över att spara detta forumläret och allt är "
+"klart."
+
+#: inc/settings-cacsp-tab-settings.php:276
+msgid ""
+"If you want to link back to the settings modal simply add a link with href = "
+"\"#cookiesAndContentPolicySettings\""
+msgstr ""
+"Om du vill länka tillbaks till inställnings-modalen, skapa helt enkelt en "
+"länk med href = \"#cookiesAndContentPolicySettings\""
+
+#: inc/settings-cacsp-tab-texts.php:19
+msgid ""
+"If you're not using a translation plugin you just need to save this form if "
+"you want to change any of the texts."
+msgstr ""
+"Om du inte använder någon översättningsplugin så behöver du bara spara detta "
+"formuläret om du vill ändra någon av texterna."
+
+#: inc/settings-cacsp-tab-settings.php:206
+msgid ""
+"If your host does not accept setting php header(), or if you're using static "
+"page cache that doesn't go through php, check this to add CSP as a meta tag "
+"in the header instead."
+msgstr ""
+"Om ditt webbhotell inte låter dig sätta php header(), eller om du använder "
+"statisk cache, kryssa i här för att köra CSP som meta tag istället."
+
+#: inc/settings-cacsp-tab-domains.php:65 inc/settings-cacsp-tab-domains.php:77
+#: inc/settings-cacsp-tab-domains.php:89 inc/settings-cacsp-tab-domains.php:101
+msgid "Images"
+msgstr "Bilder"
+
+#: inc/modal-cacsp.php:118 inc/settings-cacsp-tab-texts.php:68
+msgid ""
+"In order for our website to perform as well as possible during your visit. "
+"If you refuse these cookies, some functionality will disappear from the "
+"website."
+msgstr ""
+"För att vår hemsida ska prestera så bra som möjligt under ditt besök. Om du "
+"nekar de här kakorna kommer viss funktionalitet att försvinna från hemsidan."
+
+#: inc/modal-cacsp.php:100 inc/settings-cacsp-tab-texts.php:66
+msgid ""
+"In order for us to improve the website's functionality and structure, based "
+"on how the website is used."
+msgstr ""
+"För att vi ska kunna förbättra hemsidans funktionalitet och uppbyggnad, "
+"baserat på hur hemsidan används."
+
+#: inc/settings-cacsp-tab-texts.php:60
+msgid "Info"
+msgstr "Info"
+
+#: inc/settings-cacsp-tab-quickstart.php:246
+msgid "Issuu"
+msgstr "Issuu"
+
+#: inc/settings-cacsp-tab-support.php:10
+msgid "It would make my day. :)"
+msgstr "Det skulle gör mig så hjärtans glad. :)"
+
+#: inc/settings-cacsp-tab-quickstart.php:196
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#. Author of the plugin
+msgid "Jonk @ Follow me Darling"
+msgstr "Jonk @ Follow me Darling"
+
+#: inc/settings-cacsp-tab-settings.php:284
+msgid ""
+"Just add ?cacsp_bypass=true to your url. All cookies will be accepted for "
+"the session. Great for when you run speedtest and so forth."
+msgstr ""
+"Lägg bara till ?cacsp_bypass=true till din url. Alla cookies kommer att bli "
+"accepterade för sessionen. Bra att använda när man kör test av "
+"webbplatsprestanda och så vidare."
+
+#: inc/settings-cacsp-tab-quickstart.php:135
+msgid "LinkedIn Insight Tag/LinkedIn Pixel"
+msgstr "LinkedIn Insight Tag/LinkedIn Pixel"
+
+#: inc/settings-cacsp-tab-quickstart.php:329
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: inc/modal-cacsp.php:135 inc/settings-cacsp-tab-domains.php:98
+#: inc/settings-cacsp-tab-texts.php:69
+msgid "Marketing"
+msgstr "Marknadsföring"
+
+#: inc/settings-cacsp-tab-texts.php:70
+msgid "Marketing, description"
+msgstr "Marknadsföring, beskrivning"
+
+#: inc/settings-cacsp-tab-texts.php:69
+msgid "Marketing, header"
+msgstr "Marknadsföring, rubrik"
+
+#: inc/settings-cacsp-tab-domains.php:13
+msgid ""
+"Marketing, resources for gathering data about the visitor for remarketing "
+"etc."
+msgstr ""
+"Marknadsföring, resurser för att samla in data om besökaren för remarketing "
+"etc."
+
+#: inc/settings-cacsp-tab-quickstart.php:203
+msgid "Media"
+msgstr "Media"
+
+#: inc/settings-cacsp-tab-quickstart.php:297
+msgid "Misc"
+msgstr "Övrigt"
+
+#: inc/settings-cacsp-tab-colors.php:49
+msgid "Modal background"
+msgstr "Bakgrund i modalen"
+
+#: inc/settings-cacsp-tab-texts.php:59
+msgid "Modal header"
+msgstr "Rubrik i modalen"
+
+#: inc/settings-cacsp-tab-colors.php:57
+msgid "Modal header background"
+msgstr "Bakgrund i modalens sidhuvud"
+
+#: inc/settings-cacsp-tab-colors.php:65
+msgid "Modal list border"
+msgstr "Linjer mellan listelement i modalen"
+
+#: inc/settings-cacsp-tab-colors.php:76
+msgid "Modal text color"
+msgstr "Textfärg i modal"
+
+#: inc/settings-cacsp-tab-colors.php:84
+msgid "Modal text header color"
+msgstr "Textfärg i modalens sidhuvud"
+
+#: inc/modal-cacsp.php:81 inc/settings-cacsp-tab-texts.php:63
+msgid "Necessary"
+msgstr "Nödvändiga"
+
+#: inc/settings-cacsp-tab-domains.php:78 inc/settings-cacsp-tab-domains.php:102
+msgid "No idea :)"
+msgstr "Ingen aning :)"
+
+#: inc/settings-cacsp-tab-colors.php:103
+msgid "Off switch"
+msgstr "Av-switch"
+
+#: inc/settings-cacsp-tab-colors.php:111
+msgid "On switch"
+msgstr "På-switch"
+
+#: inc/settings-cacsp-tab-colors.php:92
+msgid "On switch, text color"
+msgstr "Textfärg för aktivt val"
+
+#: inc/settings-cacsp-tab-settings.php:48
+msgid "Only use CSP, no modal for me."
+msgstr "Använd bara CSP, ingen modal för mig, tack."
+
+#: inc/settings-cacsp-tab-settings.php:72
+msgid "Only works with banner."
+msgstr "Fungerar bara med banner."
+
+#: inc/settings-cacsp-tab-settings.php:267
+msgid "Open cookie policy in a new tab."
+msgstr "Öppna cookie policy i en ny tabb."
+
+#: inc/settings-cacsp-tab-quickstart.php:342
+msgid "Overwrite all settings in Domains"
+msgstr "Skriv över alla inställningar i Domäner"
+
+#: inc/settings-cacsp-tab-quickstart.php:272
+msgid "Payment"
+msgstr "Betalning"
+
+#: inc/settings-cacsp-tab-quickstart.php:282
+msgid "PayPal"
+msgstr "PayPal"
+
+#: inc/settings-cacsp.php:88 inc/settings-cacsp-tab-quickstart.php:42
+msgid "Quickstart"
+msgstr "Snabbstart"
+
+#: inc/settings-cacsp-tab-texts.php:15 inc/settings-cacsp-tab-texts.php:28
+msgid "Read in the FAQ how to translate with Polylang."
+msgstr "Läs under Vanliga frågor hur du översätter med Polylang."
+
+#: inc/settings-cacsp-tab-texts.php:12 inc/settings-cacsp-tab-texts.php:25
+#| msgid "Read in the FAQ how to translate the texts."
+msgid "Read in the FAQ how to translate with WPML."
+msgstr "Läs under Vanliga frågor hur du översätter med WPML."
+
+#: inc/modal-cacsp.php:30 inc/modal-cacsp.php:34 inc/modal-cacsp.php:63
+#: inc/modal-cacsp.php:67 inc/settings-cacsp-tab-texts.php:61
+msgid "Read our cookie policy"
+msgstr "Läs vår cookie policy"
+
+#: inc/settings-cacsp-tab-quickstart.php:307
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: inc/settings-cacsp-tab-settings.php:146
+#: inc/settings-cacsp-tab-settings.php:158
+msgid "Recommended for better security."
+msgstr "Rekommenderas för bättre säkerhet."
+
+#: inc/modal-cacsp.php:46 inc/modal-cacsp.php:155
+#: inc/settings-cacsp-tab-texts.php:72
+msgid "Refuse all"
+msgstr "Neka alla"
+
+#: inc/settings-cacsp-tab-texts.php:72
+msgid "Refuse button"
+msgstr "Neka-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:151
+msgid "Refuse button border"
+msgstr "Färg på ram för neka-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:143
+msgid "Refuse button color"
+msgstr " Färg på neka-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:159
+msgid "Refuse button text"
+msgstr "Färg på neka-knappens text"
+
+#: inc/settings-cacsp-tab-texts.php:76
+msgid "Review your settings"
+msgstr "Granska dina inställningar"
+
+#: inc/settings-cacsp-tab-texts.php:76
+msgid "Review your settings button"
+msgstr "Granska dina inställningar-knapp"
+
+#: inc/settings-cacsp-tab-texts.php:75
+msgid "Review your settings text"
+msgstr "Granska dina inställningar-text"
+
+#: inc/modal-cacsp.php:149 inc/settings-cacsp-tab-texts.php:74
+msgid "Save"
+msgstr "Spara"
+
+#: inc/settings-cacsp-tab-texts.php:74
+msgid "Save button"
+msgstr "Spara-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:175
+msgid "Save button border"
+msgstr "Färg på ram för spara-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:167
+msgid "Save button color"
+msgstr "Färg på spara-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:183
+msgid "Save button text"
+msgstr "Färg på spara-knappens text"
+
+#: inc/settings-cacsp-tab-colors.php:216 inc/settings-cacsp-tab-domains.php:112
+#: inc/settings-cacsp-tab-settings.php:290 inc/settings-cacsp-tab-texts.php:82
+#: inc/settings-cacsp-tab-quickstart.php:345
+#: inc/settings-cacsp-tab-activate.php:50
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: inc/settings-cacsp-tab-domains.php:64 inc/settings-cacsp-tab-domains.php:76
+#: inc/settings-cacsp-tab-domains.php:88 inc/settings-cacsp-tab-domains.php:100
+msgid "Scripts"
+msgstr "Script"
+
+#: inc/settings-cacsp-tab-domains.php:16
+msgid ""
+"Separate domains by new line.<br>Example:<br>https://www.googleadservices."
+"com<br>https://www.googletagmanager.com"
+msgstr ""
+"Separera domänerna med ny rad.<br>Exempel:<br>https://www.googleadservices."
+"com<br>https://www.googletagmanager.com"
+
+#: inc/modal-cacsp.php:40 inc/settings-cacsp.php:91
+#: inc/settings-cacsp-tab-settings.php:33 inc/settings-cacsp-tab-texts.php:71
+msgid "Settings"
+msgstr "Inställningar"
+
+#: inc/settings-cacsp-tab-texts.php:71
+msgid "Settings button"
+msgstr "Inställnings-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:127
+msgid "Settings button border"
+msgstr "Färg på ram för inställningar-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:119
+msgid "Settings button color"
+msgstr "Färg på inställningar-knapp"
+
+#: inc/settings-cacsp-tab-colors.php:135
+msgid "Settings button text"
+msgstr "Färg på inställningar-knappens text"
+
+#: inc/settings-cacsp-tab-texts.php:62
+msgid "Settings text"
+msgstr "Text för inställningar"
+
+#: inc/settings-cacsp-tab-settings.php:106
+msgid "Show refuse cookies button."
+msgstr "Visa neka cookies-knapp."
+
+#: inc/settings-cacsp-tab-quickstart.php:125
+msgid "Social networks"
+msgstr "Sociala nätverk"
+
+#: inc/settings-cacsp-tab-quickstart.php:257
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: inc/settings-cacsp-tab-quickstart.php:235
+msgid "Spotify"
+msgstr "Spotify"
+
+#: inc/modal-cacsp.php:99 inc/settings-cacsp-tab-domains.php:74
+#: inc/settings-cacsp-tab-texts.php:65
+msgid "Statistics"
+msgstr "Statistik"
+
+#: inc/settings-cacsp-tab-texts.php:66
+msgid "Statistics, description"
+msgstr "Statistik, beskrivning"
+
+#: inc/settings-cacsp-tab-texts.php:65
+msgid "Statistics, header"
+msgstr "Statistik, rubrik"
+
+#: inc/settings-cacsp-tab-domains.php:11
+msgid ""
+"Statistics, resources for gathering data about the visitor for statistics "
+"etc."
+msgstr ""
+"Statistik, resurser för att samla in data om besökaren för statistik etc."
+
+#: inc/settings-cacsp-tab-quickstart.php:293
+msgid "Stripe"
+msgstr "Stripe"
+
+#: inc/settings-cacsp.php:93 inc/settings-cacsp-tab-support.php:6
+msgid "Support"
+msgstr "Support"
+
+#: inc/settings-cacsp-tab-activate.php:36
+msgid ""
+"Test your settings without disturbing your visitors. Modal and Content "
+"Security Policy will be used only for logged in users with Administrator "
+"role."
+msgstr ""
+"Testa dina instlällningar utan att störa dina besökare. Modal och Content "
+"Security Policy kommer bara att synas för inloggade användare med rollen "
+"Administratör."
+
+#: inc/settings-cacsp-tab-colors.php:72 inc/settings-cacsp.php:90
+#: inc/settings-cacsp-tab-texts.php:57
+msgid "Texts"
+msgstr "Texter"
+
+#: inc/settings-cacsp-tab-texts.php:77
+msgid "The content can't be loaded, since it is not allowed on the site."
+msgstr "Innehållet kan inte laddas eftersom det inte är tillåtet på siten."
+
+#: inc/modal-cacsp.php:82 inc/settings-cacsp-tab-texts.php:64
+msgid ""
+"These cookies are not optional. They are needed for the website to function."
+msgstr ""
+"Dessa kakor går inte att välja bort. De behövs för att hemsidan över huvud "
+"taget ska fungera."
+
+#: inc/settings-cacsp-tab-settings.php:50
+msgid "This will only make use of domains in Always allowed."
+msgstr ""
+"Detta innebär också att bara domäner i Tillåt alltid kommer att användas."
+
+#: inc/settings-cacsp-tab-settings.php:218
+msgid ""
+"This will print helpful comments at the beginning of your page inside the "
+"&gt;head&lt; tag."
+msgstr ""
+"Detta kommer att skiva ut hjälpsamma kommentarer i början av din sida inuti "
+"&gt;head&lt;-taggen."
+
+#: inc/settings-cacsp-tab-quickstart.php:157
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/settings-cacsp-tab-settings.php:144
+#| msgid ""
+#| "Use Content Security Policy for forms for added security. (recommended)"
+msgid "Use Content Security Policy for forms for added security."
+msgstr "Använd Content Security Policy till formulär för ökad säkerhet."
+
+#: inc/settings-cacsp-tab-settings.php:156
+msgid "Use Content Security Policy for worker-src."
+msgstr "Använd Content Security Policy för worker-src."
+
+#: inc/settings-cacsp-tab-settings.php:204
+msgid "Use meta."
+msgstr "Använd meta."
+
+#: inc/settings-cacsp-tab-colors.php:36
+msgid "Use the default colors or pick you own here."
+msgstr "Använd standard-färgerna eller välj dina egna här."
+
+#: inc/settings-cacsp-tab-domains.php:68 inc/settings-cacsp-tab-domains.php:80
+#: inc/settings-cacsp-tab-domains.php:92 inc/settings-cacsp-tab-domains.php:104
+msgid ""
+"Use this to allow posting data to other sites, like subscribing to a "
+"MailChimp newsletter would need https://*.list-manage.com/"
+msgstr ""
+"Använd denna för att tillåta postning till andra domäner, t.ex. kommer "
+"starta prenumereraton på ett MailChimp-nyhetsbrev att behöva https://*.list-"
+"manage.com/"
+
+#: inc/settings-cacsp-tab-quickstart.php:224
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/settings-cacsp-tab-support.php:8
+msgid "Visit the support forum for the plugin at WordPress.org."
+msgstr "Besök support-forumet för pluginet på WordPress.org."
+
+#: inc/settings-cacsp-tab-support.php:7
+msgid "Want support?"
+msgstr "Vill du ha support?"
+
+#: inc/settings-cacsp-tab-support.php:9
+msgid "Want to support the plugin?"
+msgstr "Vill du supporta pluginet?"
+
+#: inc/settings-cacsp-tab-activate.php:47
+msgid "We are live!"
+msgstr "Det är live!"
+
+#: inc/modal-cacsp.php:22 inc/settings-cacsp-tab-texts.php:60
+msgid ""
+"We serve cookies. If you think that's ok, just click \"Accept all\". You can "
+"also choose what kind of cookies you want by clicking \"Settings\"."
+msgstr ""
+"Vi bjuder på kakor! Om du tycker det är ok, klickar du bara på \"Acceptera "
+"alla\". Du kan såklart välja vilken typ av kakor du vill ha genom att klicka "
+"på \"Inställningar\"."
+
+#: inc/settings-cacsp-tab-domains.php:17
+msgid "Wildcard domains can be used.<br>Example:<br>https://*.youtube.com"
+msgstr "Wildcard-domäner kan användas.<br>Exempel:<br>https://*.youtube.com"
+
+#: inc/settings-cacsp-tab-settings.php:249
+msgid ""
+"Will be linked from the cookie modal. Does not show the the cookie modal for "
+"the user to be able to read the policy before accepting."
+msgstr ""
+"Länkas till i cookie-modalen. Visar inte cookie-modalen så att användaren "
+"kan läsa policyn innan denne accepterar."
+
+#: inc/settings-cacsp-tab-domains.php:71 inc/settings-cacsp-tab-domains.php:83
+#: inc/settings-cacsp-tab-domains.php:95 inc/settings-cacsp-tab-domains.php:107
+msgid "Worker"
+msgstr "Worker"
+
+#: inc/settings-cacsp-tab-support.php:10
+msgid ""
+"Yes, the plugin is free. Totally free. But if you still want to pay for it "
+"to show your appreciation:"
+msgstr ""
+"Ja, pluginet är gratis. Helt gratis. Men om du ändå vill betala för det för "
+"att visa din uppskattning:"
+
+#: inc/settings-cacsp-tab-colors.php:8
+msgid ""
+"You don't have to fill out this form, the plugin comes with default colors. "
+"But if you want to change the colors, this is it."
+msgstr ""
+"Du behöver inte fylla i det här formuläret, pluginet har redan alla färger "
+"som behövs. Men om du vill ändra några färger så gör du det här."
+
+#: inc/settings-cacsp-tab-settings.php:8
+msgid ""
+"You don't have to fill out this form, the plugin comes with default settings."
+" But if you want to change settings, this is it."
+msgstr ""
+"Du behöver inte fylla i det här formuläret, pluginet har redan alla "
+"inställningar som behövs. Men om du vill ändra några inställningar så gör du "
+"det här."
+
+#: inc/settings-cacsp.php:121
+msgid "You have unsaved changes, do you want to continue?"
+msgstr "Du har osparade ändringar, vill du fortsätta?"
+
+#: inc/settings-cacsp-tab-domains.php:64 inc/settings-cacsp-tab-domains.php:65
+#: inc/settings-cacsp-tab-domains.php:66
+msgid "Your CDN, like https://media.yourdomain.com/"
+msgstr "Din CDN, som t.ex. https://media.dinhemsida.se/"
+
+#: inc/settings-cacsp-update-options.php:22
+#: inc/settings-cacsp-update-options.php:482
+#: inc/settings-cacsp-update-options.php:507
+#: inc/settings-cacsp-update-options.php:530
+#: inc/settings-cacsp-update-options.php:555
+msgid "Your settings are now updated"
+msgstr "Dina inställningar är nu uppdaterade"
+
+#: inc/settings-cacsp-update-options.php:436
+msgid ""
+"Your settings are now updated in <a href=\"?"
+"page=cacsp_settings&tab=domains\">Domains</a>"
+msgstr ""
+"Dina inställningar är nu uppdaterade i <a href=\"?"
+"page=cacsp_settings&tab=domains\">Domäner</a>"
+
+#: inc/settings-cacsp-tab-texts.php:75
+msgid ""
+"Your settings may be preventing you from seeing this content. Most likely "
+"you have Experience turned off."
+msgstr ""
+"Det verkar som om dina inställningar hindrar dig från att se detta "
+"innehållet. Med största sannolikhet är det för att du har Upplevelse "
+"avstängt."
+
+#: inc/settings-cacsp-tab-quickstart.php:213
+msgid "YouTube"
+msgstr "YouTube"

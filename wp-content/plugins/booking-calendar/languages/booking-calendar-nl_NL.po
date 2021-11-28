@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: booking calendar\n"
 "POT-Creation-Date: 2016-04-14 22:34+0400\n"
-"PO-Revision-Date: 2021-05-12 17:37+0400\n"
+"PO-Revision-Date: 2021-11-23 18:28+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -56,12 +56,12 @@ msgstr "Totale prijs"
 #: admin/controllers/Reservations.php:353 admin/views/Reservations.php:208
 #: includes/booking_class.php:623 includes/booking_class.php:1116
 msgid "Extra Information"
-msgstr ""
+msgstr "Extra informatie"
 
 #: admin/controllers/Reservations.php:366 admin/views/Reservations.php:221
 #: includes/booking_class.php:640
 msgid "Price change"
-msgstr ""
+msgstr "Prijs verandering"
 
 #: admin/views/Calendars.php:18 admin/views/UserPermissions.php:15
 msgid "Calendars"
@@ -94,7 +94,7 @@ msgstr "Titel"
 
 #: admin/views/Calendars.php:31
 msgid "Shortcode"
-msgstr ""
+msgstr "Shortcode"
 
 #: admin/views/Calendars.php:32 admin/views/Calendars.php:43
 #: admin/views/Extras.php:38 admin/views/Extras.php:48 admin/views/Forms.php:38
@@ -116,7 +116,7 @@ msgstr "Formulier"
 
 #: admin/views/Calendars.php:107
 msgid "Extra"
-msgstr ""
+msgstr "Extra"
 
 #: admin/views/Calendars.php:223
 msgid "Start Date"
@@ -200,35 +200,35 @@ msgstr ""
 
 #: admin/views/Extras.php:20 admin/views/Extras.php:159
 msgid "Add Extra"
-msgstr ""
+msgstr "Extra toevoegen"
 
 #: admin/views/Extras.php:154
 msgid "Edit Extra"
-msgstr ""
+msgstr "Extra bewerken"
 
 #: admin/views/Extras.php:164
 msgid "Extra Name"
-msgstr ""
+msgstr "Extra naam"
 
 #: admin/views/Extras.php:175
 msgid "Extras fields"
-msgstr ""
+msgstr "Extra velden"
 
 #: admin/views/Forms.php:18 admin/views/UserPermissions.php:31
 msgid "Forms"
-msgstr ""
+msgstr "Formulieren"
 
 #: admin/views/Forms.php:20 admin/views/Forms.php:117
 msgid "Add Form"
-msgstr ""
+msgstr "Formulier toevoegen"
 
 #: admin/views/Forms.php:112
 msgid "Edit Form"
-msgstr ""
+msgstr "Formulier bewerken"
 
 #: admin/views/Forms.php:122
 msgid "Form Name"
-msgstr ""
+msgstr "Formulier naam"
 
 #: admin/views/Forms.php:129
 msgid "Text"
@@ -300,19 +300,19 @@ msgstr ""
 
 #: admin/views/Reservations.php:72
 msgid "Approved"
-msgstr ""
+msgstr "Goedgekeurd"
 
 #: admin/views/Reservations.php:75
 msgid "Canceled"
-msgstr ""
+msgstr "Geannuleerd"
 
 #: admin/views/Reservations.php:78
 msgid "Rejected"
-msgstr ""
+msgstr "Afgewezen"
 
 #: admin/views/Reservations.php:81
 msgid "Pending"
-msgstr ""
+msgstr "In afwachting"
 
 #: admin/views/Reservations.php:85
 msgid "Period"

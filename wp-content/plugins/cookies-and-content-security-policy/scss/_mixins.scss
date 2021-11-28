@@ -1,0 +1,49 @@
+/*
+usage: 
+@include transition(top, 0.5s);
+@include transition($type: top);
+*/
+@mixin transition($type: all, $time: 0.2s, $timing-function: ease-in-out, $delay: 0s) {
+	//@include responsive(sm-up) {
+		-webkit-transition: $type $time $timing-function $delay;
+		-moz-transition: $type $time $timing-function $delay;
+		-o-transition: $type $time $timing-function $delay;
+		transition: $type $time $timing-function $delay;
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+    	backface-visibility: hidden;
+	//}
+}
+
+/*
+usage: @include responsive(xxs-down) {
+	
+}
+*/
+@mixin responsive($width) {
+	@if $width == width-max-small-down {
+		@media (max-width: $width-max-small) {
+			@content;
+		}
+	}
+	@else if $width == width-max-medium-down {
+		@media (max-width: $width-max-medium) {
+			@content;
+		}
+	}
+	@else if $width == width-max-regular-down {
+		@media (max-width: $width-max-regular) {
+			@content;
+		}
+	}
+	@else if $width == width-max-large-down {
+		@media (max-width: $width-max-large) {
+			@content;
+		}
+	}
+	@else if $width == width-max-very-large-down {
+		@media (max-width: $width-max-very-large) {
+			@content;
+		}
+	}
+}

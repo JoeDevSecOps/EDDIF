@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: booking calendar\n"
 "POT-Creation-Date: 2016-12-08 23:53+0400\n"
-"PO-Revision-Date: 2021-08-24 18:13+0400\n"
+"PO-Revision-Date: 2021-11-15 18:42+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -252,27 +252,27 @@ msgstr "Testo"
 
 #: admin/views/Forms.php:130
 msgid "Textarea"
-msgstr ""
+msgstr "Area di testo"
 
 #: admin/views/Forms.php:131
 msgid "Checkbox"
-msgstr ""
+msgstr "Casella di controllo"
 
 #: admin/views/Forms.php:133
 msgid "Drop down"
-msgstr ""
+msgstr "Cadere in picchiata"
 
 #: admin/views/Forms.php:134
 msgid "Drop down(Countries)"
-msgstr ""
+msgstr "Cadere in picchiata(Paesi)"
 
 #: admin/views/Forms.php:141
 msgid "Form fields"
-msgstr ""
+msgstr "Campi modulo"
 
 #: admin/views/Reservations.php:51
 msgid "Reservations List View"
-msgstr ""
+msgstr "Visualizzazione elenco prenotazioni"
 
 #: admin/views/Reservations.php:54 admin/views/Reservations.php:438
 #: admin/views/Reservations.php:482
@@ -282,33 +282,33 @@ msgstr "Seleziona Calendario"
 #: admin/views/Reservations.php:59 admin/views/Reservations.php:443
 #: admin/views/Reservations.php:487
 msgid "Reservation List View"
-msgstr ""
+msgstr "Visualizzazione elenco prenotazioni"
 
 #: admin/views/Reservations.php:60 admin/views/Reservations.php:444
 #: admin/views/Reservations.php:488
 msgid "Reservation Month View"
-msgstr ""
+msgstr "Vista mese di prenotazione"
 
 #: admin/views/Reservations.php:61 admin/views/Reservations.php:445
 #: admin/views/Reservations.php:479 admin/views/Reservations.php:489
 msgid "Add Reservation"
-msgstr ""
+msgstr "Aggiungi prenotazione"
 
 #: admin/views/Reservations.php:66
 msgid "Statistics"
-msgstr ""
+msgstr "Statistiche"
 
 #: admin/views/Reservations.php:69
 msgid "Actions"
-msgstr ""
+msgstr "Azioni"
 
 #: admin/views/Reservations.php:72
 msgid "Filters"
-msgstr ""
+msgstr "Filtri"
 
 #: admin/views/Reservations.php:79 admin/views/Reservations.php:87
 msgid "New reservations"
-msgstr ""
+msgstr "Nuove prenotazioni"
 
 #: admin/views/Reservations.php:94 admin/views/Reservations.php:379
 msgid "Approve"

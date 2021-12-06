@@ -4,8 +4,8 @@ Contributors: Nayrathemes
 Requires at least: 4.4
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 1.0.72
-Version: 1.0.72
+Stable tag: 1.0.80
+Version: 1.0.80
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, photography, portfolio, editor-style, grid-layout
@@ -94,6 +94,30 @@ Info Hover, Smile, Shadow & All other Images have been used in images folder, Cr
 
 
 == Changelog ==
+
+@version 1.0.80
+*Changed Block File Widget Button Border Radius
+
+@version 1.0.79
+*Fixed Block Social Widget Style Issue
+
+@version 1.0.78
+*Tested With WordPress 5.8.2
+
+@version 1.0.77
+*Fixed Block File Button Color Issue
+
+@version 1.0.76
+*Fixed Tag Cloud Underline Issue
+
+@version 1.0.75
+*Make Block Image Caption Align Center
+
+@version 1.0.74
+*Fixed Block Widget Category Style Issue
+
+@version 1.0.73
+*Fixed Block Widget Category Style Issue
 
 @version 1.0.72
 *Fixed Block Table Text Align Issue

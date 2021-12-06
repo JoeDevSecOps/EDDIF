@@ -1998,12 +1998,12 @@ span:not(.author-name):not(.comments-link):not(.posted-on):not(.post-list) a {
 /*===== 23. Footer Section =====*/
 
 .footer-section {
-    padding-top: 0px;
+    padding-top: 60px;
 }
 
 .footer-dark {
     color: var(--sp-white);
-    background-color: black;
+    background-color: #151535;
 }
 
 .footer-info-wrapper li:not(:last-child) {
@@ -2643,4 +2643,9 @@ animate-7 (Zoom)
 .wp-block-search .wp-block-search__button {
     background: #d61523;
     color: #fff;
+}
+
+
+.wp-block-image figcaption {
+    text-align: center;
 }

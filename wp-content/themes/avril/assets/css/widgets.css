@@ -804,6 +804,7 @@ form input[type="email"]:focus + .av-search-submit {
     padding: 0px 15px;
     color: var(--sp-white);
     background-color: var(--sp-primary);
+	text-decoration: none;
 }
 
 
@@ -1200,14 +1201,14 @@ form input[type="email"]:focus + .av-search-submit {
 }
 
 .sidebar .widget_nav_menu li.menu-item-has-children a,
-.sidebar .widget:not(.widget_payment_methods):not(.widget_social_widget) ul li:not(.menu-item-has-children) {
+.sidebar .widget:not(.widget_payment_methods):not(.widget_social_widget) ul li:not(.menu-item-has-children):not(.wp-social-link) {
     background-color: #f2f2f2;
 }
 
 .sidebar .widget.woocommerce ul li:hover,
 .sidebar .widget.woocommerce ul li:focus-within,
-.sidebar .widget:not(.woocommerce):not(.widget_archive):not(.widget_categories):not(.widget_recent_comments):not(.widget_payment_methods):not(.widget_social_widget):not(.widget_info):not(.widget_calender):not(.widget_tag) ul:not(.days) li a:hover,
-.sidebar .widget:not(.woocommerce):not(.widget_archive):not(.widget_categories):not(.widget_recent_comments):not(.widget_payment_methods):not(.widget_social_widget):not(.widget_info):not(.widget_calender):not(.widget_tag) ul:not(.days) li a:focus,
+.sidebar .widget:not(.woocommerce):not(.widget_archive):not(.widget_categories):not(.widget_recent_comments):not(.widget_payment_methods):not(.widget_social_widget):not(.widget_info):not(.widget_calender):not(.widget_tag) ul:not(.days) li:not(.wp-social-link) a:hover,
+.sidebar .widget:not(.woocommerce):not(.widget_archive):not(.widget_categories):not(.widget_recent_comments):not(.widget_payment_methods):not(.widget_social_widget):not(.widget_info):not(.widget_calender):not(.widget_tag) ul:not(.days) li:not(.wp-social-link) a:focus,
 .sidebar .widget_archive ul li a:hover, .sidebar .widget_archive ul li a:focus {
     color: var(--sp-white);
     background-color: var(--sp-primary);
@@ -1526,4 +1527,28 @@ form input[type="email"]:focus + .av-search-submit {
 
 .wp-block-table figcaption {
     text-align: center;
+}
+
+.post-content .wp-block-post-terms a {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    word-break: break-word;
+    background-color: #f2f2f2;
+}
+
+.wp-block-file .wp-block-file__button {
+    background: var(--sp-primary);
+}
+
+ul.wp-block-social-links li a:before {
+    content: none !important;
+}
+
+ul.wp-block-social-links li a {
+    padding: 0.25rem !important;
+}
+
+.wp-block-file .wp-block-file__button {
+    border-radius: 0;
 }

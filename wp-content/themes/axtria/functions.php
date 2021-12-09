@@ -68,3 +68,5 @@ add_action( 'after_switch_theme', 'axtria_parent_theme_options' );
 remove_action("wp_head", "wp_generator");
 
 add_filter('login_errors',create_function('$a', "return null;"));
+
+define('DISALLOW_FILE_EDIT',true);

@@ -82,7 +82,7 @@ add_action('boostify_get_contact_info_default','boostify_get_contact_info_defaul
 		'boostify_get_slider_default', json_encode(
 				 array(
 				array(
-					//'image_url'       => CLEVERFOX_PLUGIN_URL .'inc/boostify/images/slider/img01.jpg',
+					'image_url'       => CLEVERFOX_PLUGIN_URL .'inc/boostify/images/slider/img01.jpg',
 					'image_url2'       => CLEVERFOX_PLUGIN_URL .'inc/boostify/images/slider/img01.jpg',
 					'title'           => esc_html__( 'Business litigation expert', 'clever-fox' ),
 					'subtitle'         => esc_html__( 'we are for your invest', 'clever-fox' ),

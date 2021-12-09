@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: booking calendar\n"
 "POT-Creation-Date: 2016-04-14 22:34+0400\n"
-"PO-Revision-Date: 2021-06-09 15:53+0400\n"
+"PO-Revision-Date: 2021-12-07 17:53+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -328,43 +328,43 @@ msgstr "Stare"
 
 #: admin/views/Reservations.php:124
 msgid "Reservation information"
-msgstr ""
+msgstr "Informații de rezervare"
 
 #: admin/views/Reservations.php:179 includes/booking_class.php:596
 msgid "Hours"
-msgstr ""
+msgstr "Ore"
 
 #: admin/views/Reservations.php:281
 msgid "Reservations Month View"
-msgstr ""
+msgstr "Vizualizare lunară de rezervări"
 
 #: admin/views/Themes.php:18 admin/views/UserPermissions.php:47
 msgid "Themes"
-msgstr ""
+msgstr "Teme"
 
 #: admin/views/Themes.php:20 admin/views/Themes.php:1795
 msgid "Add Theme"
-msgstr ""
+msgstr "Adăugați o temă"
 
 #: admin/views/Themes.php:67
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: admin/views/Themes.php:72
 msgid "Date format"
-msgstr ""
+msgstr "Formatul datei"
 
 #: admin/views/Themes.php:73
 msgid "Select date format for emails and the reservation table"
-msgstr ""
+msgstr "Selectați formatul de dată pentru e-mailuri și tabelul de rezervare"
 
 #: admin/views/Themes.php:87
 msgid "Week days format"
-msgstr ""
+msgstr "Format zile săptămâni"
 
 #: admin/views/Themes.php:88
 msgid "Select week days format"
-msgstr ""
+msgstr "Selectați formatul zilelor săptămânii"
 
 #: admin/views/Themes.php:90 admin/views/Themes.php:116
 #: admin/views/Themes.php:176 includes/textfortr.php:30
@@ -381,11 +381,11 @@ msgstr "Du"
 
 #: admin/views/Themes.php:113
 msgid "Start Day of the week"
-msgstr ""
+msgstr "Ziua de început a săptămânii"
 
 #: admin/views/Themes.php:114
 msgid "Select start day of the week for Calendar"
-msgstr ""
+msgstr "Selectați ziua de început a săptămânii pentru Calendar"
 
 #: admin/views/Themes.php:117 admin/views/Themes.php:177
 #: includes/textfortr.php:31
@@ -419,27 +419,27 @@ msgstr "Sâmbătă"
 
 #: admin/views/Themes.php:129
 msgid "Default Year"
-msgstr ""
+msgstr "Anul implicit"
 
 #: admin/views/Themes.php:130
 msgid "Type here default year(for example 2018)"
-msgstr ""
+msgstr "Tastați aici anul implicit (de exemplu 2018)"
 
 #: admin/views/Themes.php:136
 msgid "Default Month"
-msgstr ""
+msgstr "Luna implicită"
 
 #: admin/views/Themes.php:137
 msgid "Select default month for Calendar"
-msgstr ""
+msgstr "Selectați luna implicită pentru Calendar"
 
 #: admin/views/Themes.php:144
 msgid "Calendar Animation type"
-msgstr ""
+msgstr "Tip de animație calendar"
 
 #: admin/views/Themes.php:145
 msgid "Select calendar animation type"
-msgstr ""
+msgstr "Selectați tipul de animație al calendarului"
 
 #: admin/views/Themes.php:153
 msgid ""

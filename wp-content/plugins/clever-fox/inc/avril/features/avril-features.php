@@ -195,9 +195,9 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 				<a class="customizer_feature_upgrade_section up-to-pro"  href="https://www.nayrathemes.com/avail-pro/" target="_blank"
 				style="display: none;"><?php _e('Upgrade to Pro','clever-fox'); ?></a>
 					
-			<?php }elseif ( 'Axtria' == $theme->name){ ?>
+			<?php }elseif ( 'Axtia' == $theme->name){ ?>
 				
-				<a class="customizer_feature_upgrade_section up-to-pro"  href="https://www.nayrathemes.com/axtria-pro/" target="_blank"
+				<a class="customizer_feature_upgrade_section up-to-pro"  href="https://www.nayrathemes.com/axtia-pro/" target="_blank"
 				style="display: none;"><?php _e('Upgrade to Pro','clever-fox'); ?></a>
 				
 			<?php

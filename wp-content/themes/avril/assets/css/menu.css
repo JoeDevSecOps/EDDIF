@@ -1710,7 +1710,7 @@ body.header-search-active:not(.aera-theme) .header-search-popup form {
 }
 
 button[type=submit], button, input[type="button"],
-input[type="reset"], input[type="submit"], .av-btn, .navigation.posts-navigation .nav-links a {
+input[type="reset"], input[type="submit"], .av-btn, .navigation.posts-navigation .nav-links a, .wp-block-loginout a {
     font-weight: 500;
     padding: 0 20px;
     line-height: 2.6;

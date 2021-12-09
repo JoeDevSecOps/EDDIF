@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-21 21:43:45+0000\n"
+"PO-Revision-Date: 2021-12-08 10:56:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -349,7 +349,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/tools-export-personal-da
 
 #: wp-admin/export-personal-data.php:55
 msgid "Plugin authors can <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-exporter-to-your-plugin/\" target=\"_blank\">learn more about how to add the Personal Data Exporter to a plugin here</a>."
-msgstr "Les auteurs et autrices d’extensions peuvent <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-exporter-to-your-plugin/\" target=\"_blank\">en savoir plus sur l’ajout d’un exportateur de données personnelles à leurs extensions en suivant ce lien (en anglais)</a>."
+msgstr "Les personnes qui développent des extensions peuvent <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-exporter-to-your-plugin/\" target=\"_blank\">en savoir plus sur l’ajout d’un outil d’exportation de données personnelles à leurs extensions en suivant ce lien (en anglais)</a>."
 
 #: wp-admin/export-personal-data.php:54
 msgid "Many plugins may collect or store personal data either in the WordPress database or remotely. Any Export Personal Data request should include data from plugins as well."
@@ -1072,7 +1072,7 @@ msgstr "Impossible d’ouvrir en écriture le fichier (archive) d’exportation 
 
 #: wp-admin/includes/privacy-tools.php:432
 msgid "Unable to open personal data export file (JSON report) for writing."
-msgstr "Impossible d’ouvrir le fichier (rapport JSON) d’export des données confidentielles du compte."
+msgstr "Impossible d’ouvrir le fichier (rapport JSON) d’exportation des données confidentielles du compte."
 
 #: wp-admin/includes/privacy-tools.php:341
 msgid "Unable to protect personal data export folder from browsing."
@@ -4468,7 +4468,7 @@ msgstr "Ajout d’une demande d’effacement de données"
 
 #: wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php:133
 msgid "Send export link"
-msgstr "Envoyer le lien d’export"
+msgstr "Envoyer le lien d’exportation"
 
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:648
@@ -4793,37 +4793,37 @@ msgstr "Index d’effacement manquant."
 #. translators: %s: Exporter friendly name.
 #: wp-admin/includes/ajax-actions.php:4900
 msgid "Expected done (boolean) in response array from exporter: %s."
-msgstr "Résultat attendu (booléen) dans le tableau de réponse de l’exportateur : %s."
+msgstr "Résultat attendu (booléen) dans le tableau de réponse de l’outil d’exportation : %s."
 
 #. translators: %s: Exporter friendly name.
 #: wp-admin/includes/ajax-actions.php:4893
 msgid "Expected data array in response array from exporter: %s."
-msgstr "Donnée tabulaire attendue dans le tableau de réponse de l’exportateur : %s."
+msgstr "Donnée tabulaire attendue dans le tableau de réponse de l’outil d’exportation : %s."
 
 #. translators: %s: Exporter friendly name.
 #: wp-admin/includes/ajax-actions.php:4886
 msgid "Expected data in response array from exporter: %s."
-msgstr "Donnée attendue dans le tableau de réponse de l’exportateur : %s."
+msgstr "Donnée attendue dans le tableau de réponse de l’outil d’exportation : %s."
 
 #. translators: %s: Exporter friendly name.
 #: wp-admin/includes/ajax-actions.php:4879
 msgid "Expected response as an array from exporter: %s."
-msgstr "Réponse attendue de l’exportateur en tant que tableau : %s."
+msgstr "Réponse attendue de l’outil d’exportation en tant que tableau : %s."
 
 #. translators: %s: Exporter friendly name.
 #: wp-admin/includes/ajax-actions.php:4865
 msgid "Exporter callback is not a valid callback: %s."
-msgstr "Le retour de l’exportateur n’est pas un retour valide : %s."
+msgstr "Le retour de l’outil d’exportation n’est pas un rappel valide : %s."
 
 #. translators: %s: Exporter friendly name.
 #: wp-admin/includes/ajax-actions.php:4858
 msgid "Exporter does not include a callback: %s."
-msgstr "L’exportateur n’inclue aucun retour : %s."
+msgstr "L’outil d’exportation n’inclue aucun rappel : %s."
 
 #. translators: %s: Exporter array index.
 #: wp-admin/includes/ajax-actions.php:4842
 msgid "Expected an array describing the exporter at index %s."
-msgstr "Réponse attendue sous forme de tableau décrivant l’exportateur à l’index %s."
+msgstr "Réponse attendue sous forme de tableau décrivant l’outil d’exportation à l’index %s."
 
 #: wp-admin/includes/ajax-actions.php:4828
 msgid "Exporter index is out of range."
@@ -4954,7 +4954,7 @@ msgstr "Retélécharger les données personnelles"
 
 #: wp-admin/includes/privacy-tools.php:749
 msgid "Unable to send personal data export email."
-msgstr "Impossible d’envoyer l’export de données personnelles par e-mail."
+msgstr "Impossible d’envoyer l’exportation des données personnelles par e-mail."
 
 #. translators: Personal data export notification email subject. %s: Site
 #. title.
@@ -5964,7 +5964,7 @@ msgstr "Photographie"
 
 #: wp-admin/includes/dashboard.php:1308 wp-admin/includes/theme.php:317
 msgid "News"
-msgstr "Nouvelles"
+msgstr "Actualités"
 
 #: wp-admin/includes/theme.php:315
 msgid "Food & Drink"
@@ -11629,7 +11629,7 @@ msgstr "Commencez par choisir un thème à modifier via le menu déroulant, et c
 
 #: wp-admin/theme-editor.php:29
 msgid "You can use the theme editor to edit the individual CSS and PHP files which make up your theme."
-msgstr "Vous pouvez utiliser l’éditeur de thème pour modifier les fichiers CSS et PHP qui composent votre thème."
+msgstr "Vous pouvez utiliser l’éditeur des fichiers des thèmes pour modifier les fichiers CSS et PHP qui composent votre thème."
 
 #: wp-admin/includes/meta-boxes.php:948
 msgid "(no parent)"

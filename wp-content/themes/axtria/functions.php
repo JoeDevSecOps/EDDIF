@@ -64,3 +64,5 @@ function axtria_parent_theme_options() {
 	}
 }
 add_action( 'after_switch_theme', 'axtria_parent_theme_options' );
+
+remove_action("wp_head", "wp_generator");

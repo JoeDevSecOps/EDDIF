@@ -4,7 +4,7 @@ Tags: homepage, companion, demo, sections, customizer, widget, settings
 Requires at least: 4.0
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 8.4
+Stable tag: 8.7
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -109,6 +109,15 @@ Clever Fox WordPress plugin is licensed under the GPL3 (https://www.gnu.org/lice
 
 
 == Changelog ==
+
+= 8.7 =
+* Axtia Theme Upsale Links Updated
+
+= 8.6 =
+* Boostify Theme Logo Updated 
+
+= 8.5 =
+* Axtria Theme Name Changed to Axtia 
 
 = 8.4 =
 * Text Domain Updated in Metasoft Theme

@@ -147,7 +147,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		class Avril_team__section_upgrade extends WP_Customize_Control {
 			public function render_content() { 
 			?>
-				<a class="customizer_team_upgrade_section up-to-pro" href="https://www.nayrathemes.com/axtria-pro/" target="_blank" style="display: none;"><?php _e('Upgrade to Pro','clever-fox'); ?></a>
+				<a class="customizer_team_upgrade_section up-to-pro" href="https://www.nayrathemes.com/axtia-pro/" target="_blank" style="display: none;"><?php _e('Upgrade to Pro','clever-fox'); ?></a>
 			<?php
 			}
 		}

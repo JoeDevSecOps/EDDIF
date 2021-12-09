@@ -88,7 +88,7 @@ class Cleverfox_Activator {
 				require CLEVERFOX_PLUGIN_DIR . 'inc/avail/default-widgets/default-widget.php';
 			}
 			
-			if ( 'Axtria' == $theme->name){
+			if ( 'Axtia' == $theme->name){
 				require CLEVERFOX_PLUGIN_DIR . 'inc/axtria/default-pages/upload-media.php';
 				require CLEVERFOX_PLUGIN_DIR . 'inc/axtria/default-pages/home-page.php';
 				require CLEVERFOX_PLUGIN_DIR . 'inc/axtria/default-widgets/default-widget.php';

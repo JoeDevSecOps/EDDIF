@@ -29,7 +29,7 @@ if ( ! function_exists( 'cleverfox_boostify_lite_slider' ) ) :
 						<?php if ( ! empty( $image ) ) : ?>
 							<img src="<?php echo esc_url( $image ); ?>" alt="">
 						<?php endif; ?>
-						<div class="content" style="background:rgb(<?php echo "18 29 97 / $slider_opacity "?>)">
+						<div class="content" style="background:rgb(<?php echo "24 25 27 / $slider_opacity "?>)">
 							<div class="slide-table">
 								<div class="slide-table-cell">
 									<div class="container">

@@ -3,7 +3,7 @@
 Plugin Name: Clever Fox
 Plugin URI:
 Description: Clever Fox plugin to enhance the functionality of free themes made by Nayra Themes. More than 50000+ trusted websites with Nayra Themes. It provides intuitive features to your website. 20+ Themes compatible with Clever Fox. See below free themes listed here. Avril is one of Popular themes in our collections.
-Version: 8.4
+Version: 8.7
 Author: nayrathemes
 Author URI: https://nayrathemes.com
 Text Domain: clever-fox
@@ -92,7 +92,7 @@ function cleverfox_activate() {
 			require_once('inc/fiona-news/fiona-news.php');
 		}
 		
-		if( 'Axtria' == $theme->name){
+		if( 'Axtia' == $theme->name){
 			require_once('inc/axtria/axtria.php');
 		}
 		

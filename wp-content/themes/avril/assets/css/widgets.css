@@ -1552,3 +1552,12 @@ ul.wp-block-social-links li a {
 .wp-block-file .wp-block-file__button {
     border-radius: 0;
 }
+
+.sidebar .wp-block-latest-comments {
+    padding: 0;
+}
+
+.wp-block-loginout a {
+    color: var(--sp-white);
+    background-color: var(--sp-primary);
+}

@@ -1,0 +1,44 @@
+// Colors
+$black: #000 !default;
+$white: #fff !default;
+$green: #47b973 !default;
+$green-light: lighten(#47b973, 30%) !default;
+$green-dark: darken(#47b973, 20%) !default;
+$gray: lighten($black, 70%) !default;
+$gray-light: lighten($black, 90%) !default;
+$red: #d9534f !default;
+$red-light: lighten($red, 30%) !default; 
+
+// Default element colors
+$header-bg: $black !default;
+$header-text: $white !default;
+$overlay: $black !default;
+$text-color: $black !default;
+$modal-bg: $white !default;
+$btns-border-top: $gray-light !default;
+$settings-list-border-top: lighten($black, 80%) !default;
+$btn-bg: $black !default;
+$btn-text: $white !default;
+$btn-settings-bg: $white !default;
+$btn-settings-text: $black !default;
+$btn-refuse-bg: $red !default;
+$btn-refuse-text: $white !default;
+$btn-refuse-all-bg: $red !default;
+$btn-refuse-all-text: $white !default;
+$btn-save-bg: $white !default;
+$btn-save-text: $black !default;
+$btn-accept-bg: $green !default;
+$btn-accept-text: $white !default;
+$btn-accept-all-bg: $green !default;
+$btn-accept-all-text: $white !default;
+
+// Sizes
+$width-max-very-small: 380px;
+$width-max-small: 576px;
+$width-min-medium: $width-max-small + 1;
+$width-max-medium: 768px;
+$width-min-regular: $width-max-medium + 1;
+$width-max-regular: 992px;
+$width-min-large: $width-max-regular + 1;
+$width-max-large: 1200px;
+$width-min-very-large: $width-max-large + 1;

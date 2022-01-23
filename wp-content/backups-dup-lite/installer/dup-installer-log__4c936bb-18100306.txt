@@ -1,0 +1,955 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:32:15
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.21                                |7.4.19
+OS__________________: Darwin                                |Linux
+CREATED_____________: 2022-01-18 09:03:06
+WP VERSION__________: 5.8.3
+DUP VERSION_________: 1.4.3
+DB__________________: 5.7.34
+DB TABLES___________: 72
+DB ROWS_____________: 21,647
+DB FILE SIZE________: 14.86MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.19 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/var/www/EDDIF"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://127.0.0.1/EDDIF/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/EDDIF/20220114_eddif_[HASH]_20220118100306_archive.zip"
+SIZE________________: 94.74MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/EDDIF/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/var/www/EDDIF/20220114_eddif_[HASH]_20220118100306_archive.zip' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/EDDIF/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/var/www/EDDIF/installer.php' failed
+
+STEP-1 COMPLETE @ 09:32:21 - RUNTIME: 5.4292 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'EDDIF'@'localhost' (using password: YES) [CODE:2|FILE:/var/www/EDDIF/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'EDDIF'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:51:52
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.28 -- Build Server: 5.7.34
+FILE SIZE:	dup-database__[HASH].sql (5.69MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/EDDIF/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	71
+RENAMED TABLES:	0
+QUERIES RAN:	21579
+
+wp_bp_activity: (1)
+wp_bp_activity_meta: (0)
+wp_bp_invitations: (0)
+wp_bp_messages_messages: (0)
+wp_bp_messages_meta: (0)
+wp_bp_messages_notices: (0)
+wp_bp_messages_recipients: (0)
+wp_bp_notifications: (0)
+wp_bp_notifications_meta: (0)
+wp_bp_optouts: (0)
+wp_bp_user_blogs: (1)
+wp_bp_user_blogs_blogmeta: (8)
+wp_bp_xprofile_data: (0)
+wp_bp_xprofile_fields: (1)
+wp_bp_xprofile_groups: (1)
+wp_bp_xprofile_meta: (2)
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_nextend2_image_storage: (11)
+wp_nextend2_section_storage: (7)
+wp_nextend2_smartslider3_generators: (0)
+wp_nextend2_smartslider3_sliders: (2)
+wp_nextend2_smartslider3_sliders_xref: (1)
+wp_nextend2_smartslider3_slides: (10)
+wp_njt_fastdup_entities: (0)
+wp_njt_fastdup_packages: (3)
+wp_options: (339)
+wp_postmeta: (519)
+wp_posts: (355)
+wp_shortpixel_queue: (121)
+wp_signups: (0)
+wp_term_relationships: (51)
+wp_term_taxonomy: (24)
+wp_termmeta: (0)
+wp_terms: (24)
+wp_usermeta: (31)
+wp_users: (1)
+wp_wfblockediplog: (0)
+wp_wfblocks7: (0)
+wp_wfconfig: (255)
+wp_wfcrawlers: (0)
+wp_wffilechanges: (0)
+wp_wffilemods: (9095)
+wp_wfhits: (5)
+wp_wfhoover: (0)
+wp_wfissues: (2)
+wp_wfknownfilelist: (9095)
+wp_wflivetraffichuman: (0)
+wp_wflocs: (1)
+wp_wflogins: (8)
+wp_wfls_2fa_secrets: (0)
+wp_wfls_settings: (23)
+wp_wfnotifications: (9)
+wp_wfpendingissues: (0)
+wp_wfreversecache: (1)
+wp_wfsnipcache: (0)
+wp_wfstatus: (991)
+wp_wftrafficrates: (0)
+wp_wpdevart_calendars: (1)
+wp_wpdevart_dates: (0)
+wp_wpdevart_extras: (1)
+wp_wpdevart_forms: (1)
+wp_wpdevart_payments: (0)
+wp_wpdevart_reservations: (2)
+wp_wpdevart_themes: (1)
+wp_yoast_indexable: (250)
+wp_yoast_indexable_hierarchy: (72)
+wp_yoast_migrations: (23)
+wp_yoast_primary_term: (0)
+wp_yoast_seo_links: (129)
+Removed '26' cache/transient rows
+
+INSERT DATA RUNTIME: 5.6776 sec.
+STEP-2 COMPLETE @ 09:51:58 - RUNTIME: 5.7103 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:53:08
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "EDDIF"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/Applications/MAMP/htdocs"
+path_new______________: "/var/www/EDDIF"
+siteurl_______________: "http://127.0.0.1/EDDIF"
+url_old_______________: "http://localhost:8888"
+url_new_______________: "http://127.0.0.1/EDDIF"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_bp_activity"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_bp_activity_meta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_invitations"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_messages_messages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_messages_meta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_messages_notices"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_messages_recipients"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_notifications"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_notifications_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_optouts"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_user_blogs"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_bp_user_blogs_blogmeta"_______________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_bp_xprofile_data"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_xprofile_fields"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_bp_xprofile_groups"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_bp_xprofile_meta"_____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_image_storage"_______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_nextend2_section_storage"_____________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_generators"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders"________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_slides"_________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_njt_fastdup_entities"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_njt_fastdup_packages"_________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   339][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   519][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   355][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_shortpixel_queue"_____________________________[ROWS:   121][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_signups"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    51][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   255][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS:  9095][PG:   3][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS:  9095][PG:   3][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:   991][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpdevart_calendars"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wpdevart_dates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpdevart_extras"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wpdevart_forms"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wpdevart_payments"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpdevart_reservations"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_wpdevart_themes"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:   250][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:    72][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:   129][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  4:"\Applications\MAMP\htdocs" =======================> "/var/www/EDDIF"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs" ====================> "\/var\/www\/EDDIF"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs" =================> "%2Fvar%2Fwww%2FEDDIF"
+	SEARCH  7:"//localhost:8888" ================================> "//127.0.0.1/EDDIF"
+	SEARCH  8:"\/\/localhost:8888" ==============================> "\/\/127.0.0.1\/EDDIF"
+	SEARCH  9:"%2F%2Flocalhost%3A8888" ==========================> "%2F%2F127.0.0.1%2FEDDIF"
+	SEARCH 10:"https://127.0.0.1/EDDIF" =========================> "http://127.0.0.1/EDDIF"
+	SEARCH 11:"https:\/\/127.0.0.1\/EDDIF" ======================> "http:\/\/127.0.0.1\/EDDIF"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2FEDDIF" =================> "http%3A%2F%2F127.0.0.1%2FEDDIF"
+--------------------------------------
+SCANNED:	Tables:72 	|	 Rows:21478 	|	 Cells:134704 
+UPDATED:	Tables:14 	|	 Rows:549 	|	 Cells:921 
+ERRORS:		0 
+RUNTIME:	0.709000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:53:09 - RUNTIME: 0.7554 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

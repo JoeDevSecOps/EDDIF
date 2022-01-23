@@ -1,0 +1,1678 @@
+/*       ADMIN STYLES        */
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+span.wpdevart-required {
+	color: red;
+}
+.wpdevart-item-elem-container.element-color .pro-field.overlay{
+	position:absolute;
+	z-index:1;
+    height: 26px;
+    width: 111px;
+	top:0;
+	left:0;
+}
+.wpdevart-item-elem-container.element-color{
+	position:relative;
+}
+.div-for-clear:after{
+	content:'';
+	clear:both;
+	display:table;
+}
+.wpdevart-list-container{
+	width:99%;
+}
+.wpdevart-item-container.week_days {
+    background: #d4d4d4;
+    margin: 20px 0 0;
+}
+.week_days span.wpdevart-title {
+    font-size: 17px;
+    line-height: 1;
+    position: relative;
+    top: 3px;
+}
+.wpdevart-item-container.wpdevart-main-item-container{
+	background-color: #fff;
+    width: 99%;
+	padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wpdevart-item-container{
+	padding:10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#wpdevart_forms .wpdevart-item-parent-container,
+#wpdevart_extras .wpdevart-item-parent-container{
+	cursor:pointer;
+}
+.items_open {
+	border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: rgba(243, 243, 243, 0.49);
+    padding: 8px 12px 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.08) inset;
+}
+
+.wpdevart_add_res .booking_calendar_container{
+	margin: 0px;
+}
+#wpdevart_wpdevart-item_title{
+	padding: 0px 0 15px;
+}
+div#wpdevart_theme-tabs {
+}
+
+div#wpdevart-tabs-item-container {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #E2E2E2;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#wpdevart_wpdevart-item_title span{
+	font-size:20px;
+}
+.wpdevart-item-section-cont {
+    padding: 10px;
+}
+#wpdevart_themes .wpdevart-item-section-cont {
+    padding: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #E2E2E2;
+}
+.wpdevart-item-section{
+    width: 610px;
+    border: 1px solid #E2E2E2;
+}
+.user-permissions .wpdevart-item-section{
+    background:#FFFFFF;
+	display:block !important;
+}
+#wpdevart_extras .wpdevart-item-section{
+    width: 725px;
+}
+#wpdevart_themes .wpdevart-item-section{
+    max-width: 100%;
+    margin-right: 1%;
+    margin-bottom: 20px;
+	border:0;
+    display: none;
+    width: 100%;
+}
+.wpdevart-item-section h3{
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    border-bottom: 1px solid #EAEAEA;
+}
+.wpdevart-item-section h3:first-letter{
+	text-transform:uppercase;
+}
+.wpdevart-fild-item-container:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+.wpdevart-fild-item-container{
+	display:table;
+	width:100%;
+	margin-bottom: 5px;
+}
+.section-title,.wpdevart-item-elem-container{
+	display:table-cell;
+}
+.wpdevart-item-elem-container textarea {
+	min-height:95px;
+}
+.wpdevart-item-elem-container textarea#custom_css {
+	width:300px;
+}
+.wpdevart-item-elem-container textarea[disabled="disabled"] {
+	min-height:initial;
+}
+.section-title{
+	width:44%;
+	font-size: 15px;
+	position: relative;
+}
+#wpdevart_theme-tab-general_container .section-title,
+#wpdevart_theme-tab-general_container .wpdevart-item-elem-container,
+#wpdevart_themes .section-title,
+#wpdevart_themes .wpdevart-item-elem-container{
+	width:100%;
+	display: block;
+}
+#wpdevart_theme-tab-general_container  .section-title,
+#wpdevart_themes .section-title{
+    margin-bottom: 10px;
+}
+#wpdevart_theme-tab-general_container .wpdevart-item-container,
+#wpdevart_themes .wpdevart-item-container {
+    width: 640px;
+	max-width:100%;
+}
+#wpdevart_theme-tab-notifications_container > div  .section-title,
+#wpdevart_theme-tab-notifications_container > div  .wpdevart-item-elem-container {
+    float: none;
+    width: 43%;
+	min-height: auto;
+	display: table-cell;
+}
+#wpdevart_theme-tab-notifications_container .wpdevart-item-container {
+    float: none;
+    width: 700px;
+	min-height: auto;
+	max-width:100%;
+    margin: 0 ;
+}
+#wpdevart_theme-tab-notifications_container .items_open {
+    float: none !important;
+    width: 700px !important;
+	max-width:100%;
+}
+#wpdevart_theme-tab-notifications_container > div  .wpdevart-item-elem-container {
+    width: 57%;
+}
+#wpdevart_themes .items_open  .wpdevart-item-container{
+    float: none;
+    width: 100%;
+    min-height: auto;
+    padding: 3px 10px;
+}
+#wpdevart_themes .items_open {
+    width: 640px;
+    margin-bottom: 10px;
+}
+#wpdevart_themes .section-info{
+	width:100%;
+}
+#wpdevart_extras .wpdevart-item-elem-container{
+	width:83%;
+}
+.wpdevart-item-elem-container{
+	width:57%;
+}
+.element-info span{
+	font-size: 15px;
+	background-color: #F9F9F9;
+}
+span.wpdevart-title {
+    font-weight: bold;
+	font-size: 14px;
+}
+.wpdevart-item-elem-container input,
+.wpdevart-item-elem-container select,
+.wpdevart-item-elem-container textarea{
+	/*float:left;*/
+}
+.wpdevart-item-elem-container input[type="text"],
+.wpdevart-item-elem-container select,
+.wpdevart-item-elem-container textarea{
+	width: 170px;
+}
+.wpdevart-item-elem-container input.multi-checkbox {
+	position: relative;
+	box-shadow:none !important;
+	border: none;
+	outline: none !important;
+}
+.wpdevart-item-elem-container input.multi-checkbox:focus,
+.wpdevart-item-elem-container input.multi-checkbox:active {
+	box-shadow:none !important;
+	outline: none !important;
+}
+.wpdevart-item-elem-container input.multi-checkbox:before {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    top: 2px;
+}
+.wpdevart-item-elem-container input.multi-checkbox:after {
+    content: "";
+    position: absolute;
+    top: -0.125rem;
+    left: 0;
+    width: 1.1rem;
+    height: 1.1rem;
+    background: #fff;
+    cursor: pointer;
+}
+.wpdevart-item-elem-container input.multi-checkbox:checked:before {
+-webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 7px;
+    border-color: #04a9dd;
+    border-top-style: none;
+    border-right-style: none;
+    border-width: 2px;
+    border-radius: 0;
+    width: 14px;
+	top: 5px;
+    left: 4px;
+}
+.wpdevart-booking-form .wpdevart-fild-item-container select {
+    padding: 3px;
+}
+#wpdevart_wrap_unavailable_week_days input[type="checkbox"]{
+    margin: 0 6px 7px 0;
+}
+#wpdevart_wrap_unavailable_week_days{
+    width: 337px;
+}
+#wpdevart_wrap_unavailable_week_days label{
+    display: inline-block;
+    margin-top: -7px;
+    margin-right: 10px;
+}
+#action-buttons{
+    margin: 17px 0;
+}
+.action-link{
+    background: #00a0d2;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+    color: #fff;
+    text-decoration: none;
+	font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 1px solid #0073aa;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	display: inline-block;
+}
+.action-link.wpda-input{
+    margin: 15px 0;
+}
+.action-link.delete-link{
+	float:right;
+}
+.action-link:hover{
+    background-color: #2884AF;
+    color: #FFFFFF;
+}
+
+/*  
+*ITEM LIST 
+*/
+
+.wpdevart-table th,
+.wpdevart-table th input,
+.wpdevart-table td{
+	vertical-align:middle !important;
+	position:relative;
+	overflow:hidden;
+}
+span.new_res {
+    background: #e04411;
+    position: absolute;
+    top: 8px;
+    width: 80px;
+    text-align: center;
+    color: #fff;
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    right: -21px;
+    font-size: 15px;
+}
+.wpdevart-table .check-column {
+    width: 33px;
+}
+.wpdevart-table .small-column{
+	width:50px;
+}
+.wpdevart-table .average-column{
+	width:70px;
+}
+.wpdevart-table .payment-column{
+	width:6.7em;
+}
+.wpdevart-table .medium-column{
+	width:130px;
+}
+.wpdevart-table .action-column{
+	width:4em;
+}
+.wpdevart-table .action-column.action-column-duplicate{
+	width:4.2em;
+}
+.with_paymants .wpdevart-table .pay_info {
+    width: 270px;
+}
+.wpdevart-table input[readonly="readonly"]{
+	cursor:pointer;
+}
+.wpdevart-info-container{
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #989898;
+    border-radius: 100%;
+    right: 20px;
+    top: 3px;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    font-weight: 500;
+    color: #444;
+    opacity: 0.8;
+}
+
+.wpdevart-info-container .wpdevart-info{
+    position: absolute;
+    display: none;
+    left: 20px;
+    top: 0;
+    background-color: #292D31;
+    padding: 7px;
+    z-index: 1;
+    min-width: 200px;
+    color: #C5D3D6;
+    box-shadow: 0 0 2px #000;
+    text-align: left;
+    line-height: 1.3;
+    font-size: 14px;
+	font-weight: normal;
+    font-style: italic;
+}
+
+.red-section .wpdevart-info{
+    color: red;
+}
+.wpdevart-info-container:hover .wpdevart-info{
+    display: block;
+}
+
+
+/*     
+*CALENDAR    
+*/
+.admin-calendar{
+	margin-top:15px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.admin-calendar .wpdevart-item-section.form-section,
+.admin-calendar .booking_calendar_container{
+	float:left;
+	width:610px;
+}
+.wpdevart-item-section.form-section{
+	display:none;
+}
+.admin-calendar .booking_calendar_container{
+	margin: 0 2% 0 0;
+}
+
+/*
+*FORM
+*/
+
+
+.reserv-info-open{
+	margin: 1px 0 0 4px;
+}
+.reserv-info-open-title{
+	cursor:pointer;
+}
+.open-form-fild-options,
+.reserv-info-open{
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    /*background: url(images/arrow_down.png) no-repeat center;*/
+    cursor: pointer;
+	margin: 6px 0 0 10px;
+	float:right;
+}
+.delete-extra-fild i,
+.drag-form-fild i,
+.delete-form-fild i,
+.open-form-fild-options i,
+.reserv-info-open i{
+color: #8A8A8A;
+    font-size: 17px;
+}
+.drag-form-fild i{
+    font-size: 15px;
+}
+
+.open-form-fild-options.active i:before,
+.reserv-info-open.active i:before {
+  content: "\f077";
+}
+.reserv-info-open{
+	margin: 1px 0 0 4px;
+}
+.delete-form-fild,.delete-extra-fild,.delete_hour_item, .drag-form-fild{
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    background-size: contain;
+    cursor: pointer;
+	margin: 6px 0 0 10px;
+	float:right;
+}
+#wpdevart_extras .drag-form-fild,
+#wpdevart_extras .delete-extra-fild{
+	width:13px;
+	margin: 6px 0 0 4px;
+	    text-align: center;
+}
+.delete_hour_item{
+    width: 14px;
+    height: 14px;
+	margin:8px 0 0 2px;
+}
+.delete-extra-fild{
+    width: 17px;
+    height: 17px;
+}
+.form-fild-options{
+	display:none;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: rgba(243, 243, 243, 0.49);
+    padding: 8px 12px 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.08) inset;
+}
+.form-fild-options .wpdevart-item-container{
+    background-color: transparent;
+}
+.form-fild-options .section-title {
+    display: table-cell;
+    vertical-align: middle;
+	font-size: 14px;
+	width: 227px;
+}
+.form-fild-options .red-section .section-title {
+    color:red;
+}
+#wpdevart_extras .form-fild-options .section-title {
+	width: 170px;
+}
+
+.form-fild-options .wpdevart-item-container{
+    margin-bottom: 10px;
+	display: table;
+}
+
+.add_extra_field_item{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url(images/plus.png) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+	opacity: .7;
+}
+#add_field,#add_extra_field{
+    display: inline-block;
+    background-size: contain;
+    cursor: pointer;
+	position:relative;
+}
+.wpdevart-item-section .add_extra_field_item{
+    width: 23px;
+    height: 23px;
+	margin: -4px 0 0 35px;
+}
+.add_extra_field_item.wait{
+    background: url(images/wait.png) no-repeat;
+	animation: spin 2.5s infinite linear;
+    -moz-animation: spin 2.5s infinite linear;
+    -o-animation: spin 2.5s infinite linear;
+    -webkit-animation: spin 2.5s infinite linear;
+	background-size: contain;
+}
+@keyframes components-button__busy-animation{0%{background-position:200px 0}}
+#add_field.is-busy,#add_extra_field.is-busy{
+	    animation: components-button__busy-animation 2.5s linear infinite;
+    background-size: 100px 100%;
+    background-image: repeating-linear-gradient(-45deg,#e2e4e7,#fff 11px,#fff 0,#e2e4e7 20px);
+    opacity: 1;
+	    color: #8f8f8f;
+}
+
+#add_field_container{
+	position:relative;
+	display: inline-block;
+	margin: 0px 0 0 126px;
+}
+#form_field_type{
+position: absolute;
+    width: 265px;
+    background-color: #fff;
+    color: #555;
+    z-index: 11;
+    display: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    top: 35px;
+}
+#form_field_type .pro_feature{
+	font-size:15px;
+}
+div#form_field_type > span {
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    padding: 9px 15px;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+div#form_field_type span:last-child {
+	border-bottom:0;
+}
+div#form_field_type span:hover{
+    background-color:#e5e5e5 ;
+}
+
+/*
+*RESERVATION
+*/
+.month_view_id{
+    float: right;
+    font-size: 12px;
+}	
+.reserv-info-items{
+	display:none;
+    margin-top: 4px;
+    width: 99.3%;
+}
+.wpdevart-reservations-table.show .reserv-info-items{
+	display:block;
+}
+#wpdevart_reservations_container span.form_label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 2px;
+	width: 40%;
+}
+#wpdevart_reservations_container span.form_label,
+#wpdevart_reservations_container span.form_value {
+    display: table-cell;
+	padding: 2px 5px;
+}
+#wpdevart_reservations_container span.form_info {
+    display: table;
+    width: 100%;
+}
+#wpdevart_reservations_container span.form_info:nth-child(odd) {
+    background:#F1F1F1;
+}
+#wpdevart_reservations_container span.form_info:nth-child(even) {
+    background:#FFFFFF;
+}
+.wpdevart_container{
+	display:none;
+}
+#wpdevart_themes .wpdevart_container.show, .wpdevart_container.show{
+	display:block;
+}
+.reserv-info-items .reserv-info-container{
+	float:left;
+	width: 49.5%;
+	margin-right:1%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	margin-bottom: 5px;
+}
+.paymant_div .reserv-info-container{
+	float:none;
+	width: 100%;
+	margin-right:0;
+}
+.wpdevart_res_month_view .month-view-content .reserv-info-items .reserv-info-container.hours_info,
+.reserv-info-container.hours_info {
+    float: none;
+    width: 100% !important;
+    margin-bottom: 4px !important;
+}
+span.hour-info {
+    display: block;
+}
+.reserv-info-container{
+	border: 1px solid #DDD;
+}
+.reserv-info .reserv-info-container{
+    width: 99%;
+}
+.reserv-info-items div:last-child{
+	margin-right:0;
+}
+.reserv-info-container h5 {
+    margin: 0;
+    background: #ddd;
+    font-size: 15px;
+    padding: 2px 5px;
+}
+.reserv-info-container h6 {
+    margin: 0;
+    padding: 2px 5px;
+    font-size: 13px;
+	background:#FFFFFF;
+}
+.reserv-info-container .price-percent {
+    display:block;
+}
+.reserv-info-container .price{
+    font-weight:bold;
+}
+div.wpdevart_tab {
+    font-size: 15px;
+    float: left;
+    padding: 9px 27px 10px;
+    border: 1px solid #E2E2E2;
+    margin-right: 2px;
+    background-color: #ffffff;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+    color: #65666b;
+}
+div.wpdevart_tab.show {
+    border-bottom: 0;
+    padding-bottom: 9px;
+    border-top: 3px solid #04a9dd;
+    background: #fff;
+    color: #04a9dd;
+}
+div#resrv_action_filters {
+    margin: 17px 0 0;
+}
+.wpdevart_action_filters_container {
+    background-color: #fff;
+    border: 1px solid #E2E2E2;
+    padding: 17px;
+}
+.wpdevart-reservations-table td{
+	padding:5px 7px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.wpdevart-reservations-table td select{
+    font-size: 13px;
+}
+.wpdevart-reservations-table td select option:first-letter{
+    text-transform:uppercase;
+}
+.wpdevart-reservations-table tr:nth-child(odd) td{
+	border-bottom: 0;
+}
+.wpdevart-reservations-table tr:nth-child(even) td{
+	padding: 5px 7px 10px;
+}
+.wpdevart-reservations-table td:nth-child(5):first-letter,
+.wpdevart-reservations-table td:nth-child(6):first-letter{
+	text-transform:uppercase;
+	font-size: 14px !important;
+}
+.wpdevart-reservations-table tr.checked td{
+	background-color: rgba(238, 255, 211, 0.82);
+}
+span.reserv_status {
+    display: inline-block;
+    padding: 0px 6px 3px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.55);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.55);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.55);
+}
+span.reserv_status_pending {
+	background-color: rgb(241, 227, 62);
+}
+span.reserv_status_approved {
+    background-color: #A1D241;
+    color: #fff;
+}
+span.reserv_status_rejected {
+    background-color: #B14D4D;
+    color: #fff;
+}
+span.reserv_status_canceled {
+    background-color: rgb(255, 120, 120);
+    color: #fff;
+}
+#view_list,#view_calendar,#add_reservation{
+    display: inline-block;
+    background-size: 25px !important;
+    border: 1px solid #d7d4d4;
+    margin-top: 1px;
+    background-color: #fff !important;
+    position: relative;
+    padding: 6px 15px 5px 15px;
+    text-decoration: none;
+    background-position: 8px center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+	color:#444;
+}
+#add_reservation {
+    padding: 6px 15px 5px 15px;
+}
+#view_list .reservation-item-info,#view_calendar .reservation-item-info,#add_reservation .reservation-item-info{
+    line-height: 1.3;
+    font-size: 14px;
+	text-align: left;
+}
+span#view_list,span#view_calendar,span#add_reservation{
+	cursor: default;
+}
+#add_reservation .plus{
+display: none;
+}
+
+#wpdevart_add_reservations_container #add_reservation,
+.list-view #view_list,
+.month-view #view_calendar{
+	background-color: #0085ba !important;
+	    border-color: #0073aa #006799 #006799;
+    color: #ffffff;
+}	
+#view_calendar,#reservation_header select,#view_list{
+    float: left;
+    margin-right: 10px;
+}
+#reservation_header select{
+	height: 31px;
+    border-radius: 5px;
+    min-width: 180px;
+}
+a.action-button {
+     padding: 5px 7px;
+    margin-right: 5px;
+    text-decoration: none;
+	display: inline-block;
+	min-width: 65px;
+    text-align: center;
+}
+a.action-button.default-button {
+    color: #797979;
+    border: 1px solid #969696;
+    border-bottom: 2px solid #808080;
+}
+td a.action-button {
+    padding: 1px 0px;
+    margin-bottom: 3px;
+    min-width: 62px;
+    margin-right: 0;
+}
+td a.action-button.quick-edit-button {
+    width: auto;
+}
+a.action-button.approve-button {
+    background-color: #A1D241;
+    color: #fff;
+	border-bottom: 2px solid #78A91B;
+}
+a.action-button.reject-button {
+    background: #B14D4D;
+    color: #fff;
+	border-bottom: 2px solid #7D1414;
+}
+a.action-button.cancel-button {
+    background-color: rgb(255, 120, 120);
+    color: #fff;
+	border-bottom: 2px solid rgb(193, 86, 86);
+}
+a.action-button.delete-button {
+    background-color: rgb(101, 99, 99);
+    color: #fff;
+	border-bottom: 2px solid #333232;
+}
+a.action-button.wpdevart-button {
+    color: #555;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0 1px 0 #ccc;
+    box-shadow: 0 1px 0 #ccc;
+    padding: 0px 7px 1px;
+    cursor: pointer;
+}
+a.action-button.cancel-edit-button,
+a.action-button.update-edit-button {
+    display:none;
+}
+a.action-button.update-edit-button{
+	background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+}
+span.buttons .spinner{
+    float: none;
+    margin-top: 1px;
+    margin: 1px 2px 0;
+}
+span.buttons{
+	margin-right:15px;
+}
+.filter_item input[type=text]{
+    width: 170px;
+}
+.filter_item input.admin_datepicker{
+    padding-left: 27px;
+    background: url(images/calendar.png) no-repeat;
+    background-size: contain;
+}
+.filter_item {
+    float: left;
+    width: 155px;
+}
+.period_filter_item {
+    width: 250px;
+}
+.searchs_filter_item {
+    width: 190px;
+}
+.order_filter_item {
+    width: 210px;
+}
+label.filter_item_label {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.filter_fild_item {
+    margin-bottom: 5px;
+}
+.wpdevart-list-container .notice{
+	width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	margin-bottom: 16px;
+}
+.wpdevart-list-container h1,
+.wpdevart-item-container h1{
+    font-size: 23px;
+    margin: 10px 0 18px;
+    color: #183340;
+    text-shadow: 0px 0px .01px #183340;
+    font-weight: normal;
+	float:left;
+}
+/* page nav*/
+.prev-page.disabled,
+.first-page.disabled,
+.next-page.disabled,
+.last-page.disabled{
+	pointer-events: none;
+	opacity: 0.6;
+}
+/*Extras*/
+.wpdevart-extra-item input{
+	width:145px;
+}
+.wpdevart-extra-item input[type="text"]:last-of-type {
+    width: 120px;
+}
+.wpdevart-extra-item select{
+	width:100px;
+}
+.wpdevart-extra-item select,.wpdevart-extra-item input{
+	float:left;
+	height: 28px;
+    margin-right: 2px;
+	margin-left: 0;
+}
+.wpdevart-extra-item-container,.wpdevart-extra-item-container li{
+	margin:0;
+}
+
+.extra-items-labels li{
+	float:left;
+    margin: 0 2px 0 0;
+	width:100px;
+    font-size: 15px;
+    background: #545454;
+    border: 1px solid #DDD;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #fff;
+}
+.extra-items-labels li:first-child,.extra-items-labels li:last-child{
+	width:170px;
+}
+.extra-items-labels {
+	margin:0;
+}
+.extra-items-labels li:last-child {
+    width: 120px;
+}
+.section-title span.extra-items{
+	float:left;
+}
+/*Reservation month view*/
+.wpdevart_res_month_view .wpdevart-calendar-container > div:not(.week-day-name) {
+    min-height: 110px;
+}
+.wpdevart_res_month_view .booking_calendar_container {
+    width: 800px;
+	background: #FBFBFB;
+}
+table.wpdevart-calendar-container td{
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	vertical-align:top;
+    position: relative
+}
+table.wpdevart-calendar-container{
+	border-left:1px solid #ddd;
+	border-top:1px solid #ddd;
+	border-collapse: collapse;
+}
+table.wpdevart-calendar-container .wpda-day-header.div-for-clear {
+    background: #E6E6E6;
+}
+.wpdevart_res_month_view .booking_calendar_main > div:not(.wpda-booking-calendar-head){
+	border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 14.285714%;
+}
+.wpdevart_res_month_view .wpda-booking-calendar-head{
+	border-bottom: 1px solid #ddd;
+}
+.wpdevart_res_month_view .wpda-booking-calendar-head+div{
+	border-left: 1px solid #ddd;
+}
+.wpdevart_res_month_view .reservation-month{
+	height:16px;
+	background: #DFF5EF;
+    margin: 1px 0;
+	position: absolute;
+    width: 100%;
+	padding-left: 1px;
+	line-height: 16px;
+    padding-bottom: 2px;
+}
+.wpdevart_res_month_view .reservation-month.end{
+	padding-left: 0px;
+}
+.wpdevart_res_month_view .month-view-link{
+    text-decoration: none;
+    color: #fff;
+	display: block;
+    height: 100%;
+	overflow: hidden;
+}
+.wpdevart_res_month_view .pending .month-view-link{
+    text-decoration: none;
+    color: #525252;
+}
+.wpdevart_res_month_view .month-view-content{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    display: none;
+    z-index: 9;
+    background: #F9F9F9;
+    color: #808080;
+    font-weight: normal;
+    width: 480px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+.wpdevart_res_month_view .month-view-content .reserv-info-items{
+    margin:0 !important;
+}
+.wpdevart_res_month_view .month-view-content .reserv-info-items .reserv-info-container{
+    margin:0 !important;
+	width:50% !important;
+}
+.wpdevart_res_month_view .month-view-content  h5 {
+    font-size: 14px;
+    padding: 1px 5px 3px;
+	background-color: #292D31;
+    color: #C5D3D6;
+}
+.wpdevart_res_month_view .month-view-content  span.form_label {
+    font-size: 13px !important;
+    font-weight: normal !important;
+	padding: 2px 5px !important;
+}
+.wpdevart_res_month_view .month-view-content  .reserv-info-items{
+    display:block !important;
+    width:100% !important;
+}
+.wpdevart_res_month_view .reservation-month:hover .month-view-content{
+	display:block;
+}
+
+.wpdevart_res_month_view .month-view-link:active,
+.wpdevart_res_month_view .month-view-link:focus{
+    outline:none;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.wpdevart_res_month_view .reservation-month.pending{
+    background:rgb(241, 227, 62);
+}
+.wpdevart_res_month_view .reservation-month.approved{
+    background:#A1D241;
+}
+.wpdevart_res_month_view .reservation-month.canceled{
+    background:rgb(255, 120, 120);
+}
+.wpdevart_res_month_view .reservation-month.rejected{
+    background:#B14D4D;
+}
+
+.admin_logo{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-size: contain !important;
+    float: left;
+	margin-right: 10px;
+}
+#wpdevart_themes_container .admin_logo,
+#wpdevart_themes .admin_logo{
+    background: url(images/themes.png) no-repeat;
+}
+#wpdevart_calendars_container .admin_logo,
+#wpdevart_calendars .admin_logo{
+    background: url(images/calendar.png) no-repeat;
+}
+#wpdevart_calendars .wpdevart-day-hours{
+	display:none !important;
+}
+#wpdevart_extras_container .admin_logo,
+#wpdevart_extras .admin_logo{
+    background: url(images/extras.png) no-repeat;
+}
+#wpdevart_uninstal_container .admin_logo{
+    background: url(images/uninstal.png) no-repeat;
+}
+#wpdevart_forms_container .admin_logo,
+#wpdevart_forms .admin_logo{
+    background: url(images/forms.png) no-repeat;
+}
+#wpdevart_reservations_container .admin_logo,
+#wpdevart_add_reservations_container .admin_logo{
+    background: url(images/reservation.png) no-repeat;
+}
+#wpdevart_uninstal_container{
+	margin:17px 0;
+}
+.wpdevart_add_res .animation_calendar,
+.admin-calendar .animation_calendar {
+    visibility: visible;
+}
+
+.wpdevart_res_month_view .wpdevart-legends-pending .legend-div{
+	background:rgb(241, 227, 62) !important;
+}
+.wpdevart_res_month_view .wpdevart-legends-approved .legend-div{
+	background:#A1D241 !important;
+}
+.wpdevart_res_month_view .wpdevart-legends-canceled .legend-div{
+	background:rgb(255, 120, 120) !important;
+}
+.wpdevart_res_month_view .wpdevart-legends-rejected .legend-div{
+	background:#B14D4D !important;
+}
+.wpdevart_res_month_view .wpdevart-booking-legends{
+	width: 100% !important;
+    border: 0 !important;
+}
+
+/*PRO*/
+span.pro_feature,
+a.cal-edit-button span {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(10, 154, 62, 1);
+    margin-left: 2px;
+}
+a.cal-edit-button span {
+    font-size: 13px;
+}
+.wpdevart_tab span.pro_feature {
+    color: rgba(10, 154, 62, 1);
+}
+.pro-feature.extra-items-labels li{
+    background: transparent;
+    color: #000;
+	border:0;
+}
+.wpdevart-list-container h1 a,
+.wpdevart-item-container h1 a{
+    text-decoration:none;
+}
+.wpdevart-list-container h1 a span,
+.wpdevart-item-container h1 a span{
+    font-weight:normal;
+}
+.wpdevart_add_res .booking_calendar_container,
+.wpdevart_add_res .wpdevart-booking-form-container{
+	max-width: 680px;
+}
+.admin-calendar .animation_calendar {
+    visibility: visible;
+}
+/*Hours*/
+input.short_input {
+    float: left;
+    width: 105px !important;
+}
+.half_input {
+	float: left;
+    width: 158.5px !important;
+}
+.full_input {
+	float: none;
+    width: 319px !important;
+}
+.hour_element.div-for-clear {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #A5A5A5;
+}
+span.add_hour,
+span.add_default {
+    padding: 2px 9px;
+    display: inline-block;
+    border: 1px solid #C9C9C9;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+span.add_hour {
+	background: #fff;
+}
+span.add_default {
+    border: 0;
+    font-size: 12px;
+}
+#add_edit_form .wpdevart-calendar-container > div.wpdevart-unavailable{
+	pointer-events: auto;
+	cursor:pointer;
+}
+.new_reservation_info {
+    display: inline-block;
+    min-width: 440px;
+}
+#wpdevart_reservations_container .new_reservation_info span.form_label {
+    font-size: 15px;
+    font-weight: normal;
+    width: 60%;
+}
+#wpdevart_reservations_container .new_reservation_info .header_info span {
+    font-weight: bold;
+}
+#wpdevart_reservations_container .new_reservation_info  .form_value {
+    text-align:center;
+}
+#wpdevart_reservations_container .new_reservation_info .form_info:not(.header_info)  .form_value span {
+    display: inline-block;
+    background-color: #d54e21;
+    color: #fff;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 600;
+    margin: 1px 0 0 2px;
+    vertical-align: top;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    z-index: 26;
+    width: 18px;
+}
+
+.stylesh-checkbox,
+.stylesh-select{
+    position: relative;
+}
+
+.stylesh-checkbox input{
+    margin-left: 11px;
+}
+
+.stylesh-checkbox input:not(checked) + .label_switch:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 42px;
+    height: 20px;
+    border-radius: 13px;
+    background: #CDD1DA;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.stylesh-checkbox input:checked + .label_switch:before {
+    background: #04a9dd;
+}
+.stylesh-checkbox input:not(checked) + .label_switch:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    transition: all .2s;
+}
+
+.stylesh-checkbox input:checked + .label_switch:after {
+    left: 23px;
+}
+.filter_fild_item .label_switch {
+    padding-left: 18px;
+}
+.wpdevart_action_filters_container input[type="submit"]{
+	margin-top: 24px;
+}
+.stylesh-select select{
+    outline: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    line-height: 1.2;
+    padding-left: 5px;
+}
+.stylesh-select {
+    display: inline-block;
+}
+.stylesh-select:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    margin-top: -2px;
+    pointer-events: none;
+    border-top: 6px solid #65666b;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+.stylesh-select:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 9px;
+    margin-top: -3px;
+    pointer-events: none;
+    border-top: 4px solid #fff;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+#wpdevart_add_reservations_container{
+    margin: 17px 0;
+}
+#reservation_header{
+	margin-bottom:30px;
+}
+
+.element-sale-conditions select {
+    width: 95px;
+}
+div#multi_lng_button {
+    font-size: 13px;
+    float: left;
+    margin: 7px 0 0 36px;
+    padding: 0 8px 1px;
+    height: 26px;
+    line-height: 21px;
+}
+div#multi_lng_popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba(0,0,0,0.2);
+	display:none;
+}
+div#multi_lng_popup_container {
+position: absolute;
+    left: 50%;
+    top: 120px;
+    width: 468px;
+    max-width: 100%;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background: #ffffff;
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    box-shadow: 1px 5px 15px rgba(0,0,0,0.1);
+    font-size: 14px;
+    max-width: 100%;
+    line-height: 28px;
+}
+div#multi_lng_popup_container > div {
+    margin: 0 0 15px 0;
+}
+div#multi_lng_popup_container > div label{
+    margin: 0 0 8px 0;
+	display:inline-block;
+}
+div#multi_lng_popup_container b{
+    font-size: 15px;
+}
+div#multi_lng_popup_container .fa-close{
+font-size: 15px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+span#lang_prefix {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 17px;
+    line-height: 28px;
+	border-bottom: 1px solid;
+}
+@media screen and (max-width: 782px){
+	.wp-list-table tr {
+		display: block;
+	}
+	span.new_res {
+		top: 5px;
+		right: -11px;
+	}
+}
+
+
+
+
+
+
+/*************WPDEVART****************/
+/*Featyred plugins*/
+.featured_plugin_main{
+	background-color: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: calc((100% - 90px)/3);
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.04);
+    padding: 20px 25px;
+	text-align: center;
+	-webkit-transition:-webkit-transform 0.3s;
+	-moz-transition:-moz-transform 0.3s;
+	transition:transform 0.3s;   
+	-webkit-transform: translateY(0);
+    -moz-transform: translateY0);
+    transform: translateY(0);
+	min-height: 366px;
+ }
+.featured_plugin_main:hover{
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    transform: translateY(-2px);
+ }
+.featured_plugin_image{
+	max-width: 128px;
+	margin: 0 auto;
+}
+.blue_button{
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 400;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    background-color: #7052fb;
+    padding: 10px 22px;
+    text-transform: uppercase;
+}
+.blue_button:hover,
+.blue_button:focus {
+    color:#ffffff;
+	box-shadow: none;
+    outline: none;
+}
+.featured_plugin_image img{
+    max-width: 100%;
+}
+.featured_plugin_image a{
+  display: inline-block;
+}
+.featured_plugin_information{	
+
+}
+.featured_plugin_title{
+	color: #7052fb;
+	font-size: 18px;
+	display: inline-block;
+}
+.featured_plugin_title a{
+	text-decoration:none;
+	font-size: 19px;
+    line-height: 22px;
+	color: #7052fb;
+			
+}
+.featured_plugin_title h4{
+    margin: 0px;
+    margin-top: 20px;		
+    min-height: 44px;	
+}
+.featured_plugin_description{
+	font-size: 14px;
+	    min-height: 63px;
+}
+@media screen and (max-width: 1460px){
+	.featured_plugin_main {
+		margin-right: 20px;
+		margin-bottom: 20px;
+		width: calc((100% - 60px)/3);
+		padding: 20px 10px;
+	}
+	.featured_plugin_description {
+		font-size: 13px;
+		min-height: 63px;
+	}
+}
+@media screen and (max-width: 1279px){
+	.featured_plugin_main {
+		width: calc((100% - 60px)/2);
+		padding: 20px 20px;
+		min-height: 363px;
+	}	
+}
+@media screen and (max-width: 768px){
+	.featured_plugin_main {
+		width: calc(100% - 30px);
+		padding: 20px 20px;
+		min-height: auto;
+		margin: 0 auto 20px;
+		float: none;
+	}	
+	.featured_plugin_title h4{
+		min-height: auto;
+	}	
+	.featured_plugin_description{
+		min-height: auto;
+		    font-size: 14px;
+	}	
+}
+
+/*For WPDEVART Support link*/
+.wpdevart_support, .wpdevart_upgrade {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 0;
+    color: #ffffff;
+    font-weight: 400;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    background-image: linear-gradient(141deg, #7052fb, #00a0d2);
+}
+.wpdevart_support {
+    float: right;
+    padding: 11px 20px 12px 50px;
+	margin-top: 15px;
+	position: relative
+}
+.wpdevart_support:before {
+    content: "";
+    background: url(images/support-white.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: 25px;
+    top: 8px;
+    position: absolute;
+    left: 15px;
+}
+.wpdevart_upgrade {
+float: left;
+    padding: 11px 25px 12px;
+    text-transform: uppercase;
+}
+.wpdevart_support:hover,
+.wpdevart_upgrade:hover,
+.wpdevart_support:focus,
+.wpdevart_upgrade:focus {
+    color:#ffffff;
+	opacity:0.85;
+	box-shadow: none;
+    outline: none;
+}
+.wpdevart_plugins_header{
+    margin: 10px 20px 10px 0;
+}
+.wpdevart_plugins_get_pro{
+    border-radius: 10px;
+	background: #ffffff;
+    padding: 15px 20px;
+    box-sizing: border-box;
+	float:left;
+	box-shadow: 1px 1px 7px rgba(0,0,0,0.04);
+}
+.wpdevart_plugins_get_pro_info{
+	float:left;
+	margin-right: 30px;
+}
+.wpdevart_plugins_get_pro_info h3 {
+    margin: 0 0 5px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+.wpdevart_plugins_get_pro_info p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 200;
+}
+.wrap .notice,.update-nag {
+    display: none;
+}
+#wpdevart_extras .ui-state-highlight,
+#wpdevart_forms .ui-state-highlight { 
+	height: 20px;
+    background:rgba(243, 243, 243, 0.49);
+	border:1px dashed #ddd;
+ }
+#wpdevart_forms .wpdevart-item-elem-container .name_field {
+    width: 82px;
+} 
+@media screen and (max-width: 1130px){
+.wpdevart_support,
+.wpdevart_plugins_get_pro {
+    float: none;
+}
+}

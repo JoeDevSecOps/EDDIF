@@ -1,0 +1,26 @@
+<wpml-config>
+    <admin-texts>
+        <key name="cacsp_option_text_header"/>
+        <key name="cacsp_option_text_info"/>
+        <key name="cacsp_option_text_link_text"/>
+        <key name="cacsp_option_text_settings"/>
+        <key name="cacsp_option_text_always_allow_header"/>
+        <key name="cacsp_option_text_always_allow_description"/>
+        <key name="cacsp_option_text_statistics_header"/>
+        <key name="cacsp_option_text_statistics_description"/>
+        <key name="cacsp_option_text_experience_header"/>
+        <key name="cacsp_option_text_experience_description"/>
+        <key name="cacsp_option_text_marketing_header"/>
+        <key name="cacsp_option_text_marketing_description"/>
+        <key name="cacsp_option_settings_button"/>
+        <key name="cacsp_option_accept_all_button"/>
+        <key name="cacsp_option_refuse_button"/>
+        <key name="cacsp_option_save_button"/>
+        <key name="cacsp_review_settings_description"/>
+        <key name="cacsp_review_settings_button"/>
+        <key name="cacsp_not_allowed_description"/>
+        <key name="cacsp_not_allowed_button"/>
+        <key name="cacsp_option_settings_policy_link"/>
+        <key name="cacsp_option_settings_policy_link_url"/>
+    </admin-texts>
+</wpml-config>
